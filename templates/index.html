@@ -28,27 +28,58 @@ h1 {
     margin-bottom: 20px;
 }
 
-input, select {
-    padding: 10px;
-    font-size: 16px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: 1px solid #444; /* Darker borders */
-    background-color: #333; /* Dark background for inputs */
-    color: #e0e0e0; /* Light text inside inputs */
+.header-container {
+    background-color: #222; /* Dark background for armor pieces */
+    position:sticky;
+    top: 0; /* Ensures the element sticks to the top */
+    z-index: 10; /* Ensures the search bar is above other elements */
+    gap: 20px;
 }
 
-/* View toggle buttons */
-.view-toggle {
-    display: flex;
+.header-search-and-summary {
+    display:flex;
     justify-content: center;
-    margin-bottom: 20px;
+
 }
 
-.view-toggle label {
-    margin: 0 10px;
-    font-size: 18px;
-    color: #e0e0e0; /* Light text for labels */
+.header-search {
+    padding: 10px;
+    flex:8;
+}
+    input, select {
+        padding: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+        border-radius: 5px;
+        border: 1px solid #444; /* Darker borders */
+        background-color: #333; /* Dark background for inputs */
+        color: #e0e0e0; /* Light text inside inputs */
+    }
+
+    /* View toggle buttons */
+    .view-toggle {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .view-toggle label {
+        margin: 0 10px;
+        font-size: 18px;
+        color: #e0e0e0; /* Light text for labels */
+    }
+
+.header-skill-summary {
+    padding: 10px;
+    flex:2;
+}
+
+.header-equipment {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+    gap: 15px;
+
 }
 
 /* Armor set view container */
@@ -61,74 +92,16 @@ input, select {
     cursor: pointer;
     color: #e0e0e0; /* Light text for set name */
 }
+    /* Collapsible arrow icons */
+    .collapsible:after {
+        content: " ▼";
+        float: right;
+        color: #e0e0e0; /* Light color for arrows */
+    }
 
-/* Armor piece view container */
-.set-view-armor-piece, .piece-view-armor-piece {
-    background-color: #222; /* Dark background for armor pieces */
-    padding: 15px;
-    margin-bottom: 10px;
-    border: 1px solid #444; /* Darker borders */
-    border-radius: 5px;
-    color: #e0e0e0; /* Light text for armor piece details */
-}
-
-.set-view-armor-piece-pinned, .piece-view-armor-piece-pinned {
-    background-color: #222; /* Dark background for armor pieces */
-    padding: 15px;
-    margin-bottom: 10px;
-    border: 1px solid #838383; /* Darker borders */
-    border-radius: 5px;
-    color: #e0e0e0; /* Light text for armor piece details */
-}
-
-.set-view-armor-piece-hidden, .piece-view-armor-piece-hidden {
-    background-color: #222; /* Dark background for armor pieces */
-    padding: 15px;
-    margin-bottom: 10px;
-    border: 1px solid #000000; /* Darker borders */
-    border-radius: 5px;
-    color: #e0e0e0; /* Light text for armor piece details */
-}
-
-.set-view-armor-piece-equipped, .piece-view-armor-piece-equipped {
-    background-color: #222; /* Dark background for armor pieces */
-    padding: 15px;
-    margin-bottom: 10px;
-    border: 1px solid #00ff22; /* Darker borders */
-    border-radius: 5px;
-    color: #e0e0e0; /* Light text for armor piece details */
-}
-
-/* Armor piece view container */
-.equipment-view-armor-piece{
-    background-color: #222; /* Dark background for armor pieces */
-    font-size: 10px;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #444; /* Darker borders */
-    border-radius: 5px;
-    color: #e0e0e0; /* Light text for armor piece details */
-}
-
-/* Collapsible arrow icons */
-.collapsible:after {
-    content: " ▼";
-    float: right;
-    color: #e0e0e0; /* Light color for arrows */
-}
-
-.collapsible.active:after {
-    content: " ▲";
-}
-
-/* Placeholder text styling */
-.placeholder {
-    color: #bbb; /* Slightly lighter placeholder text */
-    background-color: #333; /* Dark background for placeholder */
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-}
+    .collapsible.active:after {
+        content: " ▲";
+    }
 
 /* Grid styling for armor items */
 .armor-items-grid {
@@ -146,6 +119,57 @@ input, select {
     max-height: 1000px; /* Let height expand */
     opacity: 1;
 }
+/* Armor piece view container */
+.set-view-armor-piece, .piece-view-armor-piece {
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    border: 1px solid #444; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+.set-view-armor-piece-pinned, .piece-view-armor-piece-pinned {
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    border: 1px solid #838383; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+.set-view-armor-piece-hidden, .piece-view-armor-piece-hidden {
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    border: 1px solid #000000; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+.set-view-armor-piece-equipped, .piece-view-armor-piece-equipped {
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    border: 1px solid #00ff22; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+/* Armor piece view container */
+.equipment-view-armor-piece{
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+/* Placeholder text styling */
+.placeholder {
+    color: #bbb; /* Slightly lighter placeholder text */
+    background-color: #333; /* Dark background for placeholder */
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .highlight {
     background-color: rgb(147, 147, 147); /* Highlight background color */
@@ -153,29 +177,6 @@ input, select {
     font-weight: bold;         /* Bold font */
     padding: 1px 2px;          /* Padding around the text */
     border-radius: 4px;        /* Rounded corners for the highlight */
-}
-
-.header-container {
-    background-color: #222; /* Dark background for armor pieces */
-    position:sticky;
-    top: 0; /* Ensures the element sticks to the top */
-    z-index: 10; /* Ensures the search bar is above other elements */
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.header-div-search {
-    flex: 8;
-    padding: 10px;
-}
-.header-div-equipment {
-    flex: 1;
-    padding: 10px;
-}
-.header-div-skill-summary {
-    flex: 1;
-    padding: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -199,49 +200,48 @@ input, select {
     </style>
 </head>
 <body>
-    <h1>Armor Set Viewer</h1>
+    <h1>guildmarm.io</h1>
     <div class="view-toggle">
         <label><input type="radio" name="viewMode" id = "set_selector" value="set" onclick="toggleViewMode()"> Armor Set View</label>
         <label><input type="radio" name="viewMode" id = "piece_selector" value="piece" onclick="toggleViewMode()"> Armor Piece View</label>
     </div>
+
     <div class="header-container">
                 <!-- View Toggle Buttons -->
-
-
-        <div class="header-div-search">
-        <!-- Search Bar -->
-            <div class="filter-container">
-                <input type="text" id="skill_search_input" placeholder="Search by Skill..." onkeyup="filterArmors(viewMode)">
-            </div>
-    
-            <div class="filter-container">
-                <input type="text" id="set_search_input" placeholder="Search by Set..." onkeyup="filterArmors(viewMode)">
-            </div>
-        <!-- Slot Filter -->
-            <div class="filter-container">
-                <label><input type="checkbox" id="helm_filter" onclick="filterArmors(viewMode)"> Helm</label>
-                <label><input type="checkbox" id="chest_filter" onclick="filterArmors(viewMode)"> Chest</label>
-                <label><input type="checkbox" id="arms_filter" onclick="filterArmors(viewMode)"> Arms</label>
-                <label><input type="checkbox" id="legs_filter" onclick="filterArmors(viewMode)"> Legs</label>
-                <label><input type="checkbox" id="waist_filter" onclick="filterArmors(viewMode)"> Waist</label>
-            </div>
-    
-            <div class="filter-container">
-                <button onclick="toggleAllSetsCollapse(false)" class="collapse-btn">Collapse All</button>
-                <button onclick="toggleAllSetsCollapse(true)" class="collapse-btn">Expand All</button>
-            </div>
-    
-            <div class="filter-container">
-                <button onclick="clearCache()" class="clear-cache-btn">Clear Cache</button>  
-            </div>
-        </div>
-
-        <div class = "header-div-equipment", id="equipmentContainer">
-        </div>
-
-        <div class = "header-div-skill-summary", id="skillSummaryContainer">
-        </div>
+        <div class = "header-search-and-summary">
+            <div class="header-search">
+                <!-- Search Bar -->
+                    <div class="filter-container">
+                        <input type="text" id="skill_search_input" placeholder="Search by Skill..." onkeyup="filterArmors(viewMode)">
+                    </div>
             
+                    <div class="filter-container">
+                        <input type="text" id="set_search_input" placeholder="Search by Set..." onkeyup="filterArmors(viewMode)">
+                    </div>
+                <!-- Slot Filter -->
+                    <div class="filter-container">
+                        <label><input type="checkbox" id="helm_filter" onclick="filterArmors(viewMode)"> Helm</label>
+                        <label><input type="checkbox" id="chest_filter" onclick="filterArmors(viewMode)"> Chest</label>
+                        <label><input type="checkbox" id="arms_filter" onclick="filterArmors(viewMode)"> Arms</label>
+                        <label><input type="checkbox" id="legs_filter" onclick="filterArmors(viewMode)"> Legs</label>
+                        <label><input type="checkbox" id="waist_filter" onclick="filterArmors(viewMode)"> Waist</label>
+                    </div>
+            
+                    <div class="filter-container">
+                        <button onclick="toggleAllSetsCollapse(false)" class="collapse-btn">Collapse All</button>
+                        <button onclick="toggleAllSetsCollapse(true)" class="collapse-btn">Expand All</button>
+                    </div>
+            
+                    <div class="filter-container">
+                        <button onclick="clearCache()" class="clear-cache-btn">Clear Cache</button>  
+                    </div>
+            </div>
+            <div class = "header-skill-summary", id="skillSummaryContainer">
+            </div>
+        </div>
+
+        <div class = "header-equipment", id="equipmentContainer">
+        </div>
     </div>
 
     <!-- Armor Sets Container -->
