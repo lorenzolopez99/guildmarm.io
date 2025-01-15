@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV</title>
+    <style>
+/* Body styling for dark mode */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #181818; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f5f5f5; /* Lighter color for headings */
+}
+
+/* Filter container styling */
+.filter-container {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #444; /* Darker borders */
+    background-color: #333; /* Dark background for inputs */
+    color: #e0e0e0; /* Light text inside inputs */
+}
+
+/* View toggle buttons */
+.view-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.view-toggle label {
+    margin: 0 10px;
+    font-size: 18px;
+    color: #e0e0e0; /* Light text for labels */
+}
+
+/* Armor set view container */
+.set-view-armor-set {
+    background-color: #222; /* Dark background for armor set */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Dark borders */
+    border-radius: 5px;
+    cursor: pointer;
+    color: #e0e0e0; /* Light text for set name */
+}
+
+/* Armor piece view container */
+.set-view-armor-piece, .piece-view-armor-piece {
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+.set-view-armor-piece-pinned, .piece-view-armor-piece-pinned {
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #838383; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+.set-view-armor-piece-hidden, .piece-view-armor-piece-hidden {
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #000000; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+.set-view-armor-piece-equipped, .piece-view-armor-piece-equipped {
+    background-color: #222; /* Dark background for armor pieces */
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #00ff22; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+/* Armor piece view container */
+.equipment-view-armor-piece{
+    background-color: #222; /* Dark background for armor pieces */
+    font-size: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Darker borders */
+    border-radius: 5px;
+    color: #e0e0e0; /* Light text for armor piece details */
+}
+
+/* Collapsible arrow icons */
+.collapsible:after {
+    content: " ▼";
+    float: right;
+    color: #e0e0e0; /* Light color for arrows */
+}
+
+.collapsible.active:after {
+    content: " ▲";
+}
+
+/* Placeholder text styling */
+.placeholder {
+    color: #bbb; /* Slightly lighter placeholder text */
+    background-color: #333; /* Dark background for placeholder */
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Grid styling for armor items */
+.armor-items-grid {
+    display: grid;
+    max-height: 0; /* Start with zero height */
+    opacity: 0;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    overflow: hidden; /* Prevent overflow during animation */
+    transition: opacity 0.15s ease, max-height 0.4s ease; /* Add smooth transitions */
+}
+
+/* Show grid when activated */
+.armor-items-grid.show {
+    max-height: 1000px; /* Let height expand */
+    opacity: 1;
+}
+
+.highlight {
+    background-color: rgb(147, 147, 147); /* Highlight background color */
+    color: black;              /* Text color */
+    font-weight: bold;         /* Bold font */
+    padding: 1px 2px;          /* Padding around the text */
+    border-radius: 4px;        /* Rounded corners for the highlight */
+}
+
+.header-container {
+    background-color: #222; /* Dark background for armor pieces */
+    position:sticky;
+    top: 0; /* Ensures the element sticks to the top */
+    z-index: 10; /* Ensures the search bar is above other elements */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-div-search {
+    flex: 8;
+    padding: 10px;
+}
+.header-div-equipment {
+    flex: 1;
+    padding: 10px;
+}
+.header-div-skill-summary {
+    flex: 1;
+    padding: 10px;
+}
+
+@media (max-width: 1200px) {
+    .armor-items-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .armor-items-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .armor-items-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <h1>Armor Set Viewer</h1>
+    <div class="view-toggle">
+        <label><input type="radio" name="viewMode" id = "set_selector" value="set" onclick="toggleViewMode()"> Armor Set View</label>
+        <label><input type="radio" name="viewMode" id = "piece_selector" value="piece" onclick="toggleViewMode()"> Armor Piece View</label>
+    </div>
+    <div class="header-container">
+                <!-- View Toggle Buttons -->
+
+
+        <div class="header-div-search">
+        <!-- Search Bar -->
+            <div class="filter-container">
+                <input type="text" id="skill_search_input" placeholder="Search by Skill..." onkeyup="filterArmors(viewMode)">
+            </div>
+    
+            <div class="filter-container">
+                <input type="text" id="set_search_input" placeholder="Search by Set..." onkeyup="filterArmors(viewMode)">
+            </div>
+        <!-- Slot Filter -->
+            <div class="filter-container">
+                <label><input type="checkbox" id="helm_filter" onclick="filterArmors(viewMode)"> Helm</label>
+                <label><input type="checkbox" id="chest_filter" onclick="filterArmors(viewMode)"> Chest</label>
+                <label><input type="checkbox" id="arms_filter" onclick="filterArmors(viewMode)"> Arms</label>
+                <label><input type="checkbox" id="legs_filter" onclick="filterArmors(viewMode)"> Legs</label>
+                <label><input type="checkbox" id="waist_filter" onclick="filterArmors(viewMode)"> Waist</label>
+            </div>
+    
+            <div class="filter-container">
+                <button onclick="toggleAllSetsCollapse(false)" class="collapse-btn">Collapse All</button>
+                <button onclick="toggleAllSetsCollapse(true)" class="collapse-btn">Expand All</button>
+            </div>
+    
+            <div class="filter-container">
+                <button onclick="clearCache()" class="clear-cache-btn">Clear Cache</button>  
+            </div>
+        </div>
+
+        <div class = "header-div-equipment", id="equipmentContainer">
+        </div>
+
+        <div class = "header-div-skill-summary", id="skillSummaryContainer">
+        </div>
+            
+    </div>
+
+    <!-- Armor Sets Container -->
+    <div id="armorSetsContainer"></div>
+
+    <script>
+
+        // Example Armor Data (Replace with actual injected JSON data)
+        const armorData = JSON.parse('{{ armor_data | tojson }}');
+
+        let collapsedStates = {};
+        let pinnedPieces = new Set();
+        let hiddenPieces = new Set();
+        let equippedPieces = {
+            "Helm": null,
+            "Chest": null,
+            "Arms": null,
+            "Waist": null,
+            "Legs": null
+        }
+
+        // Default search mode
+        let viewMode = localStorage.getItem('viewMode') || 'set'; // Default to 'set' if not found
+
+        function clearCache(){
+            localStorage.clear()
+            // Save the updated states to localStorage
+            //saveStates();
+            // Re-render the armor sets
+            //filterArmors(viewMode);
+            location.reload()
+        }
+        // Function to toggle all sets to collapsed or expanded
+        function toggleAllSetsCollapse(state) {
+            // Loop through all the sets and set the collapse state
+            const setHeaders = document.querySelectorAll('.set-view-armor-set .collapsible');
+            setHeaders.forEach(setHeader => {
+                const setName = setHeader.textContent.trim();  // Get the set name
+                collapsedStates[setName] = state;  // Set the state to collapsed (true) or expanded (false)
+                
+                const itemsDiv = setHeader.nextElementSibling;  // The div that contains the armor pieces for the set
+                if (state) {
+                    // Collapse the set
+                    itemsDiv.classList.remove("show");
+                    setHeader.classList.remove("active");
+                } else {
+                    // Expand the set
+                    itemsDiv.classList.add("show");
+                    setHeader.classList.add("active");
+                }
+            });
+
+            // Save the updated states to localStorage
+            saveStates();
+
+            // Re-render the armor sets
+            filterArmors(viewMode);
+        }
+
+        // Set the initial view mode based on localStorage
+        function setInitialViewMode() {
+            // Get the radio buttons by ID
+            const setViewRadio = document.getElementById('set_selector');
+            const pieceViewRadio = document.getElementById('piece_selector');
+
+            // Set the checked state based on `viewMode`
+            if (viewMode === 'set') {
+                setViewRadio.checked = true;
+                pieceViewRadio.checked = false;
+            } else if (viewMode === 'piece') {
+                setViewRadio.checked = false;
+                pieceViewRadio.checked = true;
+            }
+        }
+
+        // Call the function to set the initial checked state when the page loads
+        setInitialViewMode();
+
+        // Function to toggle between Set View and Piece View
+        function toggleViewMode() {
+            // Get the selected view mode from the checked radio button
+            viewMode = document.querySelector('input[name="viewMode"]:checked').value;
+
+            // Save the selected view mode to localStorage
+            localStorage.setItem('viewMode', viewMode);
+
+            // Optionally, apply the filtering (assuming `filterArmors()` exists and is defined)
+            filterArmors(viewMode);
+        }
+        
+        // Group armor pieces by set name
+        function groupArmorBySet(armorData) {
+            return armorData.reduce((acc, piece) => {
+                if (!acc[piece.set_name]) {
+                    acc[piece.set_name] = [];
+                }
+                acc[piece.set_name].push(piece);
+                return acc;
+            }, {});
+        }
+
+        function createArmorPieceHTML(piece, view) {
+            const skill_search_input = document.getElementById("skill_search_input").value.toLowerCase();
+            // Function to highlight a matched skill
+            let pinButton = ``, hideButton = ``, equipButton = ``, pieceClass = ``;
+            if (piece){
+                if (equippedPieces[piece.slot] === piece.id){
+                    pieceClass = `-equipped`
+                    equipButton = `<button onclick="toggleEquip(${piece.id})" class="equip-btn">Unequip</button>`;
+                }
+                else if (pinnedPieces.has(piece.id)){
+                    pieceClass = `-pinned`
+                    pinButton = `<button onclick="togglePin(${piece.id})" class="pin-btn">Unpin</button>`;
+                }
+                else if (hiddenPieces.has(piece.id)){
+                    pieceClass = `-hidden`;
+                    hideButton = `<button onclick="toggleHide(${piece.id})" class="hide-btn">Show</button>`;
+                }
+                else{
+                    equipButton = `<button onclick="toggleEquip(${piece.id})" class="equip-btn">Equip</button>`;
+                    pinButton = `<button onclick="togglePin(${piece.id})" class="pin-btn">Pin</button>`;
+                    hideButton = `<button onclick="toggleHide(${piece.id})" class="hide-btn">Hide</button>`;
+                }
+            }
+
+            function highlightSkill(skill) {
+                if (skill && skill.toLowerCase().includes(skill_search_input) && skill_search_input.length !== 0) {
+                    // Highlight the matching skill
+                    return `<span class="highlight">${skill}</span>`;
+                }
+                return skill; // Return skill as is if no match
+            }
+
+            if (view == "set") {
+                return `
+                    <div class=${"set-view-armor-piece"+pieceClass}>
+                        <strong>Slot:</strong> ${piece ? piece.slot : 'N/A'} <br>
+                        <strong>Skill 1:</strong> ${piece && piece.skill1 ? highlightSkill(piece.skill1) + " +" + piece.skill1_count : 'N/A'}<br>
+                        <strong>Skill 2:</strong> ${piece && piece.skill2 ? highlightSkill(piece.skill2) + " +" + piece.skill2_count : 'N/A'}<br>
+                    ${equipButton} ${pinButton} ${hideButton}
+                    </div>
+                `;
+            } else {
+                return `
+                    <div class=${"set-view-armor-piece"+pieceClass}>
+                        <strong>Set:</strong> ${piece ? piece.set_name : 'N/A'} <br>
+                        <strong>Slot:</strong> ${piece ? piece.slot : 'N/A'} <br>
+                        <strong>Skill 1:</strong> ${piece && piece.skill1 ? highlightSkill(piece.skill1) + " +" + piece.skill1_count : 'N/A'}<br>
+                        <strong>Skill 2:</strong> ${piece && piece.skill2 ? highlightSkill(piece.skill2) + " +" + piece.skill2_count : 'N/A'}<br>
+                    ${equipButton} ${pinButton} ${hideButton}
+                    </div>
+                `;
+            }
+        }
+
+        function createEquipmentPieceHTML(piece) {
+            const skill_search_input = document.getElementById("skill_search_input").value.toLowerCase();
+            // Function to highlight a matched skill
+            let equipButton = `<button class="equip-btn" disabled >Empty</button>`, pieceClass = ``;
+            if (piece){
+                if (equippedPieces[piece.slot] === piece.id){
+                    pieceClass = ``
+                    equipButton = `<button onclick="toggleEquip(${piece.id})" class="equip-btn">Unequip</button>`;
+                }
+                else{
+                    equipButton = `<button onclick="toggleEquip(${piece.id})" class="equip-btn">Equip</button>`;
+                }
+            }
+
+            function highlightSkill(skill) {
+                if (skill && skill.toLowerCase().includes(skill_search_input) && skill_search_input.length !== 0) {
+                    // Highlight the matching skill
+                    return `<span class="highlight">${skill}</span>`;
+                }
+                return skill; // Return skill as is if no match
+            }
+
+            return `
+                    <div class=${"equipment-view-armor-piece"+pieceClass}>
+                        <strong>Set:</strong> ${piece ? piece.set_name : 'N/A'} <br>
+                        <strong>Slot:</strong> ${piece ? piece.slot : 'N/A'} <br>
+                        <strong>Skill 1:</strong> ${piece && piece.skill1 ? highlightSkill(piece.skill1) + " +" + piece.skill1_count : 'N/A'}<br>
+                        <strong>Skill 2:</strong> ${piece && piece.skill2 ? highlightSkill(piece.skill2) + " +" + piece.skill2_count : 'N/A'}<br>
+                    ${equipButton}
+                    </div>
+                `;
+        }
+
+        function toggleEquip(id){
+            let slot = armorData.find(item => item.id === id).slot
+            
+            if (equippedPieces[slot] === id){equippedPieces[slot] = null}
+            else {equippedPieces[slot] = id}
+
+            saveStates()
+            filterArmors(viewMode); // Re-render after pin/unpin
+        }
+
+        function togglePin(id){
+            if (pinnedPieces.has(id)){pinnedPieces.delete(id)}
+            else {pinnedPieces.add(id)}
+            saveStates()
+            filterArmors(viewMode); // Re-render after pin/unpin
+
+        }
+        
+        function toggleHide(id){
+            if (hiddenPieces.has(id)){hiddenPieces.delete(id)}
+            else{hiddenPieces.add(id)}
+            saveStates()
+            filterArmors(viewMode); // Re-render after pin/unpin
+        }
+
+        // Display the filtered armor data
+        function displayArmorData(filteredArmorData) {
+            const container = document.getElementById("armorSetsContainer");
+            container.innerHTML = ''; // Clear the container
+
+            if (filteredArmorData.length === 0) {
+                container.innerHTML = '<div class="placeholder">No results found.</div>';
+                return;
+            }
+
+            if (viewMode === 'set') {
+                // Group by set
+                const groupedSets = groupArmorBySet(filteredArmorData);
+                for (const setName in groupedSets) {
+                    let pieces = {
+                        "Helm": null,
+                        "Chest": null,
+                        "Arms": null,
+                        "Waist": null,
+                        "Legs": null,
+                    };
+
+                    groupedSets[setName].forEach(piece => {
+                        pieces[piece.slot] = piece;
+                    });
+
+                    const setDiv = document.createElement("div");
+                    setDiv.classList.add("set-view-armor-set");
+
+                    const setHeader = document.createElement("div");
+                    setHeader.classList.add("collapsible");
+                    setHeader.textContent = setName;
+
+                    const itemsDiv = document.createElement("div");
+                    itemsDiv.classList.add("armor-items-grid");
+
+                    // Display the pieces for each set
+                    Object.values(pieces).forEach(piece => {
+                        itemsDiv.innerHTML += createArmorPieceHTML(piece, viewMode);
+                    });
+
+                    setDiv.appendChild(setHeader);
+                    setDiv.appendChild(itemsDiv);
+                    container.appendChild(setDiv);
+
+                    // Set the initial state based on collapsedStates
+                    if (collapsedStates[setName] !== true) {
+                        // If it's collapsed, make sure it's hidden
+                        itemsDiv.classList.remove("show");
+                        setHeader.classList.remove("active");
+                    } else {
+                        // If it's not collapsed, make sure it's visible
+                        itemsDiv.classList.add("show");
+                        setHeader.classList.add("active");
+                    }
+
+                    // Add collapsible functionality
+                    setHeader.addEventListener("click", function() {
+                        const isOpen = itemsDiv.classList.contains("show");
+
+                        // Toggle the state in the collapsedStates object
+                        collapsedStates[setName] = !isOpen;  // Save the new state (true or false)
+                        saveStates()
+                        itemsDiv.classList.toggle("show");
+                        setHeader.classList.toggle("active");
+                    });
+                }
+            } 
+            else {
+                // Display all pieces directly (Piece View)
+                filteredArmorData.forEach(piece => {
+                    const pieceDiv = document.createElement("div");
+                    pieceDiv.innerHTML = createArmorPieceHTML(piece, viewMode);
+                    container.appendChild(pieceDiv);
+                });
+            }
+        }
+
+        function displayEquipped(){
+            const equipment = document.getElementById("equipmentContainer");
+            const skillSummary = document.getElementById("skillSummaryContainer");
+            equipment.innerHTML = ''; // Clear the container
+            skillSummary.innerHTML = ''; // Clear the container
+
+            let skills = {};
+
+            Object.entries(equippedPieces).forEach(([slot,pieceId]) =>{
+                let piece = armorData.find(item => item.id === pieceId);
+                equipment.innerHTML += createEquipmentPieceHTML(piece);
+                if (piece ){
+                    if (piece.skill1 in skills){
+                    skills[piece.skill1]+=piece.skill1_count;
+                    }
+                    else if (piece.skill1.trim() !== ""){
+                        skills[piece.skill1]=piece.skill1_count;
+                    }
+                    if (piece.skill2 in skills){
+                        skills[piece.skill2]+=piece.skill2_count;
+                    }
+                    else if (piece.skill2.trim() !== ""){
+                        skills[piece.skill2]=piece.skill2_count;
+                    }
+                }
+
+            })
+            Object.entries(skills).forEach(([skill,skill_count]) =>{
+                console.log(skill)
+                skillSummary.innerHTML+= `${skill} + ${skill_count} <br>`;
+            })
+
+        }
+
+        // Filter armor data based on the search input
+        function filterArmors(viewMode) {
+            const set_search_input = document.getElementById("set_search_input").value.toLowerCase();
+            const skill_search_input = document.getElementById("skill_search_input").value.toLowerCase();
+
+            // Get the selected slots
+            const selectedSlots = [];
+            if (document.getElementById("helm_filter").checked) selectedSlots.push("Helm");
+            if (document.getElementById("chest_filter").checked) selectedSlots.push("Chest");
+            if (document.getElementById("arms_filter").checked) selectedSlots.push("Arms");
+            if (document.getElementById("legs_filter").checked) selectedSlots.push("Legs");
+            if (document.getElementById("waist_filter").checked) selectedSlots.push("Waist");
+
+            // Step 1: Filter out the hidden pieces
+            let visibleArmorData = armorData.filter(piece => !hiddenPieces.has(piece.id));
+
+            // Step 2: Separate pinned pieces and non-pinned pieces
+            let pinnedArmorData = visibleArmorData.filter(piece => pinnedPieces.has(piece.id));
+            let equippedArmorData = visibleArmorData.filter(piece => equippedPieces[piece.slot] === piece.id);
+
+            let nonPinnedOrEquippedArmorData = visibleArmorData.filter(piece => !pinnedPieces.has(piece.id) && equippedPieces[piece.slot] !== piece.id);
+
+            // Step 3: Apply search filters to the non-pinned armor data
+            nonPinnedOrEquippedArmorData = nonPinnedOrEquippedArmorData.filter(piece => {
+                const matchesSlot = selectedSlots.length === 0 || selectedSlots.includes(piece.slot); // Check if the slot matches
+                const matchesSearch = (
+                    (piece.set_name || "").toLowerCase().includes(set_search_input) &&
+                    ((piece.skill1 && piece.skill1.toLowerCase().includes(skill_search_input)) ||
+                    (piece.skill2 && piece.skill2.toLowerCase().includes(skill_search_input)))
+                );
+                return matchesSlot && matchesSearch;
+            });
+
+            // Step 4: Group armor pieces by set for the 'set' view mode (if necessary)
+            if (viewMode === 'set') {
+                const setsToInclude = new Set(nonPinnedOrEquippedArmorData.map(piece => (piece.set_name || "").toLowerCase()));
+                nonPinnedOrEquippedArmorData = armorData.filter(piece => setsToInclude.has((piece.set_name || "").toLowerCase()));
+            }
+
+            // Step 5: Concatenate pinned pieces first, followed by non-pinned pieces
+            const finalArmorData = [...equippedArmorData, ...pinnedArmorData, ...nonPinnedOrEquippedArmorData];
+
+            // Step 6: Display the final filtered armor data
+            displayArmorData(finalArmorData);
+            displayEquipped();
+
+        }
+
+        function saveStates() {
+            localStorage.setItem('pinnedPieces', JSON.stringify(Array.from(pinnedPieces)));
+            localStorage.setItem('hiddenPieces', JSON.stringify(Array.from(hiddenPieces)));
+            localStorage.setItem('equippedPieces', JSON.stringify(equippedPieces));
+
+            localStorage.setItem('collapsedStates', JSON.stringify(collapsedStates));
+            localStorage.setItem('viewMode', viewMode);
+        }
+
+        // Load states from localStorage
+        if (localStorage.getItem('pinnedPieces')) {
+            pinnedPieces = new Set(JSON.parse(localStorage.getItem('pinnedPieces')));
+        }
+
+        if (localStorage.getItem('hiddenPieces')) {
+            hiddenPieces = new Set(JSON.parse(localStorage.getItem('hiddenPieces')));
+        }
+
+        if (localStorage.getItem('equippedPieces')) {
+            equippedPieces = JSON.parse(localStorage.getItem('equippedPieces'));
+        }
+
+        if (localStorage.getItem('collapsedStates')) {
+            collapsedStates = JSON.parse(localStorage.getItem('collapsedStates'));
+        }
+
+        if (localStorage.getItem('viewMode')) {
+            viewMode = localStorage.getItem('viewMode');
+        }
+
+        // Initial call to display all armor data
+        window.onload = filterArmors(viewMode);
+    </script>
+</body>
+</html>

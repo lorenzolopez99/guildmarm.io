@@ -1,0 +1,21 @@
+Database Features
+    *Add rarity, material, in-game order data
+    *Skill/Deco name equivalency/toggle, i.e. Health Boost/Vitality
+    *Add table for skill-caps, e.g. Attack Boost maxes out at level 7
+
+Search Features
+    *Dropdown for slots-based filtering (Show only Helms and Arms, etc)
+    *Sort-By (Alphabetic, Rarity, In-game Order)
+    *Pinning/Blacklisting
+    *Saving/sharing
+    *Collapse All/Expand All
+
+Aesthetic Features
+    *In-Game icons/colors
+    *Animation for collapsing
+    *Search bar static at top of screen
+
+General Features
+    *Account-based CRUD functionality
+    *Equipment view, little window that allows you to equip searched armors and see summary of skills
+    *Decoration Searching/Importing

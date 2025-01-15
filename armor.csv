@@ -1,0 +1,723 @@
+Set,Slot,Skill 1 Count,Skill 1,Skill 2 Count,Skill 2,Gem Level 1,Gem Level 2,Gem Level 3,Gem Level 4
+Bone a,Arms,2,Slugger,1,Attack Boost,,1,,
+Bone a,Chest,2,Attack Boost,1,Health Boost,,1,1,
+Bone a,Legs,1,Slugger,1,Horn Maestro,,,1,
+Bone a,Helm,2,Health Boost,1,Partbreaker,,,1,
+Bone a,Waist,1,Horn Maestro,1,Partbreaker,,,1,
+Bone b,Helm,1,Health Boost,1,Partbreaker,,,,1
+Bone b,Chest,1,Attack Boost,,,1,,,1
+Bone b,Arms,1,Slugger,,,1,,,1
+Bone b,Waist,1,Horn Maestro,,,1,,1,
+Bone b,Legs,1,Slugger,,,,,,1
+Alloy a,Helm,2,Windproof,1,Defense Boost,,2,,
+Alloy a,Chest,3,Water Resistance,1,Defense Boost,,,1,
+Alloy a,Arms,2,Defense Boost,1,Speed Sharpening,,,1,
+Alloy a,Waist,2,Poison Resistance,1,Windproof,,,1,
+Alloy a,Legs,2,Speed Sharpening,1,Windproof,,,1,
+Alloy b,Waist,1,Poison Resistance,1,Windproof,,,,1
+Alloy b,Arms,2,Defense Boost,,,1,,,1
+Alloy b,Helm,1,Windproof,,,1,,,1
+Alloy b,Chest,1,Water Resistance,,,1,,,1
+Alloy b,Legs,1,Speed Sharpening,,,,,,1
+Vespoid a,Helm,1,Quick Sheath,1,Paralysis Attack,,,1,
+Vespoid a,Legs,1,Critical Draw,1,Paralysis Resistance,,,1,
+Vespoid a,Waist,2,Paralysis Resistance,1,Quick Sheath,,,,
+Vespoid a,Arms,1,Paralysis Attack,1,Quick Sheath,,,1,
+Vespoid a,Chest,2,Windproof,,,1,1,,
+Vespoid b,Waist,2,Paralysis Resistance,,,1,,1,
+Vespoid b,Helm,1,Quick Sheath,,,1,,,1
+Vespoid b,Chest,1,Windproof,,,1,,,1
+Vespoid b,Arms,1,Paralysis Attack,,,1,,,1
+Vespoid b,Legs,1,Critical Draw,,,1,,,1
+Hornetaur a,Helm,1,Weakness Exploit,2,Dragon Attack,,1,,
+Hornetaur a,Legs,1,Handicraft,1,Dragon Attack,1,1,,
+Hornetaur a,Arms,1,Free Meal,1,Handicraft,,,1,
+Hornetaur a,Chest,1,Effluvial Expert,2,Hunger Resistance,1,1,,
+Hornetaur a,Waist,1,Weakness Exploit,1,Hunger Resistance,,1,,
+Hornetaur b,Helm,1,Weakness Exploit,1,Dragon Attack,,,,1
+Hornetaur b,Chest,1,Effluvial Expert,,,1,1,,1
+Hornetaur b,Arms,1,Free Meal,,,,1,,1
+Hornetaur b,Waist,1,Weakness Exploit,,,1,,,1
+Hornetaur b,Legs,1,Handicraft,,,1,,,1
+Kestodon a,Arms,1,Affinity Sliding,2,Focus,2,,,
+Kestodon b,Arms,1,Affinity Sliding,1,Focus,1,,,1
+Gajau a,Legs,2,Aquatic/Polar Mobility,2,Water Attack,1,1,,
+Gajau b,Legs,1,Aquatic/Polar Mobility,2,Water Attack,1,,,1
+Shamos a,Helm,1,Detector,2,Geologist,1,1,,
+Shamos b,Helm,1,Detector,1,Geologist,,1,,1
+Gastodon a,Helm,2,Flinch Free,1,Blast Resistance,1,,,
+Gastodon b,Helm,1,Flinch Free,1,Blast Resistance,1,,,1
+Barnos a,Chest,1,Heat Guard,2,Iron Skin,,2,,
+Barnos b,Chest,1,Heat Guard,1,Iron Skin,,1,,1
+Wulg a,Helm,2,Ice Resistance,1,Master Mounter,1,1,,
+Wulg b,Helm,1,Ice Resistance,1,Master Mounter,1,,,1
+Cortos a,Chest,2,Hunger Resistance,1,Jump Master,2,,,
+Cortos b,Chest,1,Hunger Resistance,,,,,,1
+Jagras a,Helm,2,Speed Eating,2,Attack Boost,,1,,
+Jagras a,Chest,1,Evade Extender,2,Attack Boost,,,1,
+Jagras a,Arms,2,Evade Extender,1,Recovery Up,,1,,
+Jagras a,Legs,1,Free Meal,1,Recovery Up,1,1,,
+Jagras a,Waist,1,Recovery Up,1,Speed Eating,1,1,,
+Jagras b,Helm,1,Speed Eating,1,Attack Boost,1,,,1
+Jagras b,Chest,1,Evade Extender,1,Attack Boost,,,,1
+Jagras b,Arms,1,Evade Extender,1,Recovery Up,,,,1
+Jagras b,Waist,1,Recovery Up,,,1,,,1
+Jagras b,Legs,1,Free Meal,,,1,,,1
+Tzitzi a,Helm,1,Free Elm/Ammo Up,1,Stun Resistance,1,1,,
+Tzitzi a,Chest,2,Constitution,2,Water Attack,2,,,
+Tzitzi a,Waist,2,Wide Range,2,Water Attack,,1,,
+Tzitzi a,Arms,2,Stun Resistance,2,Wide Range,,1,,
+Tzitzi a,Legs,2,Sleep Resistance,1,Wide Range,,,1,
+Tzitzi b,Chest,1,Constitution,1,Water Attack,1,,,1
+Tzitzi b,Arms,2,Stun Resistance,1,Wide Range,,,,1
+Tzitzi b,Legs,1,Sleep Resistance,1,Wide Range,,,,1
+Tzitzi b,Waist,2,Wide Range,,,1,,,1
+Tzitzi b,Helm,1,Free Elm/Ammo Up,,,1,,,1
+Girros a,Arms,1,Free Elm/Ammo Up,2,Effluvia Resistance,1,,,
+Girros a,Chest,2,Paralysis Resistance,1,Free Elm/Ammo Up,,1,,
+Girros a,Legs,2,Paralysis Attack,1,Free Elm/Ammo Up,1,,,
+Girros a,Waist,1,Effluvial Expert,2,Paralysis Attack,,,1,
+Girros a,Helm,2,Horn Maestro,1,Paralysis Resistance,,1,,
+Girros b,Arms,1,Free Elm/Ammo Up,1,Effluvia Resistance,,,,1
+Girros b,Helm,2,Horn Maestro,,,,,,1
+Girros b,Chest,2,Paralysis Resistance,,,,1,,1
+Girros b,Legs,2,Paralysis Attack,,,,,,1
+Girros b,Waist,1,Effluvial Expert,,,1,,,1
+Dodogama a,Chest,2,Blast Attack,1,Artillery,,1,,
+Dodogama a,Arms,2,Bombardier,1,Blast Attack,,1,,
+Dodogama a,Legs,1,Capacity Boost,1,Blast Attack,1,1,,
+Dodogama a,Waist,2,Artillery,1,Blast Resistance,1,1,,
+Dodogama a,Helm,2,Blast Resistance,1,Bombardier,,,1,
+Dodogama b,Arms,1,Bombardier,1,Blast Attack,,,,1
+Dodogama b,Helm,2,Blast Resistance,,,,,,1
+Dodogama b,Chest,2,Blast Attack,,,,,,1
+Dodogama b,Waist,2,Artillery,,,1,,,1
+Dodogama b,Legs,1,Capacity Boost,,,1,,,1
+Kulu a,Helm,2,Slinger Capacity,1,Critical Boost,1,,,
+Kulu a,Chest,1,Stamina Surge,2,Critical Eye,,1,,
+Kulu a,Waist,2,Item Prolonger,1,Critical Eye,,,1,
+Kulu a,Legs,2,Critical Eye,1,Item Prolonger,,1,,
+Kulu a,Arms,1,Critical Boost,1,Pro Transporter,2,,,
+Kulu b,Chest,1,Stamina Surge,1,Critical Eye,,,,1
+Kulu b,Legs,1,Critical Eye,1,Item Prolonger,,,,1
+Kulu b,Helm,2,Slinger Capacity,,,,,,1
+Kulu b,Waist,2,Item Prolonger,,,1,,,1
+Kulu b,Arms,1,Critical Boost,,,,,,1
+Pukei a,Chest,2,Item Prolonger,1,Peak Performance,,1,,
+Pukei a,Legs,2,Poison Resistance,2,Poison Attack,,,,1
+Pukei a,Waist,1,Item Prolonger,2,Poison Attack,,,1,
+Pukei a,Helm,2,Survival Expert,1,Poison Resistance,,2,,
+Pukei a,Arms,2,Peak Performance,1,Survival Expert,1,,,
+Pukei b,Chest,1,Item Prolonger,1,Peak Performance,,,,1
+Pukei b,Waist,1,Item Prolonger,1,Poison Attack,1,,,1
+Pukei b,Arms,1,Peak Performance,1,Survival Expert,,,,1
+Pukei b,Helm,2,Survival Expert,,,2,,,1
+Pukei b,Legs,2,Poison Resistance,,,,1,,1
+Coral Pukei a,Chest,1,Power Prolonger,1,Critical Draw,,1,,
+Coral Pukei a,Helm,2,Critical Draw,1,Item Prolonger,1,,,
+Coral Pukei a,Waist,2,Water Attack,1,Partbreaker,,1,,
+Coral Pukei a,Arms,1,Partbreaker,1,Power Prolonger,1,,,
+Coral Pukei a,Legs,2,Item Prolonger,2,Water Attack,1,,,
+Coral Pukei b,Helm,1,Critical Draw,1,Item Prolonger,,,,1
+Coral Pukei b,Waist,1,Water Attack,1,Partbreaker,,,,1
+Coral Pukei b,Legs,2,Item Prolonger,,,1,,,1
+Coral Pukei b,Chest,1,Power Prolonger,,,1,,,1
+Coral Pukei b,Arms,1,Partbreaker,,,1,,,1
+Barroth a,Chest,2,Stamina Thief,1,Agitator,2,,,
+Barroth a,Waist,2,Agitator,1,Guard,1,,,
+Barroth a,Arms,1,Marathon Runner,1,Guard,1,,1,
+Barroth a,Helm,2,Guard,1,Marathon Runner,,1,,
+Barroth a,Legs,2,Stun Resistance,1,Marathon Runner,1,,1,
+Barroth b,Helm,2,Guard,,,1,,,1
+Barroth b,Chest,2,Stamina Thief,,,1,,,1
+Barroth b,Waist,2,Agitator,,,,,,1
+Barroth b,Legs,2,Stun Resistance,,,1,1,,1
+Barroth b,Arms,1,Marathon Runner,,,,1,,1
+Jyura a,Helm,2,Latent Power,1,Focus,2,,,
+Jyura a,Arms,2,Water Attack,1,Ice Resistance,1,1,,
+Jyura a,Waist,2,Ice Resistance,1,Latent Power,,,1,
+Jyura a,Chest,1,Latent Power,2,Water Attack,,1,,
+Jyura a,Legs,2,Focus,1,Water Attack,,1,,
+Jyura b,Helm,1,Latent Power,1,Focus,1,,,1
+Jyura b,Chest,1,Latent Power,1,Water Attack,,,1,
+Jyura b,Legs,1,Focus,1,Water Attack,1,,,1
+Jyura b,Arms,2,Water Attack,,,,1,,1
+Jyura b,Waist,2,Ice Resistance,,,1,,,1
+Beo a,Waist,2,Health Boost,2,Earplugs,,1,,
+Beo a,Helm,2,Aquatic/Polar Mobility,1,Earplugs,,1,,
+Beo a,Arms,2,Ice Attack,1,Health Boost,,,1,
+Beo a,Chest,1,Stamina Surge,2,Ice Attack,,,1,
+Beo a,Legs,2,Earplugs,1,Ice Attack,,1,,
+Beo b,Waist,2,Health Boost,1,Earplugs,1,,,1
+Beo b,Helm,2,Aquatic/Polar Mobility,,,1,,,1
+Beo b,Arms,2,Ice Attack,,,,,,1
+Beo b,Legs,2,Earplugs,,,,,,1
+Beo b,Chest,1,Stamina Surge,,,,1,,1
+Kadachi a,Legs,2,Thunder Resistance,1,Constitution,1,,,1
+Kadachi a,Chest,1,Jump Master,1,Constitution,1,1,,
+Kadachi a,Helm,2,Constitution,1,Evade Extender,,1,,
+Kadachi a,Arms,2,Evade Extender,2,Thunder Attack,,1,,
+Kadachi a,Waist,2,Thunder Attack,1,Thunder Resistance,1,,1,
+Kadachi b,Helm,1,Constitution,1,Evade Extender,1,,,1
+Kadachi b,Arms,1,Evade Extender,2,Thunder Attack,,1,,1
+Kadachi b,Waist,2,Thunder Attack,,,1,,,1
+Kadachi b,Legs,2,Thunder Resistance,,,2,,,1
+Kadachi b,Chest,1,Jump Master,,,,1,,1
+Viper Kadachi a,Legs,1,Evade Window,1,Constitution,,1,,
+Viper Kadachi a,Chest,1,Quick Sheath,1,Evade Extender,2,,,
+Viper Kadachi a,Arms,2,Poison Attack,1,Evade Window,,1,,
+Viper Kadachi a,Helm,2,Evade Extender,1,Paralysis Attack,1,,,
+Viper Kadachi a,Waist,1,Constitution,1,Quick Sheath,,1,,
+Viper Kadachi b,Arms,1,Poison Attack,1,Evade Window,,,,1
+Viper Kadachi b,Helm,1,Evade Extender,1,Paralysis Attack,,,,1
+Viper Kadachi b,Chest,1,Quick Sheath,,,1,,,1
+Viper Kadachi b,Waist,1,Constitution,,,1,,,1
+Viper Kadachi b,Legs,1,Evade Window,,,1,,,1
+High Metal a,Waist,1,Capacity Boost,2,Defense Boost,,2,,
+High Metal a,Helm,2,Ice Resistance,2,Earplugs,,1,,
+High Metal a,Arms,2,Defense Boost,2,Ice Attack,1,1,,
+High Metal a,Chest,2,Earplugs,1,Ice Attack,,1,,
+High Metal a,Legs,2,Heavy Artillery,1,Ice Resistance,1,2,,
+High Metal b,Waist,1,Capacity Boost,1,Defense Boost,,1,,1
+High Metal b,Helm,2,Ice Resistance,1,Earplugs,1,,,1
+High Metal b,Arms,2,Defense Boost,1,Ice Attack,1,,,1
+High Metal b,Chest,1,Earplugs,1,Ice Attack,1,,,1
+High Metal b,Legs,1,Heavy Artillery,1,Ice Resistance,,,1,1
+Banbaro a,Arms,1,Offensive Guard,2,Health Boost,,1,,
+Banbaro a,Helm,2,Resentment,1,Mushroomancer,,1,,
+Banbaro a,Chest,1,Speed Eating,1,Offensive Guard,,,1,
+Banbaro a,Waist,1,Mushroomancer,1,Offensive Guard,,,1,
+Banbaro a,Legs,1,Mushroomancer,1,Speed Eating,,,1,
+Banbaro b,Arms,1,Offensive Guard,1,Health Boost,,,,1
+Banbaro b,Helm,2,Resentment,,,1,,,1
+Banbaro b,Chest,1,Speed Eating,,,1,,,1
+Banbaro b,Waist,1,Mushroomancer,,,1,,,1
+Banbaro b,Legs,1,Mushroomancer,,,1,,,1
+Anja a,Waist,2,Fire Resistance,1,Artillery,1,,1,
+Anja a,Arms,1,Special Ammo Boost,2,Fire Attack,,1,,
+Anja a,Helm,2,Fire Resistance,1,Fire Attack,,,1,
+Anja a,Legs,2,Artillery,1,Marathon Runner,,1,,
+Anja a,Chest,2,Marathon Runner,1,Special Ammo Boost,2,,,
+Anja b,Arms,1,Special Ammo Boost,1,Fire Attack,,,,1
+Anja b,Chest,1,Marathon Runner,1,Special Ammo Boost,1,,,1
+Anja b,Helm,2,Fire Resistance,,,,,,1
+Anja b,Waist,2,Fire Resistance,,,,1,,1
+Anja b,Legs,2,Artillery,,,1,,,1
+Fulgur Anja a,Waist,2,Weakness Exploit,1,Item Prolonger,1,,,
+Fulgur Anja a,Helm,1,Weakness Exploit,1,Resuscitate,1,1,,
+Fulgur Anja a,Legs,2,Thunder Attack,1,Special Ammo Boost,1,1,,
+Fulgur Anja a,Chest,1,Flinch Free,2,Stun Resistance,,,1,
+Fulgur Anja a,Arms,2,Item Prolonger,2,Thunder Attack,,1,,
+Fulgur Anja b,Waist,1,Weakness Exploit,1,Item Prolonger,,,,1
+Fulgur Anja b,Chest,1,Flinch Free,1,Stun Resistance,,,,1
+Fulgur Anja b,Arms,2,Item Prolonger,,,,1,,1
+Fulgur Anja b,Legs,2,Thunder Attack,,,1,,,1
+Fulgur Anja b,Helm,1,Weakness Exploit,,,,1,,1
+Rathian a,Arms,2,Poison Attack,1,Botanist,,,1,
+Rathian a,Waist,2,Poison Resistance,1,Health Boost,,1,1,
+Rathian a,Helm,2,Health Boost,1,Poison Attack,,,1,
+Rathian a,Legs,2,Recovery Up,1,Poison Resistance,,,1,
+Rathian a,Chest,2,Botanist,1,Recovery Up,,2,,
+Rathian b,Waist,1,Poison Resistance,1,Health Boost,,1,,1
+Rathian b,Helm,1,Health Boost,1,Poison Attack,,,,1
+Rathian b,Chest,1,Botanist,1,Recovery Up,,1,,1
+Rathian b,Arms,2,Poison Attack,,,,,,1
+Rathian b,Legs,2,Recovery Up,,,,,,1
+Rath Heart a,Helm,2,Evade Extender,1,Cliffhanger,,,1,
+Rath Heart a,Chest,2,Tool Specialist,1,Handicraft,,1,,
+Rath Heart a,Arms,2,Windproof,1,Handicraft,,1,,
+Rath Heart a,Waist,1,Handicraft,2,Poison Resistance,,,1,
+Rath Heart a,Legs,1,Tool Specialist,1,Windproof,1,1,,
+Rath Heart b,Waist,1,Handicraft,1,Poison Resistance,,,,1
+Rath Heart b,Helm,2,Evade Extender,,,1,,,1
+Rath Heart b,Chest,2,Tool Specialist,,,2,,,1
+Rath Heart b,Arms,2,Windproof,,,,1,,1
+Rath Heart b,Legs,1,Tool Specialist,,,,1,,1
+Lumu a,Chest,1,Master Mounter,1,Artillery,1,,1,
+Lumu a,Legs,2,Windproof,1,Stamina Surge,,,1,
+Lumu a,Helm,2,Stamina Surge,1,Windproof,,,1,
+Lumu a,Arms,2,Artillery,1,Windproof,,2,,
+Lumu a,Waist,2,Divine Blessing,1,Windproof,,2,,
+Lumu b,Arms,1,Artillery,1,Windproof,1,,,1
+Lumu b,Waist,1,Divine Blessing,1,Windproof,1,,,1
+Lumu b,Helm,2,Stamina Surge,,,1,,,1
+Lumu b,Legs,2,Windproof,,,1,,,1
+Lumu b,Chest,1,Master Mounter,,,1,,,1
+Lumu Phantasm a,Chest,2,Wide Range,1,Maximum Might,,1,,
+Lumu Phantasm a,Arms,1,Maximum Might,1,Sleep Attack,,1,,
+Lumu Phantasm a,Waist,2,Sleep Attack,1,Wide Range,,1,,
+Lumu Phantasm a,Legs,2,Sleep Resistance,1,Wide Range,,,1,
+Lumu Phantasm a,Helm,1,Weakness Exploit,1,Wide Range,2,,,
+Lumu Phantasm b,Chest,2,Wide Range,,,1,,,1
+Lumu Phantasm b,Waist,2,Sleep Attack,,,,,,1
+Lumu Phantasm b,Legs,2,Sleep Resistance,,,1,,,1
+Lumu Phantasm b,Helm,1,Weakness Exploit,,,,,,1
+Lumu Phantasm b,Arms,1,Maximum Might,,,,,,1
+Baan a,Chest,1,Sleep Attack,1,Bleeding Resistance,,,1,
+Baan a,Arms,2,Sleep Attack,1,Guard,,1,,
+Baan a,Legs,2,Bleeding Resistance,1,Guard,,1,,
+Baan a,Waist,2,Guard,2,Sleep Resistance,1,,,
+Baan a,Helm,2,Tremor Resistance,1,Slugger,2,,,
+Baan b,Arms,1,Sleep Attack,1,Guard,,,,1
+Baan b,Helm,2,Tremor Resistance,,,,,,1
+Baan b,Waist,2,Guard,,,,,,1
+Baan b,Legs,2,Bleeding Resistance,,,1,,,1
+Baan b,Chest,1,Sleep Attack,,,,,,1
+Clockwork a,Legs,1,Critical Boost,2,Bombardier,2,,,
+Clockwork a,Helm,2,Agitator,1,Partbreaker,2,,,
+Clockwork a,Waist,2,Partbreaker,1,Sleep Functionality,,1,,
+Clockwork a,Chest,2,Agitator,1,Special Ammo Boost,2,,,
+Clockwork a,Arms,3,Bombardier,1,Tremor REsistance,,1,,
+Clockwork b,Legs,1,Critical Boost,1,Bombardier,,,,1
+Clockwork b,Helm,1,Agitator,1,Partbreaker,1,,,1
+Clockwork b,Chest,2,Agitator,,,1,,,1
+Clockwork b,Waist,2,Partbreaker,,,1,,,1
+Clockwork b,Arms,3,Bombardier,,,,,,1
+Ingot a,Chest,2,Thunder Resistance,1,Free Elm/Ammo Up,,,1,
+Ingot a,Waist,2,Windproof,1,Free Elm/Ammo Up,,1,,
+Ingot a,Legs,2,Defense Boost,1,Free Elm/Ammo Up,,1,,
+Ingot a,Arms,2,Health Boost,2,Thunder Attack,1,1,,
+Ingot a,Helm,2,Thunder Attack,1,Windproof,,1,,
+Ingot b,Chest,1,Thunder Resistance,1,Free Elm/Ammo Up,,,,1
+Ingot b,Waist,1,Windproof,1,Free Elm/Ammo Up,1,,,1
+Ingot b,Legs,1,Defense Boost,1,Free Elm/Ammo Up,,,,1
+Ingot b,Arms,2,Health Boost,1,Thunder Attack,,,,1
+Ingot b,Helm,2,Thunder Attack,,,,1,,1
+Barioth a,Arms,2,Recovery Up,2,Constitution,,1,,
+Barioth a,Chest,1,Power Prolonger,1,Constitution,,,1,
+Barioth a,Helm,2,Evade Extender,1,Power Prolonger,2,,,
+Barioth a,Legs,2,Constitution,1,Quick Sheath,2,,,
+Barioth a,Waist,1,Quick Sheath,1,Recovery Up,,,1,
+Barioth b,Arms,2,Recovery Up,1,Constitution,,,,1
+Barioth b,Helm,1,Evade Extender,1,Power Prolonger,1,,,1
+Barioth b,Legs,1,Constitution,1,Quick Sheath,1,,,1
+Barioth b,Chest,1,Power Prolonger,,,1,,,1
+Barioth b,Waist,1,Quick Sheath,,,,,,1
+Rathalos a,Legs,2,Slinger Capacity,2,Attack Boost,,,1,
+Rathalos a,Helm,2,Attack Boost,2,Fire Attack,,1,,
+Rathalos a,Chest,2,Weakness Exploit,1,Fire Attack,2,,,
+Rathalos a,Waist,2,Fire Attack,2,Focus,,1,,
+Rathalos a,Arms,1,Jump Master,1,Weakness Exploit,,,1,
+Rathalos b,Legs,2,Slinger Capacity,1,Attack Boost,,,,1
+Rathalos b,Helm,2,Attack Boost,,,,1,,1
+Rathalos b,Chest,2,Weakness Exploit,,,,,,1
+Rathalos b,Waist,2,Fire Attack,,,,1,,1
+Rathalos b,Arms,1,Jump Master,,,,,1,1
+Rath Soul a,Helm,1,Critical Boost,1,Cliffhanger,2,,,
+Rath Soul a,Chest,1,Free Elm/Ammo Up,1,Partbreaker,,1,,
+Rath Soul a,Waist,2,Windproof,1,Piercing Shots,,,1,
+Rath Soul a,Legs,1,Critical Boost,2,Windproof,1,,,
+Rath Soul a,Arms,2,Partbreaker,1,Windproof,,1,,
+Rath Soul b,Arms,1,Partbreaker,1,Windproof,1,,,1
+Rath Soul b,Legs,1,Critical Boost,1,Windproof,,,,1
+Rath Soul b,Waist,2,Windproof,,,,1,,1
+Rath Soul b,Helm,1,Critical Boost,,,,,,1
+Rath Soul b,Chest,1,Free Elm/Ammo Up,,,1,,,1
+Diablos a,Waist,2,Marathon Runner,1,Critical Draw,,1,,
+Diablos a,Chest,2,Slugger,2,Heroics,,1,,
+Diablos a,Legs,2,Tremor Resistance,2,Slugger,2,,,
+Diablos a,Helm,2,Critical Draw,1,Slugger,,1,,
+Diablos a,Arms,3,Heroics,1,Tremor Resistance,,1,,
+Diablos b,Chest,2,Slugger,1,Heroics,1,,,1
+Diablos b,Legs,2,Tremor Resistance,1,Slugger,1,,,1
+Diablos b,Arms,2,Heroics,1,Tremor Resistance,1,,,1
+Diablos b,Helm,2,Critical Draw,,,,,,1
+Diablos b,Waist,2,Marathon Runner,,,1,,,1
+Diablos Nero a,Chest,2,Resentment,1,Marathon Runner,,1,,
+Diablos Nero a,Arms,2,Slugger,1,Marathon Runner,2,,,
+Diablos Nero a,Waist,2,Slugger,1,Partbreaker,,1,,
+Diablos Nero a,Helm,2,Partbreaker,1,Resentment,2,,,
+Diablos Nero a,Legs,2,Resentment,1,Slugger,1,,,
+Diablos Nero b,Chest,1,Resentment,1,Marathon Runner,1,,,1
+Diablos Nero b,Arms,1,Slugger,1,Marathon Runner,,1,,1
+Diablos Nero b,Helm,2,Partbreaker,,,1,,,1
+Diablos Nero b,Waist,2,Slugger,,,1,,,1
+Diablos Nero b,Legs,2,Resentment,,,,,,1
+Legiana a,Legs,2,Ice Resistance,1,Critical Draw,,,1,
+Legiana a,Chest,2,Evade Window,2,Divine Blessing,1,,,
+Legiana a,Arms,1,Airborne,2,Evade Window,,,1,
+Legiana a,Helm,2,Divine Blessing,2,Ice Attack,,1,,
+Legiana a,Waist,2,Ice Attack,2,Windproof,,1,,
+Legiana b,Chest,2,Evade Window,1,Divine Blessing,,,,1
+Legiana b,Arms,1,Airborne,1,Evade Window,,1,,1
+Legiana b,Waist,2,Ice Attack,1,Windproof,1,,,1
+Legiana b,Helm,2,Divine Blessing,,,1,,,1
+Legiana b,Legs,2,Ice Resistance,,,,1,,1
+Shrieking Legiana a,Helm,2,Hunger Resistance,1,Evade Extender,3,,,
+Shrieking Legiana a,Waist,2,Evade Extender,1,Focus,2,,,
+Shrieking Legiana a,Arms,2,Critical Draw,1,Hunger Resistance,2,,,
+Shrieking Legiana a,Chest,2,Focus,1,Marathon Runner,2,,,
+Shrieking Legiana a,Legs,2,Marathon Runner,1,Spread/Power Shots,2,,,
+Shrieking Legiana b,Helm,2,Hunger Resistance,,,1,,,1
+Shrieking Legiana b,Arms,2,Critical Draw,,,,,,1
+Shrieking Legiana b,Waist,2,Evade Extender,,,,,,1
+Shrieking Legiana b,Legs,2,Marathon Runner,,,,1,,1
+Shrieking Legiana b,Chest,1,Focus,,,,,,1
+Odogaron a,Chest,2,Speed Sharpening,1,Bleeding Resistance,,,1,
+Odogaron a,Helm,2,Bleeding Resistance,2,Critical Eye,,1,,
+Odogaron a,Arms,2,Constitution,1,Critical Eye,1,,,
+Odogaron a,Legs,2,Quick Sheath,1,Critical Eye,1,,,
+Odogaron a,Waist,3,Critical Eye,1,Speed Sharpening,,1,,
+Odogaron b,Helm,2,Bleeding Resistance,1,Critical Eye,,,,1
+Odogaron b,Arms,1,Constitution,1,Critical Eye,,,,1
+Odogaron b,Legs,1,Quick Sheath,1,Critical Eye,,,,1
+Odogaron b,Chest,2,Speed Sharpening,,,1,,,1
+Odogaron b,Waist,2,Critical Eye,,,,1,,1
+Death Garon a,Arms,1,Power Prolonger,2,Dragon Attack,1,1,,
+Death Garon a,Chest,3,Critical Eye,2,Dragon Resistance,,1,,
+Death Garon a,Waist,2,Dragon Attack,1,Latent Power,1,1,,
+Death Garon a,Legs,2,Tool Specialist,1,Power Prolonger,2,,,
+Death Garon a,Helm,2,Latent Power,1,Tool Specialist,,,1,
+Death Garon b,Arms,1,Power Prolonger,1,Dragon Attack,1,,,1
+Death Garon b,Chest,2,Critical Eye,1,Dragon Resistance,1,,,1
+Death Garon b,Helm,2,Latent Power,,,,1,,1
+Death Garon b,Waist,2,Dragon Attack,,,,1,,1
+Death Garon b,Legs,2,Tool Specialist,,,2,,,1
+Lavasioth a,Legs,1,Spread/Power Shots,2,Fire Attack,,1,,
+Lavasioth a,Chest,3,Fire Attack,1,Heat Guard,2,,,
+Lavasioth a,Helm,2,Fire Attack,1,Quick Sheath,2,,,
+Lavasioth a,Waist,2,Quick Sheath,2,Recovery Up,1,,,
+Lavasioth a,Arms,2,Peak Performance,1,Recovery Up,1,,,
+Lavasioth b,Legs,1,Spread/Power Shots,1,Fire Attack,1,,,1
+Lavasioth b,Chest,2,Fire Attack,1,Heat Guard,1,,,1
+Lavasioth b,Helm,1,Fire Attack,1,Quick Sheath,1,,,1
+Lavasioth b,Waist,2,Quick Sheath,1,Recovery Up,,,,1
+Lavasioth b,Arms,1,Peak Performance,1,Recovery Up,,,,1
+Uragaan a,Chest,2,Partbreaker,1,Blast Resistance,,,1,
+Uragaan a,Helm,2,Blast Resistance,1,Flinch Free,1,1,,
+Uragaan a,Waist,1,Partbreaker,1,Guard,1,1,,
+Uragaan a,Arms,2,Guard,2,Iron Skin,,1,,
+Uragaan a,Legs,2,Guard,1,Offensive Guard,1,,,
+Uragaan b,Arms,2,Guard,1,Iron Skin,,,,1
+Uragaan b,Helm,2,Blast Resistance,,,,,1,1
+Uragaan b,Chest,2,Partbreaker,,,,,,1
+Uragaan b,Legs,2,Guard,,,1,,,1
+Uragaan b,Waist,1,Partbreaker,,,,1,,1
+Nargacuga a,Legs,1,Evade Window,1,Peak Performance,1,,,
+Nargacuga a,Helm,2,Peak Performance,1,Piercing Shots,2,,,
+Nargacuga a,Chest,2,Evade Window,1,Speed Crawler,,1,,
+Nargacuga a,Waist,2,Evade Window,1,Stamina Surge,1,,,
+Nargacuga a,Arms,2,Stamina Surge,2,Stealth,1,,,
+Nargacuga b,Helm,1,Peak Performance,1,Piercing Shots,1,,,1
+Nargacuga b,Waist,1,Evade Window,1,Stamina Surge,,,,1
+Nargacuga b,Chest,2,Evade Window,,,,,,1
+Nargacuga b,Arms,2,Stamina Surge,,,,,,1
+Nargacuga b,Legs,1,Evade Window,,,1,,,1
+Glavenus a,Arms,2,Maximum Might,1,Focus,1,,,
+Glavenus a,Helm,2,Focus,1,Handicraft,1,,,
+Glavenus a,Legs,2,Handicraft,1,Heat Guard,,1,,
+Glavenus a,Chest,2,Power Prolonger,1,Maximum Might,1,,,
+Glavenus a,Waist,2,Maximum Might,1,Normal Shots,2,,,
+Glavenus b,Arms,1,Maximum Might,1,Focus,,,,1
+Glavenus b,Helm,1,Focus,1,Handicraft,,,,1
+Glavenus b,Chest,1,Power Prolonger,1,Maximum Might,,,,1
+Glavenus b,Waist,2,Maximum Might,,,,,,1
+Glavenus b,Legs,2,Handicraft,,,,,,1
+Acidic Glavenus a,Helm,2,Maximum Might,2,Effluvia Resistance,1,,,
+Acidic Glavenus a,Arms,2,Stun Resistance,1,Handicraft,1,1,,
+Acidic Glavenus a,Waist,2,Handicraft,2,Iron Skin,,1,,
+Acidic Glavenus a,Chest,2,Handicraft,1,Stamina Surge,1,,,
+Acidic Glavenus a,Legs,2,Maximum Might,1,Stamina Surge,1,1,,
+Acidic Glavenus b,Helm,1,Maximum Might,1,Effluvia Resistance,,,,1
+Acidic Glavenus b,Chest,1,Handicraft,1,Stamina Surge,1,,,1
+Acidic Glavenus b,Arms,2,Stun Resistance,,,1,1,,1
+Acidic Glavenus b,Waist,2,Handicraft,,,,,,1
+Acidic Glavenus b,Legs,1,Maximum Might,,,,1,,1
+Brachydios a,Chest,2,Stamina Thief,1,Agitator,1,,,
+Brachydios a,Legs,2,Agitator,2,Artillery,,1,,
+Brachydios a,Arms,2,Agitator,2,Blast Resistance,,1,,
+Brachydios a,Helm,2,Agitator,1,Capacity Boost,,,1,
+Brachydios a,Waist,2,Blast Attack,1,Stamina Thief,,,1,
+Brachydios b,Chest,1,Stamina Thief,1,Agitator,,,,1
+Brachydios b,Legs,2,Agitator,1,Artillery,,,,1
+Brachydios b,Arms,2,Agitator,1,Blast Resistance,,,,1
+Brachydios b,Helm,2,Agitator,,,1,,,1
+Brachydios b,Waist,2,Blast Attack,,,,1,,1
+Tigrex a,Arms,2,Speed Eating,2,Attack Boost,1,,,
+Tigrex a,Helm,2,Attack Boost,2,Earplugs,1,,,
+Tigrex a,Chest,2,Earplugs,1,Free Meal,,1,,
+Tigrex a,Waist,1,Earplugs,1,Free Meal,1,,1,
+Tigrex a,Legs,1,Speed Eating,1,Free Meal,1,,1,
+Tigrex b,Arms,2,Speed Eating,1,Attack Boost,,,,1
+Tigrex b,Helm,2,Attack Boost,1,Earplugs,,,,1
+Tigrex b,Chest,2,Earplugs,,,1,,,1
+Tigrex b,Waist,1,Earplugs,,,2,,,1
+Tigrex b,Legs,1,Speed Eating,,,,1,,1
+Black Belt a,Arms,2,Wide Range,2,Horn Maestro,,,1,
+Black Belt a,Waist,2,Recovery Up,1,Marathon Runner,,,1,
+Black Belt a,Helm,2,Marathon Runner,1,Mushroomancer,,,1,
+Black Belt a,Legs,2,Wide Range,1,Recovery Up,,2,,
+Black Belt a,Chest,2,Mushroomancer,1,Wide Range,3,,,
+Black Belt b,Helm,2,Marathon Runner,,,,1,,1
+Black Belt b,Chest,2,Mushroomancer,,,2,,,1
+Black Belt b,Arms,2,Wide Range,,,1,,,1
+Black Belt b,Waist,2,Recovery Up,,,1,,,1
+Black Belt b,Legs,2,Wide Range,,,,1,,1
+Dober a,Chest,2,Attack Boost,1,Effluvia Resistance,3,,,
+Dober a,Legs,2,Attack Boost,2,Mushroomancer,,1,,
+Dober a,Arms,2,Stamina Surge,1,Mushroomancer,1,1,,
+Dober a,Helm,2,Free Elm/Ammo Up,1,Stamina Surge,1,,,
+Dober a,Waist,2,Attack Boost,2,Stun Resistance,1,1,,
+Dober b,Chest,1,Attack Boost,1,Effluvia Resistance,2,,,1
+Dober b,Arms,1,Stamina Surge,1,Mushroomancer,1,,,1
+Dober b,Legs,1,Attack Boost,1,Mushroomancer,,1,,1
+Dober b,Waist,1,Attack Boost,1,Stun Resistance,,1,,1
+Dober b,Helm,2,Free Elm/Ammo Up,,,,,,1
+Damascus a,Chest,2,Focus,2,Defense Boost,1,,1,
+Damascus a,Legs,2,Defense Boost,2,Guard,1,1,,
+Damascus a,Waist,1,Focus,1,Guard,,1,,1
+Damascus a,Helm,3,Defense Boost,2,Speed Sharpening,,,1,
+Damascus a,Arms,2,Handicraft,1,Speed Sharpening,1,1,,
+Damascus b,Legs,2,Defense Boost,1,Guard,,1,,1
+Damascus b,Chest,2,Focus,,,1,1,,1
+Damascus b,Arms,2,Handicraft,,,1,,,1
+Damascus b,Helm,3,Defense Boost,,,2,,,1
+Damascus b,Waist,1,Focus,,,1,,1,1
+Seething Bazel a,Helm,2,Earplugs,2,Blast Attack,1,1,,
+Seething Bazel a,Chest,2,Guard,2,Blast Resistance,2,,,
+Seething Bazel a,Waist,2,Bombardier,1,Critical Draw,,,1,
+Seething Bazel a,Arms,2,Critical Draw,1,Earplugs,,,1,
+Seething Bazel a,Legs,2,Earplugs,1,Jump Master,,,1,
+Seething Bazel b,Helm,2,Earplugs,1,Blast Attack,1,,,1
+Seething Bazel b,Legs,1,Earplugs,1,Jump Master,,1,,1
+Seething Bazel b,Chest,2,Guard,,,2,,,1
+Seething Bazel b,Arms,2,Critical Draw,,,,,1,1
+Seething Bazel b,Waist,2,Bombardier,,,,,1,1
+Velkhana a,Helm,2,Divine Blessing,1,Coalescence,,1,1,
+Velkhana a,Legs,2,Critical Draw,1,Coalescence,2,,,
+Velkhana a,Waist,1,Flinch Free,1,Coalescence,1,1,,
+Velkhana a,Chest,2,Quick Sheath,1,Critical Draw,1,,,
+Velkhana a,Arms,1,Quick Sheath,2,Flinch Free,1,,,
+Velkhana b,Arms,1,Quick Sheath,1,Flinch Free,,,,1
+Velkhana b,Helm,2,Divine Blessing,,,,1,,1
+Velkhana b,Chest,2,Quick Sheath,,,1,,,1
+Velkhana b,Legs,2,Critical Draw,,,1,,,1
+Velkhana b,Waist,1,Flinch Free,,,1,,,1
+Oolong a,Chest,2,Stamina Surge,,,,,,1
+Oolong a,Arms,2,Coalescence,,,,,,1
+Oolong a,Legs,2,Health Boost,,,,1,,1
+Oolong a,Helm,3,Critical Eye,,,,,,1
+Oolong a,Waist,3,Constitution,,,2,,,
+Acrobat a,Helm,1,Safe Landing,,,1,2,,
+Artian a,Waist,2,Tool Specialist,1,Critical Eye,2,,,
+Artian a,Helm,2,Slinger Capacity,1,Free Elm/Ammo Up,,1,,
+Artian a,Chest,3,Critical Eye,1,Peak Performance,1,,,
+Artian a,Legs,2,Peak Performance,1,Slinger Capacity,2,,,
+Artian a,Arms,2,Free Elm/Ammo Up,1,Tool Specialist,2,,,
+Artian b,Waist,1,Tool Specialist,1,Critical Eye,1,,,1
+Artian b,Helm,1,Slinger Capacity,1,Free Elm/Ammo Up,1,,,1
+Artian b,Chest,2,Critical Eye,1,Peak Performance,,,,1
+Artian b,Arms,2,Free Elm/Ammo Up,,,,,,1
+Artian b,Legs,2,Peak Performance,,,,,,1
+Astral a,Chest,2,Critical Boost,,,1,,,
+Astral a,Arms,2,Divine Blessing,,,2,,,1
+Astral a,Waist,2,Flinch Free,,,1,,,1
+Astral a,Legs,2,Weakness Exploit,,,1,,,
+Astral a,Helm,3,Wide Range,,,,,,1
+Blackveil Hazak a,Helm,2,Peak Performance,2,Dragon Attack,1,,,
+Blackveil Hazak a,Chest,2,Recovery Speed,2,Dragon Attack,1,,1,
+Blackveil Hazak a,Legs,2,Effluvia Resistance,2,Dragon Attack,,1,1,
+Blackveil Hazak a,Waist,2,Speed Eating,1,Peak Performance,1,1,,
+Blackveil Hazak a,Arms,2,Recovery Up,1,Speed Eating,2,1,,
+Blackveil Hazak b,Chest,2,Recovery Speed,1,Dragon Attack,,1,,1
+Blackveil Hazak b,Helm,2,Peak Performance,,,1,,,1
+Blackveil Hazak b,Arms,2,Recovery Up,,,2,,,1
+Blackveil Hazak b,Waist,2,Speed Eating,,,,1,,1
+Blackveil Hazak b,Legs,2,Effluvia Resistance,,,,,1,1
+Brute Tigrex a,Helm,3,Attack Boost,1,Free Meal,,,1,
+Brute Tigrex a,Arms,2,Attack Boost,3,Health Boost,,,1,
+Brute Tigrex a,Chest,3,Attack Boost,1,Weakness Exploit,,,1,
+Brute Tigrex a,Waist,3,Recovery Up,1,Weakness Exploit,,1,,
+Brute Tigrex a,Legs,3,Agitator,1,Weakness Exploit,1,,,
+Brute Tigrex b,Helm,2,Attack Boost,1,Free Meal,,,,1
+Brute Tigrex b,Arms,2,Attack Boost,2,Health Boost,,,,1
+Brute Tigrex b,Chest,2,Attack Boost,1,Weakness Exploit,1,,,1
+Brute Tigrex b,Waist,2,Recovery Up,1,Weakness Exploit,,,,1
+Brute Tigrex b,Legs,2,Agitator,1,Weakness Exploit,,,,1
+Buff Body a,Chest,3,Agitator,1,Fortify,3,,,
+Buff Body a,Legs,3,Attack Boost,2,Heroics,,,,1
+Buff Body a,Waist,2,Agitator,3,Heroics,,,,1
+Buff Body a,Arms,3,Attack Boost,1,Resuscitate,,,,1
+Gold Lune a,Waist,3,Divine Blessing,1,Health Boost,,2,,
+Gold Lune a,Helm,2,Health Boost,2,Poison Attack,,2,,
+Gold Lune a,Arms,2,Resentment,2,Poison Attack,,1,,
+Gold Lune a,Chest,2,Divine Blessing,1,Resentment,1,,1,
+Gold Lune a,Legs,2,Weakness Exploit,1,Spread/Power Shots,1,,,
+Gold Lune b,Helm,2,Health Boost,,,,1,,1
+Gold Lune b,Chest,2,Divine Blessing,,,1,1,,1
+Gold Lune b,Arms,2,Resentment,,,,1,,1
+Gold Lune b,Legs,2,Weakness Exploit,,,,,,1
+Gold Lune b,Waist,3,Divine Blessing,,,,1,,1
+Guild Palace a,Legs,3,Heroics,1,Health Boost,,1,,
+Guild Palace a,Chest,2,Agitator,1,Heroics,2,,,
+Guild Palace a,Arms,2,Offensive Guard,1,Heroics,,,1,
+Guild Palace a,Helm,2,Health Boost,1,Offensive Guard,,,1,
+Guild Palace a,Waist,3,Agitator,1,Resuscitate,2,,,
+Guild Palace b,Legs,2,Heroics,1,Health Boost,1,,,1
+Guild Palace b,Chest,1,Agitator,1,Heroics,,1,,1
+Guild Palace b,Waist,2,Agitator,1,Resuscitate,1,,,1
+Guild Palace b,Helm,2,Health Boost,,,,1,,1
+Guild Palace b,Arms,2,Offensive Guard,,,1,,,1
+Guildwork a,Arms,2,Geologist,2,Botanist,,1,1,
+Guildwork a,Waist,1,Forager's Luck,1,Detector,,1,1,
+Guildwork a,Chest,1,Cliffhanger,1,Flinch Free,2,,1,
+Guildwork a,Legs,2,Flinch Free,1,Geologist,1,1,,
+Guildwork a,Helm,3,Botanist,1,Honey Hunter,,1,1,
+Guildwork b,Arms,1,Geologist,1,Botanist,,,1,1
+Guildwork b,Helm,2,Botanist,1,Honey Hunter,,,1,1
+Guildwork b,Legs,2,Flinch Free,,,1,,,1
+Guildwork b,Chest,1,Cliffhanger,,,,2,,1
+Guildwork b,Waist,1,Forager's Luck,,,,,1,1
+Kirin a,Legs,2,Free Elm/Ammo up,2,Critical Eye,1,,,
+Kirin a,Helm,2,Marathon Runner,2,Divine Blessing,1,,1,
+Kirin a,Chest,3,Critical Eye,1,Divine Blessing,,1,1,
+Kirin a,Waist,2,Blight Resistance,1,Free Elm/Ammo Up,,1,,
+Kirin a,Arms,3,Thunder Attack,1,Marathon Runner,,1,1,
+Kirin b,Chest,2,Critical Eye,1,Divine Blessing,,1,,1
+Kirin b,Helm,2,Marathon Runner,,,2,,,1
+Kirin b,Waist,2,Blight Resistance,,,2,,,1
+Kirin b,Legs,2,Free Elm/Ammo up,,,,,,1
+Kirin b,Arms,3,Thunder Attack,,,,2,,1
+Kushala a,Waist,3,Ice Attack,1,Evade Extender,,1,,
+Kushala a,Helm,2,Ice Attack,2,Evade Window,,1,,
+Kushala a,Legs,2,Evade Extender,2,Handicraft,1,,,
+Kushala a,Chest,3,Handicraft,,,1,,,
+Kushala a,Arms,3,Evade Window,,,1,,,
+Kushala b,Helm,2,Ice Attack,1,Evade Window,1,,,1
+Kushala b,Chest,2,Handicraft,,,,1,,1
+Kushala b,Arms,2,Evade Window,,,,1,,1
+Kushala b,Legs,2,Evade Extender,,,,,1,1
+Kushala b,Waist,3,Ice Attack,,,1,,,1
+Lunastra a,Arms,2,Tool Specialist,2,Blast Attack,1,1,,
+Lunastra a,Waist,2,Health Boost,2,Blast Attack,,1,,
+Lunastra a,Helm,2,Tool Specialist,2,Offensive Guard,,,1,
+Lunastra a,Chest,2,Wide Range,2,Peak Performance,,1,,
+Lunastra a,Legs,1,Tool Specialist,3,Wide Range,1,,1,
+Lunastra b,Arms,2,Tool Specialist,1,Blast Attack,1,,,1
+Lunastra b,Chest,2,Wide Range,1,Peak Performance,1,,,1
+Lunastra b,Legs,1,Tool Specialist,2,Wide Range,,1,,1
+Lunastra b,Helm,2,Tool Specialist,,,,1,,1
+Lunastra b,Waist,2,Health Boost,,,,1,,1
+Namielle a,Legs,2,Stamina Surge,1,Blight Resistance,1,1,,
+Namielle a,Arms,2,Tool Specialist,1,Maximum Might,1,,,
+Namielle a,Helm,3,Constitution,1,Maximum Might,1,,,
+Namielle a,Waist,2,Constitution,1,Stamina Surge,3,,,
+Namielle a,Chest,2,Blight Resistance,1,Tool Specialist,,2,,
+Namielle b,Helm,2,Constitution,1,Maximum Might,,,,1
+Namielle b,Waist,1,Constitution,1,Stamina Surge,2,,,1
+Namielle b,Chest,1,Blight Resistance,1,Tool Specialist,,1,,1
+Namielle b,Arms,2,Tool Specialist,,,,,,1
+Namielle b,Legs,2,Stamina Surge,,,,1,,1
+Pearlspring a,Helm,1,Recovery Up,,,1,1,,
+Rajang a,Legs,2,Resentment,2,Attack Boost,,2,,
+Rajang a,Helm,2,Weakness Exploit,2,Handicraft,,,,
+Rajang a,Arms,1,Resentment,2,Handicraft,,1,,
+Rajang a,Waist,1,Weakness Exploit,1,Handicraft,1,,1,
+Rajang a,Chest,2,Resentment,2,Speed Sharpening,1,,1,
+Rajang b,Legs,2,Resentment,1,Attack Boost,,1,,1
+Rajang b,Helm,2,Weakness Exploit,,,1,,,1
+Rajang b,Chest,2,Resentment,,,2,,,1
+Rajang b,Arms,1,Resentment,,,,,1,1
+Rajang b,Waist,1,Weakness Exploit,,,,,1,1
+Ruiner Nergi a,Arms,2,Attack Boost,2,Agitator,,,1,
+Ruiner Nergi a,Legs,1,Agitator,2,Earplugs,,1,,
+Ruiner Nergi a,Waist,3,Attack Boost,1,Earplugs,1,1,,
+Ruiner Nergi a,Chest,2,Stamina Surge,1,Maximum Might,,1,,
+Ruiner Nergi a,Helm,2,Maximum Might,1,Stamina Surge,1,,1,
+Ruiner Nergi b,Arms,1,Attack Boost,2,Agitator,1,,,1
+Ruiner Nergi b,Legs,1,,2,Earplugs,1,,,1
+Ruiner Nergi b,Waist,2,Attack Boost,1,Earplugs,1,,,1
+Ruiner Nergi b,Helm,2,Maximum Might,,,,1,,1
+Ruiner Nergi b,Chest,2,Stamina Surge,,,,1,,1
+Safijiva a,Helm,2,Evade Window,1,Critical Boost,2,1,,
+Safijiva a,Chest,2,Blight Resistance,1,Critical Boost,,1,1,
+Safijiva a,Arms,1,Blight Resistance,1,Maximum Might,,3,,
+Safijiva a,Legs,1,Critical Boost,1,Maximum Might,1,1,1,
+Safijiva a,Waist,2,Evade Window,,,,,1,
+Safijiva b,Helm,1,Evade Window,1,Critical Boost,2,,,1
+Safijiva b,Chest,1,Blight Resistance,1,Critical Boost,,1,,1
+Safijiva b,Waist,2,Evade Window,,,1,,,1
+Safijiva b,Arms,1,Blight Resistance,,,,2,,1
+Safijiva b,Legs,1,Critical Boost,,,1,1,,1
+Savage Jho a,Helm,1,Partbreaker,2,Handicraft,1,,,
+Savage Jho a,Chest,1,Speed Eating,2,Handicraft,,1,,
+Savage Jho a,Waist,2,Stamina Thief,1,Handicraft,1,,,
+Savage Jho a,Arms,2,Stamina Thief,1,Partbreaker,,1,,
+Savage Jho a,Legs,1,Speed Eating,2,Stamina Thief,,2,,
+Savage Jho b,Legs,1,Speed Eating,1,Stamina Thief,,1,,1
+Savage Jho b,Arms,2,Stamina Thief,,,,,,1
+Savage Jho b,Waist,2,Stamina Thief,,,1,,,1
+Savage Jho b,Helm,1,Partbreaker,,,,,1,1
+Savage Jho b,Chest,1,Speed Eating,,,,2,,1
+Shara Ishvalda a,Arms,2,Critical Boost,1,Coalescence,1,,,
+Shara Ishvalda a,Legs,2,Partbreaker,2,Defense Boost,3,,,
+Shara Ishvalda a,Chest,2,Coalescence,1,Health Boost,,1,1,
+Shara Ishvalda a,Helm,2,Recovery Up,1,Partbreaker,1,,1,
+Shara Ishvalda a,Waist,2,Health Boost,1,Recovery Up,,1,1,
+Shara Ishvalda b,Legs,1,Partbreaker,1,Defense Boost,1,,1,1
+Shara Ishvalda b,Helm,2,Recovery Up,,,,1,,1
+Shara Ishvalda b,Arms,2,Critical Boost,,,,,,1
+Shara Ishvalda b,Waist,2,Health Boost,,,,,1,1
+Shara Ishvalda b,Chest,1,Coalescence,,,,1,,1
+Showman a,Helm,1,Provoker,,,1,2,,
+Silver Sol a,Helm,2,Windproof,2,Fire Attack,,2,,
+Silver Sol a,Chest,2,Critical Boost,2,Fire Attack,1,,,
+Silver Sol a,Legs,2,Slinger Capacity,2,Fire Attack,,1,1,
+Silver Sol a,Waist,1,Critical Boost,2,Windproof,1,,,
+Silver Sol a,Arms,3,Slinger Capacity,1,Windproof,,1,,
+Silver Sol b,Waist,1,Critical Boost,1,Windproof,1,,,1
+Silver Sol b,Helm,2,Windproof,,,,,1,1
+Silver Sol b,Chest,2,Critical Boost,,,,,,1
+Silver Sol b,Legs,2,Slinger Capacity,,,1,1,,1
+Silver Sol b,Arms,3,Slinger Capacity,,,,1,,1
+Stygian a,Arms,2,Partbreaker,3,Dragon Attack,,1,,
+Stygian a,Waist,3,Latent Power,2,Earplugs,3,,,
+Stygian a,Legs,2,Focus,1,Elderseal Boost,2,,,
+Stygian a,Chest,3,Windproof,2,Flinch Free,,1,,
+Stygian a,Helm,3,Latent Power,2,Tremor Resistance,1,1,,
+Stygian b,Waist,3,Latent Power,1,Earplugs,2,,,1
+Stygian b,Chest,3,Windproof,1,Flinch Free,,,,1
+Stygian b,Helm,3,Latent Power,1,Tremor Resistance,,,,
+Stygian b,Arms,2,Partbreaker,,,,,1,1
+Stygian b,Legs,2,Focus,,,1,,,1
+Teostra a,Legs,2,Latent Power,2,Blast Attack,,1,,
+Teostra a,Helm,2,Latent Power,2,Critical Eye,1,,,
+Teostra a,Arms,2,Weakness Exploit,1,Heat Guard,,1,,
+Teostra a,Chest,1,Latent Power,2,Special Ammo Boost,1,1,,
+Teostra a,Waist,2,Blast Attack,1,Weakness Exploit,,,1,
+Teostra b,Legs,2,Latent Power,1,Blast Attack,,,,1
+Teostra b,Helm,1,Latent Power,2,Critical Eye,,,,1
+Teostra b,Arms,1,Weakness Exploit,1,Heat Guard,,,1,1
+Teostra b,Waist,2,Blast Attack,,,1,1,,1
+Teostra b,Chest,1,Latent Power,,,2,,,1
+Wyverian Ears a,Helm,2,Mushroomancer,1,Survival Expert,,,,1
+Yian Garuga a,Chest,2,Critical Eye,2,Earplugs,1,,,
+Yian Garuga a,Legs,2,Critical Eye,1,Piercing Shots,,,2,
+Yian Garuga a,Waist,2,Resentment,2,Poison Attack,2,,,
+Yian Garuga a,Helm,2,Critical Eye,1,Resentment,,,1,
+Yian Garuga a,Arms,3,Earplugs,,,1,,,
+Yian Garuga b,Chest,2,Critical Eye,1,Earplugs,,,,1
+Yian Garuga b,Helm,1,Critical Eye,,,,1,,1
+Yian Garuga b,Arms,2,Earplugs,,,,,,1
+Yian Garuga b,Waist,2,Resentment,,,,,1,1
+Yian Garuga b,Legs,2,Critical Eye,,,,2,,1
+Zinogre a,Helm,2,Power Prolonger,1,Critical Boost,1,,,
+Zinogre a,Chest,3,Latent Power,1,Normal Shots,,,1,
+Zinogre a,Waist,2,Thunder Attack,1,Power Prolonger,,1,,
+Zinogre a,Arms,2,Latent Power,2,Recovery Speed,1,1,,
+Zinogre a,Legs,2,Latent Power,3,Thunder Attack,1,,,
+Zinogre b,Helm,1,Power Prolonger,1,Critical Boost,,,,1
+Zinogre b,Waist,1,Thunder Attack,1,Power Prolonger,,1,,1
+Zinogre b,Arms,2,Latent Power,1,Recovery Speed,,1,,1
+Zinogre b,Legs,2,Latent Power,,,1,,,1
+Zinogre b,Chest,3,Latent Power,,,,,,1
+Zorah a,Chest,2,Tremor Resistance,2,Artillery,1,,1,
+Zorah a,Helm,1,Flinch Free,2,Artillery,,2,,
+Zorah a,Waist,1,Tremor Resistance,1,Artillery,,1,1,
+Zorah a,Arms,2,Flinch Free,1,Free Meal,2,,,
+Zorah a,Legs,1,Earplugs,1,Handicraft,1,,1,
+Zorah b,Chest,2,Tremor Resistance,,,,1,,1
+Zorah b,Arms,2,Flinch Free,,,1,,,1
+Zorah b,Helm,1,Flinch Free,,,1,1,,1
+Zorah b,Waist,1,Tremor Resistance,,,,,1,1
+Zorah b,Legs,1,Earplugs,,,,,1,1
