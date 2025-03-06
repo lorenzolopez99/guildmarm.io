@@ -1,0 +1,1011 @@
+type,name,damage,element_buildup,element_type,affinity_mod,defense_mod,special,skills,level_1_decoration_slots,level_2_decoration_slots,level_3_decoration_slots,sharpness_base_red,sharpness_base_orange,sharpness_base_yellow,sharpness_base_green,sharpness_base_blue,sharpness_base_white,sharpness_base_purple,sharpness_max_red,sharpness_max_orange,sharpness_max_yellow,sharpness_max_green,sharpness_max_blue,sharpness_max_white,sharpness_max_purple
+Great Sword,Hope Blade I,90,0,N/A,0,0,,,0,0,0,12,12,10,6,0,0,0,12,12,10,16,0,0,0
+Great Sword,Hope Blade II,100,0,N/A,0,0,,Speed Sharpening +1,0,0,0,10,10,12,8,0,0,0,10,10,12,18,0,0,0
+Great Sword,Hope Blade III,130,0,N/A,0,0,,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,16,12,0,0,0,10,12,16,22,0,0,0
+Great Sword,Hope Blade IV,160,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,18,14,6,0,0,10,12,18,14,16,0,0
+Great Sword,Hope Blade V,190,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,16,14,12,6,0,10,12,16,14,12,16,0
+Great Sword,Valkyrie Blade I,160,21,Poison,+15,0,,"Critical Status +2,Poison Duration Up +1",2,1,0,10,14,8,24,4,0,0,10,14,8,24,14,0,0
+Great Sword,Valkyrie Blade II,190,27,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,0,8,16,8,24,10,4,0,8,16,8,24,10,14,0
+Great Sword,Sieglinde,210,30,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,1,8,16,6,24,8,8,0,8,16,6,24,8,18,0
+Great Sword,Chicken Decapitator I,180,45,Fire,0,0,,"Focus +1,Charge Master +1",2,1,0,20,20,14,6,0,0,0,20,20,14,10,6,0,0
+Great Sword,Chicken Decapitator II,210,55,Fire,0,0,,"Focus +2,Charge Master +2",2,1,0,20,24,10,14,2,0,0,20,24,10,14,6,6,0
+Great Sword,Rooster Decapitator,220,60,Fire,0,0,,"Focus +2,Charge Master +2",3,2,1,22,24,4,16,4,0,0,22,24,4,16,6,8,0
+Great Sword,Nihil Great Sword I,160,20,Water,0,0,,Critical Draw +2,1,0,0,4,22,14,10,0,0,0,4,22,14,20,0,0,0
+Great Sword,Nihil Great Sword II,190,26,Water,0,0,,Critical Draw +2,2,1,1,4,22,14,14,6,0,0,4,22,14,14,16,0,0
+Great Sword,Prinvrilo's Dissolution,220,30,Water,0,0,,Critical Draw +3,3,2,1,4,22,10,10,14,10,0,4,22,10,10,14,20,0
+Great Sword,Quematrice Espada I,100,14,Fire,+5,0,,Punishing Draw +1,0,0,0,10,14,14,2,0,0,0,10,14,14,12,0,0,0
+Great Sword,Quematrice Espada II,140,18,Fire,+5,0,,Punishing Draw +2,0,0,0,10,16,16,8,0,0,0,10,16,16,18,0,0,0
+Great Sword,Quematrice Espada III,170,23,Fire,+5,0,,Punishing Draw +2,2,1,0,14,16,16,12,2,0,0,14,16,16,12,12,0,0
+Great Sword,Quematrice Espada IV,210,27,Fire,+5,0,,Punishing Draw +3,3,2,0,14,16,20,16,4,0,0,14,16,20,16,14,0,0
+Great Sword,Firetrail Blaisdell,240,30,Fire,+5,0,,Punishing Draw +3,3,2,1,12,14,20,16,8,0,0,12,14,20,16,18,0,0
+Great Sword,Buster Sword I,120,0,N/A,0,0,,Critical Draw +1,0,0,0,10,8,18,4,0,0,0,10,8,18,14,0,0,0
+Great Sword,Buster Sword II,160,0,N/A,0,0,,Critical Draw +2,1,0,0,10,12,18,10,0,0,0,10,12,18,20,0,0,0
+Great Sword,Buster Sword III,190,0,N/A,0,0,,Critical Draw +3,2,1,0,10,14,18,12,6,0,0,10,14,18,12,16,0,0
+Great Sword,Ravager Blade,220,0,N/A,0,0,,Critical Draw +3,3,2,1,10,12,18,14,10,6,0,10,12,18,14,10,16,0
+Great Sword,Jin Dhavaar I,190,55,Ice,0,0,,Focus +2,3,2,0,8,8,10,20,20,4,0,8,8,10,20,20,14,0
+Great Sword,Precipice Metallam,210,60,Ice,0,0,,Focus +3,3,2,1,8,8,10,16,22,6,0,8,8,10,16,22,16,0
+Great Sword,Albirath Wing I,160,28,Fire,+15,0,,"Master's Touch +1,Critical Element +1",1,0,0,10,20,12,8,0,0,0,10,20,12,18,0,0,0
+Great Sword,Albirath Wing II,180,34,Fire,+15,0,,"Master's Touch +1,Critical Element +1",2,1,0,10,24,10,8,8,0,0,10,24,10,8,12,6,0
+Great Sword,Whitefire Rathguard,210,40,Fire,+15,0,,"Master's Touch +1,Critical Element +1",3,2,1,10,30,10,8,8,4,0,10,30,10,8,8,14,0
+Great Sword,Red Wing I,180,44,Fire,+10,0,,Critical Boost +3,2,1,0,20,14,10,10,6,0,0,20,14,10,10,16,0,0
+Great Sword,Rathalos Firesword,200,50,Fire,+10,0,,Critical Boost +3,3,2,1,20,14,10,10,10,6,0,20,14,10,10,10,16,0
+Great Sword,Immane Blade I,120,21,Sleep,+10,0,,"Offensive Guard +1,Guard +1",0,0,0,14,14,6,16,0,0,0,14,14,6,26,0,0,0
+Great Sword,Immane Blade II,150,31,Sleep,+15,0,,"Offensive Guard +1,Guard +1",2,1,0,14,14,6,20,6,0,0,14,14,6,20,16,0,0
+Great Sword,Immane Blade III,180,37,Sleep,+15,0,,"Offensive Guard +2,Guard +1",3,2,0,14,14,6,18,12,6,0,14,14,6,18,12,16,0
+Great Sword,Immolator Blade,200,40,Sleep,+15,0,,"Offensive Guard +2,Guard +1",3,2,1,14,14,6,12,8,16,0,14,14,6,12,8,26,0
+Great Sword,Schattenstolz I,180,37,Dragon,+20,0,,Critical Element +2,3,2,1,10,14,16,14,12,4,0,10,14,16,14,12,14,0
+Great Sword,Düsterstolz,210,40,Dragon,+20,0,,Critical Element +3,3,2,1,10,10,16,12,12,10,0,10,10,16,12,12,20,0
+Great Sword,Bone Blade I,110,0,N/A,0,0,,Focus +1,0,0,0,10,20,10,0,0,0,0,10,20,18,2,0,0,0
+Great Sword,Bone Blade II,130,0,N/A,0,0,,"Focus +1,Attack Boost +1",0,0,0,10,14,16,0,0,0,0,10,14,20,6,0,0,0
+Great Sword,Bone Blade III,170,0,N/A,0,0,,"Focus +2,Attack Boost +1",1,0,0,10,18,20,2,0,0,0,10,18,20,12,0,0,0
+Great Sword,Bone Blade IV,200,0,N/A,0,0,,"Focus +3,Attack Boost +1",2,1,0,10,16,18,16,0,0,0,10,16,18,26,0,0,0
+Great Sword,Bone Slasher,230,0,N/A,0,0,,"Focus +3,Attack Boost +1",3,2,1,10,16,16,12,16,0,0,10,16,16,12,26,0,0
+Great Sword,Nu Krake I,170,27,Fire,-15,0,,"Protective Polish +2,Speed Sharpening +1",1,0,0,20,4,20,6,0,0,0,20,4,20,16,0,0,0
+Great Sword,Nu Krake II,210,37,Fire,-15,0,,"Protective Polish +2,Speed Sharpening +2",3,2,0,20,4,24,14,8,0,0,20,4,24,14,18,0,0
+Great Sword,Abaddonian Krake,230,40,Fire,-15,0,,"Protective Polish +3,Speed Sharpening +2",3,2,1,20,4,24,10,10,2,0,20,4,24,10,10,12,0
+Great Sword,Slaughter I,180,41,Poison,0,0,,"Critical Draw +1,Punishing Draw +1",2,1,0,18,10,24,8,0,0,0,18,10,24,18,0,0,0
+Great Sword,Slaughter II,200,44,Poison,0,0,,"Critical Draw +2,Punishing Draw +1",2,1,0,18,10,16,14,2,0,0,18,10,16,14,12,0,0
+Great Sword,Poison King,230,50,Poison,0,0,,"Critical Draw +2,Punishing Draw +2",3,2,1,18,10,22,14,6,0,0,18,10,22,14,16,0,0
+Great Sword,Dosha Fellslayer I,140,0,N/A,-10,20,,Punishing Draw +1,0,0,0,10,18,12,0,0,0,0,10,18,16,6,0,0,0
+Great Sword,Dosha Fellslayer II,180,0,N/A,-10,20,,Punishing Draw +2,1,0,0,14,18,16,2,0,0,0,14,18,16,12,0,0,0
+Great Sword,Dosha Fellslayer III,210,0,N/A,-10,20,,Punishing Draw +3,2,1,0,10,20,28,10,2,0,0,10,20,28,10,12,0,0
+Great Sword,Dosha Grimslayer I,180,0,N/A,-20,0,,Focus +1,1,1,0,10,14,24,2,0,0,0,10,14,24,12,0,0,0
+Great Sword,Dosha Grimslayer II,220,0,N/A,-20,0,,Focus +2,2,1,1,10,22,22,6,0,0,0,10,22,22,16,0,0,0
+Great Sword,Grimslayer Urgeom,250,0,N/A,-20,0,,Focus +2,3,3,1,10,14,20,20,6,0,0,10,14,20,20,10,6,0
+Great Sword,Smiting Fulgur I,180,44,Lightning,+15,0,,Critical Element +2,2,1,0,8,20,26,6,0,0,0,8,20,26,8,8,0,0
+Great Sword,Fulgurcleaver Guardiana,210,50,Lightning,+15,0,,Critical Element +3,3,2,1,8,18,24,14,6,0,0,8,18,24,14,6,10,0
+Great Sword,G. Veldian Gladius I,170,20,Dragon,-10,0,,Focus +2,1,1,0,20,10,18,2,0,0,0,20,10,18,12,0,0,0
+Great Sword,G. Veldian Gladius II,210,26,Dragon,-10,0,,Focus +2,2,2,0,20,16,18,6,0,0,0,20,16,18,10,6,0,0
+Great Sword,G. Stalwart Lamorak,240,30,Dragon,-10,0,,Focus +2,3,3,1,20,18,10,16,6,0,0,20,18,10,16,10,6,0
+Great Sword,Veldian Gladius I,200,47,Dragon,0,0,,Focus +3,3,2,0,10,10,10,24,14,2,0,10,10,10,24,14,12,0
+Great Sword,Frozen Speartuna I,150,50,Ice,0,0,,Punishing Draw +3,0,0,0,10,18,18,4,0,0,0,10,18,18,14,0,0,0
+Great Sword,Frozen Speartuna II,180,60,Ice,0,0,,"Punishing Draw +3,Slugger +1",2,0,0,10,18,22,10,0,0,0,10,18,22,20,0,0,0
+Great Sword,Freezer Speartuna,220,70,Ice,0,0,,"Punishing Draw +3,Slugger +2",3,2,0,10,10,18,22,10,0,0,10,10,18,22,20,0,0
+Great Sword,Paretic Blade I,90,25,Paralysis,0,0,,Speed Sharpening +1,0,0,0,10,14,16,0,0,0,0,10,14,26,0,0,0,0
+Great Sword,Paretic Blade II,120,31,Paralysis,0,0,,Speed Sharpening +2,0,0,0,12,16,20,2,0,0,0,12,16,20,12,0,0,0
+Great Sword,Paretic Blade III,150,41,Paralysis,0,0,,Speed Sharpening +2,2,1,1,14,16,20,10,0,0,0,14,16,20,20,0,0,0
+Great Sword,Paretic Blade IV,180,47,Paralysis,0,0,,Speed Sharpening +2,3,2,1,10,12,16,20,2,0,0,10,12,16,20,6,6,0
+Great Sword,Destructive Torpor,200,50,Paralysis,0,0,,Speed Sharpening +2,3,3,1,10,12,20,22,6,0,0,10,12,20,22,6,10,0
+Great Sword,Artian Blade I,170,30,N/A,+5,0,,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Great Sword,Artian Blade II,180,30,N/A,+5,0,,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Great Sword,Varianza,190,45,N/A,+5,0,,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Great Sword,Esperanza Blade,210,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,16,12,8,12,0,10,12,16,12,8,22,0
+Great Sword,Fellslayer Dangeom,240,0,N/A,-10,20,,Punishing Draw +3,3,2,1,10,20,26,10,4,0,0,10,20,26,10,6,8,0
+Great Sword,Stalwart Lamorak,220,50,Dragon,0,0,,Focus +3,3,2,1,10,10,10,18,16,6,0,10,10,10,18,16,16,0
+Great Sword,Jawblade I,200,0,N/A,0,0,,"Focus +2,Protective Polish +2",2,1,0,10,18,22,10,0,0,0,10,18,22,18,2,0,0
+Great Sword,Giant Jawblade,240,0,N/A,0,0,,"Focus +2,Protective Polish +2",3,2,1,10,20,24,10,6,0,0,10,20,24,10,14,2,0
+Sword & Shield,Hope Sword I,90,0,N/A,0,0,,,0,0,0,10,10,8,12,0,0,0,10,10,8,22,0,0,0
+Sword & Shield,Hope Sword II,100,0,N/A,0,0,,Speed Sharpening +1,0,0,0,8,10,8,14,0,0,0,8,10,8,24,0,0,0
+Sword & Shield,Hope Sword III,130,0,N/A,0,0,,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,10,18,0,0,0,10,12,10,28,0,0,0
+Sword & Shield,Hope Sword IV,160,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,12,14,12,0,0,10,12,12,14,22,0,0
+Sword & Shield,Hope Sword V,190,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,10,14,12,12,0,10,12,10,14,12,22,0
+Sword & Shield,Rey Kuara I,140,12,Lightning,0,0,,"Guard +1,Offensive Guard +1",0,0,0,2,2,28,18,0,0,0,2,2,28,28,0,0,0
+Sword & Shield,Rey Kuara II,170,15,Lightning,0,0,,"Guard +1,Offensive Guard +1",2,1,0,2,2,24,20,12,0,0,2,2,24,20,22,0,0
+Sword & Shield,Rey Kuara III,200,17,Lightning,0,0,,"Guard +2,Offensive Guard +1",3,2,0,2,2,22,16,16,12,0,2,2,22,16,16,22,0
+Sword & Shield,Kuara Clairsword,220,20,Lightning,0,0,,"Guard +2,Offensive Guard +1",3,2,1,2,2,20,14,14,18,0,2,2,20,14,14,28,0
+Sword & Shield,Sucher-Ankh I,180,16,Dragon,+20,0,,Critical Element +3,3,2,0,10,16,16,12,6,10,0,10,16,16,12,6,20,0
+Sword & Shield,Jäger-Ankh,210,20,Dragon,+20,0,,Critical Element +3,3,2,1,10,10,18,10,6,16,0,10,10,18,10,6,26,0
+Sword & Shield,Barina Dague I,100,10,Paralysis,+10,0,,Critical Draw +1,0,0,0,10,8,8,14,0,0,0,10,8,8,24,0,0,0
+Sword & Shield,Barina Dague II,120,12,Paralysis,+10,0,,"Critical Draw +1,Critical Status +1",0,0,0,14,8,6,22,0,0,0,14,8,6,32,0,0,0
+Sword & Shield,Barina Dague III,150,15,Paralysis,+15,0,,"Critical Draw +1,Critical Status +1",2,1,0,14,8,6,20,12,0,0,14,8,6,20,22,0,0
+Sword & Shield,Barina Dague IV,180,17,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,0,14,8,6,18,12,12,0,14,8,6,18,12,22,0
+Sword & Shield,Lala Acanthopelm,200,20,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,1,14,8,6,12,8,22,0,14,8,6,12,8,32,0
+Sword & Shield,Quematrice Cuchillo I,100,10,Fire,+5,0,,Offensive Guard +1,0,0,0,10,14,8,8,0,0,0,10,14,8,18,0,0,0
+Sword & Shield,Quematrice Cuchillo II,140,12,Fire,+5,0,,Offensive Guard +2,0,0,0,10,16,10,14,0,0,0,10,16,10,24,0,0,0
+Sword & Shield,Quematrice Cuchillo III,170,14,Fire,+5,0,,Offensive Guard +2,2,1,0,14,16,14,10,6,0,0,14,16,14,10,16,0,0
+Sword & Shield,Quematrice Cuchillo IV,210,16,Fire,+5,0,,Offensive Guard +3,3,2,0,14,16,14,16,10,0,0,14,16,14,16,20,0,0
+Sword & Shield,Firetrail Fornax,240,18,Fire,+5,0,,Offensive Guard +3,3,2,1,12,14,14,16,14,0,0,12,14,14,16,24,0,0
+Sword & Shield,Gravios Syphos I,210,19,Blast,-15,30,,Guard Up +3,2,2,0,18,14,16,12,0,0,0,18,14,16,18,4,0,0
+Sword & Shield,Titan's Armament,240,25,Blast,-15,30,,Guard Up +3,3,3,1,16,14,14,14,12,0,0,16,14,14,14,22,0,0
+Sword & Shield,Iron Beater I,120,0,N/A,0,0,,Guard +1,0,0,0,4,8,18,10,0,0,0,4,8,18,20,0,0,0
+Sword & Shield,Iron Beater II,160,0,N/A,0,0,,Guard +2,1,0,0,4,12,18,16,0,0,0,4,12,18,26,0,0,0
+Sword & Shield,Iron Beater III,190,0,N/A,0,0,,Guard +3,2,1,0,4,14,18,12,12,0,0,4,14,18,12,22,0,0
+Sword & Shield,Smithy's Pride,220,0,N/A,0,0,,Guard +3,3,2,1,4,12,18,14,10,12,0,4,12,18,14,10,22,0
+Sword & Shield,Jin Dhaklab I,190,32,Ice,0,0,,Guard +3,3,2,0,8,8,6,20,22,6,0,8,8,6,20,22,16,0
+Sword & Shield,Precipice Mateptro,210,35,Ice,0,0,,Guard +3,3,2,1,8,8,4,16,24,10,0,8,8,4,16,24,20,0
+Sword & Shield,Albirath Edge I,160,12,Fire,+15,0,,"Master's Touch +1,Critical Element +1",1,0,0,10,18,12,10,0,0,0,10,18,12,20,0,0,0
+Sword & Shield,Albirath Edge II,180,17,Fire,+15,0,,"Master's Touch +1,Critical Element +1",2,1,0,10,20,10,10,10,0,0,10,20,10,10,14,6,0
+Sword & Shield,Melting Point,210,20,Fire,+15,0,,"Master's Touch +1,Critical Element +1",3,2,1,10,26,10,10,8,6,0,10,26,10,10,8,16,0
+Sword & Shield,Heat Edge I,180,21,Fire,+10,0,,Critical Boost +3,2,1,0,20,14,8,6,12,0,0,20,14,8,6,22,0,0
+Sword & Shield,Corona,200,25,Fire,+10,0,,Critical Boost +3,3,2,1,20,14,10,8,8,10,0,20,14,10,8,8,20,0
+Sword & Shield,Princess Rapier I,160,12,Poison,+15,0,,"Critical Status +2,Poison Duration Up +1",2,1,0,10,14,8,18,10,0,0,10,14,8,18,20,0,0
+Sword & Shield,Princess Rapier II,190,15,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,0,8,16,8,22,6,10,0,8,16,8,22,6,20,0
+Sword & Shield,Queen Rapier,210,18,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,1,8,16,6,20,6,14,0,8,16,6,20,6,24,0
+Sword & Shield,Scaly Sword I,120,12,Sleep,+10,0,,Guard +2,0,0,0,14,8,6,22,0,0,0,14,8,6,32,0,0,0
+Sword & Shield,Scaly Sword II,150,15,Sleep,+15,0,,Guard +2,2,1,0,14,8,6,20,12,0,0,14,8,6,20,22,0,0
+Sword & Shield,Scaly Sword III,180,17,Sleep,+15,0,,Guard +3,3,2,0,14,8,6,18,12,12,0,14,8,6,18,12,22,0
+Sword & Shield,Nerskiller,200,20,Sleep,+15,0,,Guard +3,3,2,1,14,8,6,12,8,22,0,14,8,6,12,8,32,0
+Sword & Shield,Balahara Blade I,110,10,Water,+10,0,,Offensive Guard +1,0,0,0,6,6,18,10,0,0,0,6,6,18,20,0,0,0
+Sword & Shield,Balahara Blade II,150,12,Water,+10,0,,Offensive Guard +2,1,0,0,8,6,20,16,0,0,0,8,6,20,26,0,0,0
+Sword & Shield,Balahara Blade III,160,15,Water,+10,0,,Offensive Guard +2,2,1,0,6,6,22,18,8,0,0,6,6,22,18,18,0,0
+Sword & Shield,Balahara Blade IV,190,17,Water,+10,0,,Offensive Guard +3,3,2,0,6,6,22,18,14,4,0,6,6,22,18,14,14,0
+Sword & Shield,Sandsea Katduva,210,20,Water,+10,0,,Offensive Guard +3,3,2,1,6,6,20,16,14,8,0,6,6,20,16,14,18,0
+Sword & Shield,Bone Kukri I,110,0,N/A,0,0,,Stamina Thief +1,0,0,0,10,14,16,0,0,0,0,10,14,24,2,0,0,0
+Sword & Shield,Bone Kukri II,130,0,N/A,0,0,,"Stamina Thief +1,Attack Boost +1",0,0,0,10,8,22,0,0,0,0,10,8,26,6,0,0,0
+Sword & Shield,Bone Kukri III,170,0,N/A,0,0,,"Stamina Thief +2,Attack Boost +1",1,0,0,10,12,20,8,0,0,0,10,12,20,18,0,0,0
+Sword & Shield,Bone Kukri IV,200,0,N/A,0,0,,"Stamina Thief +3,Attack Boost +1",2,1,0,10,12,16,22,0,0,0,10,12,16,32,0,0,0
+Sword & Shield,Chief Kukri,230,0,N/A,0,0,,"Stamina Thief +3,Attack Boost +1",3,2,1,10,12,12,14,22,0,0,10,12,12,14,32,0,0
+Sword & Shield,Rending Fulgur I,180,21,Lightning,+15,0,,Critical Element +3,2,1,0,8,20,20,12,0,0,0,8,20,20,14,8,0,0
+Sword & Shield,Fulgursword Guardiana,210,25,Lightning,+15,0,,Critical Element +3,3,2,1,8,18,24,8,12,0,0,8,18,24,8,12,10,0
+Sword & Shield,Venom's Pain I,180,16,Poison,0,0,,"Punishing Draw +2,Critical Draw +1",2,1,0,18,10,18,14,0,0,0,18,10,18,24,0,0,0
+Sword & Shield,Venom's Pain II,200,19,Poison,0,0,,"Punishing Draw +2,Critical Draw +2",2,1,0,18,10,12,12,8,0,0,18,10,12,12,18,0,0
+Sword & Shield,Viperine Saber,230,25,Poison,0,0,,"Punishing Draw +3,Critical Draw +2",3,3,1,18,10,18,12,12,0,0,18,10,18,12,22,0,0
+Sword & Shield,Ajara Saber I,130,12,Blast,+10,0,,Offensive Guard +2,0,0,0,10,12,14,14,0,0,0,10,12,14,24,0,0,0
+Sword & Shield,Ajara Saber II,180,15,Blast,+10,0,,Offensive Guard +3,2,1,0,10,12,18,8,12,0,0,10,12,18,8,22,0,0
+Sword & Shield,Ajara-Subinda,210,18,Blast,+10,0,,Offensive Guard +3,3,2,1,10,12,10,18,8,12,0,10,12,10,18,8,22,0
+Sword & Shield,Snow-white Jambiya I,200,14,Ice,-10,0,,"Critical Draw +2,Offensive Guard +1",2,1,0,10,6,18,16,10,0,0,10,6,18,16,20,0,0
+Sword & Shield,Snow Lion Jambiya,230,18,Ice,-10,0,,"Critical Draw +2,Offensive Guard +1",3,2,1,10,6,18,16,10,10,0,10,6,18,16,10,20,0
+Sword & Shield,Chata Club I,110,0,N/A,0,15,,Guard +1,0,0,0,10,2,22,6,0,0,0,10,2,22,16,0,0,0
+Sword & Shield,Chata Club II,150,0,N/A,0,15,,Guard +2,0,0,0,16,2,24,8,0,0,0,16,2,24,18,0,0,0
+Sword & Shield,Chata Club III,180,0,N/A,0,15,,Guard +2,2,1,0,14,4,22,16,4,0,0,14,4,22,16,14,0,0
+Sword & Shield,Chata Club IV,210,0,N/A,0,15,,"Guard +2,Guard Up +1",3,2,0,12,2,22,22,12,0,0,12,2,22,22,22,0,0
+Sword & Shield,Nihil Sword I,160,12,Water,0,0,,Guard +2,1,0,0,4,22,8,16,0,0,0,4,22,8,26,0,0,0
+Sword & Shield,Nihil Sword II,190,15,Water,0,0,,Guard +3,2,1,0,4,22,10,12,12,0,0,4,22,10,12,22,0,0
+Sword & Shield,Cordayle's Revocation,220,18,Water,0,0,,Guard +3,3,2,1,4,22,10,10,8,16,0,4,22,10,10,8,26,0
+Sword & Shield,G. Veldian Mucro I,170,12,Dragon,-10,0,,Guard +2,1,1,0,20,6,16,8,0,0,0,20,6,16,18,0,0,0
+Sword & Shield,G. Veldian Mucro II,210,15,Dragon,-10,0,,Guard +2,2,2,0,20,12,16,12,0,0,0,20,12,16,14,8,0,0
+Sword & Shield,G. Guiding Artorius,240,18,Dragon,-10,0,,Guard +2,3,3,1,20,14,10,14,12,0,0,20,14,10,14,14,8,0
+Sword & Shield,Veldian Mucro I,200,22,Dragon,0,0,,Guard +3,3,2,0,10,14,16,14,8,8,0,10,14,16,14,8,18,0
+Sword & Shield,Artian Sword I,170,23,N/A,+5,0,,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Sword & Shield,Artian Sword II,180,23,N/A,+5,0,,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Sword & Shield,Verdoloto,190,26,N/A,+5,0,,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Sword & Shield,Esperanza Sword,210,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,10,12,8,18,0,10,12,10,12,8,28,0
+Sword & Shield,Shrouded Katalo,230,0,N/A,0,15,,"Guard +3,Guard Up +1",3,2,1,12,2,20,18,18,0,0,12,2,20,18,18,10,0
+Sword & Shield,Guiding Artorius,220,25,Dragon,0,0,,Guard +3,3,2,1,10,10,16,12,10,12,0,10,10,16,12,10,22,0
+Dual Blades,Hope Daggers I,90,0,N/A,0,0,,,0,0,0,10,8,8,14,0,0,0,10,8,8,24,0,0,0
+Dual Blades,Hope Daggers II,100,0,N/A,0,0,,Speed Sharpening +1,0,0,0,8,8,8,16,0,0,0,8,8,8,26,0,0,0
+Dual Blades,Hope Daggers III,130,0,N/A,0,0,,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,8,20,0,0,0,10,12,8,30,0,0,0
+Dual Blades,Hope Daggers IV,160,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,10,14,14,0,0,10,12,10,14,24,0,0
+Dual Blades,Hope Daggers V,190,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,8,14,12,14,0,10,12,8,14,12,24,0
+Dual Blades,Bone Hatchets I,110,0,N/A,0,0,,Focus +1,0,0,0,10,12,18,0,0,0,0,10,12,26,2,0,0,0
+Dual Blades,Bone Hatchets II,130,0,N/A,0,0,,"Focus +1,Attack Boost +1",0,0,0,10,6,24,0,0,0,0,10,6,28,6,0,0,0
+Dual Blades,Bone Hatchets III,170,0,N/A,0,0,,"Focus +2,Attack Boost +1",1,0,0,10,10,20,10,0,0,0,10,10,20,20,0,0,0
+Dual Blades,Bone Hatchets IV,200,0,N/A,0,0,,"Focus +3,Attack Boost +1",2,1,0,10,10,16,24,0,0,0,10,10,16,34,0,0,0
+Dual Blades,Wild Hatchets,230,0,N/A,0,0,,"Focus +3,Attack Boost +1",3,2,1,10,10,12,14,24,0,0,10,10,12,14,34,0,0
+Dual Blades,Dual Hatchets I,120,0,N/A,0,0,,Power Prolonger +1,0,0,0,2,8,18,12,0,0,0,2,8,18,22,0,0,0
+Dual Blades,Dual Hatchets II,160,0,N/A,0,0,,Power Prolonger +2,1,0,0,2,12,18,18,0,0,0,2,12,18,28,0,0,0
+Dual Blades,Dual Hatchets III,190,0,N/A,0,0,,Power Prolonger +3,2,1,0,2,14,18,12,14,0,0,2,14,18,12,24,0,0
+Dual Blades,Dual Cleavers,220,0,N/A,0,0,,Power Prolonger +3,3,2,1,2,12,18,14,10,14,0,2,12,18,14,10,24,0
+Dual Blades,Quematrice Silexes I,100,7,Fire,+5,0,,Focus +1,0,0,0,10,14,6,10,0,0,0,10,14,6,20,0,0,0
+Dual Blades,Quematrice Silexes II,140,9,Fire,+5,0,,Focus +2,0,0,0,10,16,8,16,0,0,0,10,16,8,26,0,0,0
+Dual Blades,Quematrice Silexes III,170,11,Fire,+5,0,,Focus +2,2,1,0,14,16,12,10,8,0,0,14,16,12,10,18,0,0
+Dual Blades,Quematrice Silexes IV,210,13,Fire,+5,0,,Focus +3,3,2,0,14,16,12,16,12,0,0,14,16,12,16,22,0,0
+Dual Blades,Firetrail Magnesiae,240,15,Fire,+5,0,,Focus +3,3,2,1,12,14,12,16,16,0,0,12,14,12,16,26,0,0
+Dual Blades,Barina Faucilles I,100,6,Paralysis,+10,0,,Critical Draw +1,0,0,0,10,6,8,16,0,0,0,10,6,8,26,0,0,0
+Dual Blades,Barina Faucilles II,120,8,Paralysis,+10,0,,"Critical Draw +1,Critical Status +1",0,0,0,14,6,6,24,0,0,0,14,6,6,34,0,0,0
+Dual Blades,Barina Faucilles III,150,11,Paralysis,+15,0,,"Critical Draw +1,Critical Status +1",2,1,0,14,6,6,20,14,0,0,14,6,6,20,24,0,0
+Dual Blades,Barina Faucilles IV,180,13,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,0,14,6,6,18,12,14,0,14,6,6,18,12,24,0
+Dual Blades,Lala Harpactirs,200,15,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,1,14,6,6,12,8,24,0,14,6,6,12,8,34,0
+Dual Blades,Pink Maracas I,120,0,N/A,+5,0,,"Punishing Draw +1,Critical Draw +1",0,0,0,10,10,10,10,0,0,0,10,10,10,20,0,0,0
+Dual Blades,Pink Maracas II,170,0,N/A,+5,0,,"Punishing Draw +2,Critical Draw +1",2,1,0,14,14,12,12,8,0,0,14,14,12,12,18,0,0
+Dual Blades,Funky Maracas,220,0,N/A,+5,0,,"Punishing Draw +3,Critical Draw +2",3,3,1,12,12,12,12,10,12,0,12,12,12,12,10,22,0
+Dual Blades,Dosha Fastflayers I,140,0,N/A,-5,20,,Power Prolonger +1,0,0,0,2,18,20,0,0,0,0,2,18,24,6,0,0,0
+Dual Blades,Dosha Fastflayers II,180,0,N/A,-5,20,,Power Prolonger +2,1,0,0,6,18,16,10,0,0,0,6,18,16,20,0,0,0
+Dual Blades,Dosha Fastflayers III,210,0,N/A,-5,20,,Power Prolonger +2,2,2,0,10,14,16,12,8,0,0,10,14,16,12,18,0,0
+Dual Blades,Uth Ngarpatu I,160,10,Water,-15,0,,Power Prolonger +2,0,0,0,10,14,16,10,0,0,0,10,14,16,20,0,0,0
+Dual Blades,Uth Ngarpatu II,190,14,Water,-15,0,,Power Prolonger +2,2,1,0,12,14,20,14,0,0,0,12,14,20,24,0,0,0
+Dual Blades,Uth Ngarpatu III,220,17,Water,-15,0,,Power Prolonger +3,3,2,0,12,14,24,12,8,0,0,12,14,24,12,18,0,0
+Dual Blades,Ngarpatu-of-the-Waves,240,20,Water,-15,0,,Power Prolonger +3,3,2,1,12,12,20,12,14,0,0,12,12,20,12,16,8,0
+Dual Blades,Ajara Twin Edges I,130,9,Blast,+10,0,,Power Prolonger +2,0,0,0,10,10,14,16,0,0,0,10,10,14,26,0,0,0
+Dual Blades,Ajara Twin Edges II,180,12,Blast,+10,0,,Power Prolonger +3,2,1,0,10,10,18,8,14,0,0,10,10,18,8,24,0,0
+Dual Blades,Ajara-Panthaka,210,15,Blast,+10,0,,Power Prolonger +3,3,2,1,10,10,10,18,8,14,0,10,10,10,18,8,24,0
+Dual Blades,Dosha Guardflayers I,180,0,N/A,-15,0,,Focus +2,1,0,0,2,14,24,10,0,0,0,2,14,24,20,0,0,0
+Dual Blades,Dosha Guardflayers II,220,0,N/A,-15,0,,Focus +2,2,2,0,8,16,22,14,0,0,0,8,16,22,24,0,0,0
+Dual Blades,Guardflayers Urbastra,250,0,N/A,-15,0,,Focus +2,3,3,1,6,12,20,18,14,0,0,6,12,20,18,16,8,0
+Dual Blades,Twin Albiraths I,160,9,Fire,+15,0,,"Master's Touch +1,Critical Element +1",1,0,0,10,18,10,12,0,0,0,10,18,10,22,0,0,0
+Dual Blades,Twin Albiraths II,180,12,Fire,+15,0,,"Master's Touch +1,Critical Element +1",2,1,0,10,20,10,8,12,0,0,10,20,10,8,16,6,0
+Dual Blades,Wyvern Sentinels,210,15,Fire,+15,0,,"Master's Touch +1,Critical Element +1",3,2,1,10,26,10,10,8,6,0,10,26,10,10,8,16,0
+Dual Blades,Jin Dhakoo I,190,27,Ice,0,0,,Focus +3,3,2,0,8,8,4,20,22,8,0,8,8,4,20,22,18,0
+Dual Blades,Precipice Ulokiem,210,30,Ice,0,0,,Focus +3,3,2,1,8,8,2,16,24,12,0,8,8,2,16,24,22,0
+Dual Blades,Chthonian Kusarigamas I,140,14,Dragon,+10,0,,Power Prolonger +2,1,0,0,10,10,12,18,0,0,0,10,10,12,28,0,0,0
+Dual Blades,Chthonian Kusarigamas II,170,17,Dragon,+10,0,,Power Prolonger +3,2,1,0,10,10,10,16,14,0,0,10,10,10,16,24,0,0
+Dual Blades,Bequeathed Oblivion,210,20,Dragon,+10,0,,Power Prolonger +3,3,2,1,10,10,12,16,20,12,0,10,10,12,16,20,12,0
+Dual Blades,G. Veldian Harpes I,170,9,Dragon,-10,0,,Focus +2,1,1,0,20,2,18,10,0,0,0,20,2,18,20,0,0,0
+Dual Blades,G. Veldian Harpes II,210,12,Dragon,-10,0,,Focus +2,2,2,0,20,8,18,14,0,0,0,20,8,18,16,8,0,0
+Dual Blades,G. Inspired Ywain,240,15,Dragon,-10,0,,Focus +2,3,3,1,20,10,10,16,14,0,0,20,10,10,16,16,8,0
+Dual Blades,Kut-Ku Pair I,180,18,Fire,0,0,,Power Prolonger +2,2,1,0,18,18,10,14,0,0,0,18,18,10,18,6,0,0
+Dual Blades,Kut-Ku Pair II,210,22,Fire,0,0,,Power Prolonger +3,3,2,0,20,20,6,14,10,0,0,20,20,6,14,14,6,0
+Dual Blades,Dual Kut-Ku,220,25,Fire,0,0,,Power Prolonger +3,3,2,1,20,22,4,12,12,0,0,20,22,4,12,14,8,0
+Dual Blades,Dual Battleaxes I,180,14,Poison,0,0,,Power Prolonger +2,2,1,0,18,8,18,16,0,0,0,18,8,18,26,0,0,0
+Dual Blades,Dual Battleaxes II,200,17,Poison,0,0,,Power Prolonger +3,2,1,0,18,10,12,10,10,0,0,18,10,12,10,20,0,0
+Dual Blades,Final Battleaxes,230,20,Poison,0,0,,Power Prolonger +3,3,2,1,18,10,18,10,14,0,0,18,10,18,10,24,0,0
+Dual Blades,Whirling Fulgur I,180,16,Lightning,+15,0,,Critical Element +3,2,1,0,8,20,18,14,0,0,0,8,20,18,16,8,0,0
+Dual Blades,Fulgurtwins Guardiana,210,20,Lightning,+15,0,,Critical Element +3,3,2,1,8,18,24,6,14,0,0,8,18,24,6,14,10,0
+Dual Blades,Blango Sai I,200,11,Ice,-10,0,,Power Prolonger +3,2,1,0,10,6,16,16,12,0,0,10,6,16,16,22,0,0
+Dual Blades,Blango Trishula,230,15,Ice,-10,0,,Power Prolonger +3,3,2,1,10,6,16,16,10,12,0,10,6,16,16,10,22,0
+Dual Blades,Gravios Warmakers I,210,17,Blast,-15,30,,Focus +3,2,1,0,16,14,16,14,0,0,0,16,14,16,20,4,0,0
+Dual Blades,Gravios Conquerors,240,20,Blast,-15,30,,Focus +3,3,2,1,14,14,14,14,14,0,0,14,14,14,14,24,0,0
+Dual Blades,Twin Flames I,180,16,Fire,+10,0,,Critical Boost +3,2,1,0,20,14,6,6,14,0,0,20,14,6,6,24,0,0
+Dual Blades,Wyvern Lovers,200,20,Fire,+10,0,,Critical Boost +3,3,2,1,20,14,10,8,6,12,0,20,14,10,8,6,22,0
+Dual Blades,Fledderklauen I,180,12,Dragon,+20,0,,Critical Element +3,3,2,0,10,14,16,10,8,12,0,10,14,16,10,8,22,0
+Dual Blades,Hungerklauen,200,15,Dragon,+20,0,,Critical Element +3,3,2,1,10,10,16,8,8,18,0,10,10,16,8,8,28,0
+Dual Blades,Veldian Harpes I,200,16,Dragon,0,0,,Focus +3,3,2,0,10,10,10,16,14,10,0,10,10,10,16,14,20,0
+Dual Blades,Guild Knight Sabers I,130,14,Water,+10,0,,Focus +2,1,0,0,10,10,10,14,6,0,0,10,10,10,14,16,0,0
+Dual Blades,Guild Knight Sabers II,160,17,Water,+10,0,,Focus +3,3,2,0,10,10,10,12,18,0,0,10,10,10,12,28,0,0
+Dual Blades,Master Sabers,200,20,Water,+10,0,,Focus +3,3,2,1,10,10,10,16,10,14,0,10,10,10,16,10,24,0
+Dual Blades,Esperanza Daggers,210,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,8,12,8,20,0,10,12,8,12,8,30,0
+Dual Blades,Artian Edges I,170,22,N/A,+5,0,,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Dual Blades,Artian Edges II,180,22,N/A,+5,0,,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Dual Blades,Tiltkreise,190,25,N/A,+5,0,,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Dual Blades,Fastflayers Jambastra,240,0,N/A,-5,20,,Power Prolonger +2,3,3,1,10,20,18,10,12,0,0,10,20,18,10,12,10,0
+Dual Blades,Inspired Ywain,220,20,Dragon,0,0,,Focus +3,3,2,1,10,10,10,14,12,14,0,10,10,10,14,12,24,0
+Long Sword,Hope Edge I,90,0,N/A,0,0,,,0,0,0,10,12,8,10,0,0,0,10,12,8,20,0,0,0
+Long Sword,Hope Edge II,100,0,N/A,0,0,,Speed Sharpening +1,0,0,0,8,10,10,12,0,0,0,8,10,10,22,0,0,0
+Long Sword,Hope Edge III,130,0,N/A,0,0,,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,12,16,0,0,0,10,12,12,26,0,0,0
+Long Sword,Hope Edge IV,160,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,14,14,10,0,0,10,12,14,14,20,0,0
+Long Sword,Hope Edge V,190,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,12,16,10,10,0,10,12,12,16,10,20,0
+Long Sword,Rey Tonitrus I,140,15,Lightning,0,0,,"Focus +1,Punishing Draw +1",0,0,0,2,2,30,16,0,0,0,2,2,30,26,0,0,0
+Long Sword,Rey Tonitrus II,170,19,Lightning,0,0,,"Focus +1,Punishing Draw +1",2,1,0,2,2,26,20,10,0,0,2,2,26,20,20,0,0
+Long Sword,Rey Tonitrus III,200,22,Lightning,0,0,,"Focus +2,Punishing Draw +1",3,2,0,2,2,24,16,16,10,0,2,2,24,16,16,20,0
+Long Sword,Tonitrus Clairblade,220,25,Lightning,0,0,,"Focus +2,Punishing Draw +1",3,2,1,2,2,22,14,14,16,0,2,2,22,14,14,26,0
+Long Sword,Stahlfakt I,180,27,Dragon,+20,0,,Critical Element +3,3,2,0,10,14,16,14,8,8,0,10,14,16,14,8,18,0
+Long Sword,Stahlrecht,210,30,Dragon,+20,0,,Critical Element +3,3,2,1,10,10,16,12,8,14,0,10,10,16,12,8,24,0
+Long Sword,Uth Khlunda I,160,20,Water,-15,0,,Power Prolonger +2,0,0,0,10,14,20,6,0,0,0,10,14,20,16,0,0,0
+Long Sword,Uth Khlunda II,190,26,Water,-15,0,,Power Prolonger +2,2,1,0,12,14,24,10,0,0,0,12,14,24,20,0,0,0
+Long Sword,Uth Khlunda III,220,32,Water,-15,0,,Power Prolonger +3,3,2,0,12,14,24,16,4,0,0,12,14,24,16,14,0,0
+Long Sword,Khlunda-of-the-Waves,240,35,Water,-15,0,,Power Prolonger +3,3,2,1,12,12,20,16,10,0,0,12,12,20,16,12,8,0
+Long Sword,Windclaw Blade I,140,18,Ice,0,0,,"Focus +2,Airborne +1",0,0,0,10,12,16,12,0,0,0,10,12,16,22,0,0,0
+Long Sword,Windclaw Blade II,170,23,Ice,0,0,,"Focus +2,Airborne +1",2,1,0,10,10,14,20,6,0,0,10,10,14,20,16,0,0
+Long Sword,Windclaw Blade III,200,27,Ice,0,0,,"Focus +3,Airborne +1",3,2,0,10,10,10,6,28,6,0,10,10,10,6,28,16,0
+Long Sword,Windclaw Kiribami,220,30,Ice,0,0,,"Focus +3,Airborne +1",3,2,1,10,10,10,6,24,10,0,10,10,10,6,24,20,0
+Long Sword,Quematrice Lima I,100,10,Fire,+5,0,,Punishing Draw +1,0,0,0,10,14,10,6,0,0,0,10,14,10,16,0,0,0
+Long Sword,Quematrice Lima II,140,12,Fire,+5,0,,Punishing Draw +2,0,0,0,10,16,12,12,0,0,0,10,16,12,22,0,0,0
+Long Sword,Quematrice Lima III,170,15,Fire,+5,0,,Punishing Draw +2,2,1,0,14,16,16,10,4,0,0,14,16,16,10,14,0,0
+Long Sword,Quematrice Lima IV,210,17,Fire,+5,0,,Punishing Draw +3,3,2,0,14,16,16,16,8,0,0,14,16,16,16,18,0,0
+Long Sword,Firetrail Ferrocere,230,20,Fire,+5,0,,Punishing Draw +3,3,2,1,12,14,16,16,12,0,0,12,14,16,16,22,0,0
+Long Sword,Iron Katana I,120,0,N/A,0,0,,Critical Draw +1,0,0,0,6,8,18,8,0,0,0,6,8,18,18,0,0,0
+Long Sword,Iron Katana II,160,0,N/A,0,0,,Critical Draw +2,1,0,0,6,12,18,14,0,0,0,6,12,18,24,0,0,0
+Long Sword,Iron Katana III,190,0,N/A,0,0,,Critical Draw +3,2,1,0,6,14,18,12,10,0,0,6,14,18,12,20,0,0
+Long Sword,Keen Edge,220,0,N/A,0,0,,Critical Draw +3,3,2,1,6,12,18,14,10,10,0,6,12,18,14,10,20,0
+Long Sword,"Wyvern Blade ""Ash"" I",160,21,Fire,+15,0,,"Master's Touch +1,Critical Element +1",1,0,0,10,20,12,8,0,0,0,10,20,12,18,0,0,0
+Long Sword,"Wyvern Blade ""Ash"" II",180,26,Fire,+15,0,,"Master's Touch +1,Critical Element +1",2,1,0,10,24,10,8,8,0,0,10,24,10,8,12,6,0
+Long Sword,"Wyvern Blade ""Lily""",210,30,Fire,+15,0,,"Master's Touch +1,Critical Element +1",3,2,1,10,30,10,8,8,4,0,10,30,10,8,8,14,0
+Long Sword,"Wyvern Blade ""Blood"" I",180,29,Fire,+10,0,,Critical Boost +3,2,1,0,20,14,10,6,10,0,0,20,14,10,6,20,0,0
+Long Sword,"Wyvern Blade ""Maple""",200,35,Fire,+10,0,,Critical Boost +3,3,2,1,20,14,10,8,10,8,0,20,14,10,8,10,18,0
+Long Sword,"Wyvern Blade ""Verde"" I",160,14,Poison,+15,0,,"Critical Status +2,Poison Duration Up +1",2,1,0,10,14,8,20,8,0,0,10,14,8,20,18,0,0
+Long Sword,"Wyvern Blade ""Verde"" II",190,17,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,0,8,16,8,24,6,8,0,8,16,8,24,6,18,0
+Long Sword,"Wyvern Blade ""Holly""",210,20,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,1,8,16,6,22,6,12,0,8,16,6,22,6,22,0
+Long Sword,Barina Flamberge I,100,10,Paralysis,+10,0,,Critical Draw +1,0,0,0,10,10,8,12,0,0,0,10,10,8,22,0,0,0
+Long Sword,Barina Flamberge II,120,13,Paralysis,+10,0,,"Critical Draw +1,Critical Status +1",0,0,0,14,10,6,20,0,0,0,14,10,6,30,0,0,0
+Long Sword,Barina Flamberge III,150,18,Paralysis,+15,0,,"Critical Draw +1,Critical Status +1",2,1,0,14,10,6,20,10,0,0,14,10,6,20,20,0,0
+Long Sword,Barina Flamberge IV,180,21,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,0,14,10,6,18,12,10,0,14,10,6,18,12,20,0
+Long Sword,Lala Ornithocton,200,25,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,1,14,10,6,12,8,20,0,14,10,6,12,8,30,0
+Long Sword,Blood Cry I,120,13,Sleep,+10,0,,Power Prolonger +2,0,0,0,14,10,6,20,0,0,0,14,10,6,30,0,0,0
+Long Sword,Blood Cry II,150,18,Sleep,+15,0,,Power Prolonger +2,2,1,0,14,10,6,20,10,0,0,14,10,6,20,20,0,0
+Long Sword,Blood Cry III,180,22,Sleep,+15,0,,Power Prolonger +3,3,2,0,14,10,6,18,12,10,0,14,10,6,18,12,20,0
+Long Sword,Blood Scream,200,25,Sleep,+15,0,,Power Prolonger +3,3,2,1,14,10,6,12,8,20,0,14,10,6,12,8,30,0
+Long Sword,Bone Shotel I,110,0,N/A,0,0,,Focus +1,0,0,0,10,16,14,0,0,0,0,10,16,22,2,0,0,0
+Long Sword,Bone Shotel II,130,0,N/A,0,0,,"Focus +1,Attack Boost +1",0,0,0,10,10,20,0,0,0,0,10,10,24,6,0,0,0
+Long Sword,Bone Shotel III,170,0,N/A,0,0,,"Focus +2,Attack Boost +1",1,0,0,10,14,20,6,0,0,0,10,14,20,16,0,0,0
+Long Sword,Bone Shotel IV,200,0,N/A,0,0,,"Focus +3,Attack Boost +1",2,1,0,10,14,16,20,0,0,0,10,14,16,30,0,0,0
+Long Sword,Hard Bone Shotel,230,0,N/A,0,0,,"Focus +3,Attack Boost +1",3,2,1,10,12,14,14,20,0,0,10,12,14,14,30,0,0
+Long Sword,Gnashing Fulgur I,180,29,Lightning,+20,0,,Critical Element +3,2,1,0,8,20,22,10,0,0,0,8,20,22,12,8,0,0
+Long Sword,Fulgurblade Guardiana,210,35,Lightning,+20,0,,Critical Element +3,3,2,1,8,18,24,10,10,0,0,8,18,24,10,10,10,0
+Long Sword,Rompo Hacker I,140,15,Poison,0,0,,Power Prolonger +2,0,0,0,10,12,20,8,0,0,0,10,12,20,18,0,0,0
+Long Sword,Rompo Hacker II,170,19,Poison,0,0,,Power Prolonger +2,2,1,0,10,10,20,18,2,0,0,10,10,20,18,12,0,0
+Long Sword,Rompo Hacker III,200,22,Poison,0,0,,Power Prolonger +3,3,2,0,12,10,20,6,20,2,0,12,10,20,6,20,12,0
+Long Sword,Rompo Mytoxin,220,25,Poison,0,0,,Power Prolonger +3,3,2,1,8,10,20,6,20,6,0,8,10,20,6,20,16,0
+Long Sword,Dosha Fatecleaver I,140,0,N/A,-5,20,,Punishing Draw +1,0,0,0,6,18,16,0,0,0,0,6,18,20,6,0,0,0
+Long Sword,Dosha Fatecleaver II,180,0,N/A,-5,20,,Punishing Draw +2,1,0,0,8,18,18,6,0,0,0,8,18,18,16,0,0,0
+Long Sword,Dosha Fatecleaver III,210,0,N/A,-5,20,,Punishing Draw +3,2,1,0,10,16,18,12,4,0,0,10,16,18,12,14,0,0
+Long Sword,Blanberge I,200,16,Ice,-10,0,,Critical Draw +3,2,1,0,10,6,20,16,8,0,0,10,6,20,16,18,0,0
+Long Sword,Blangongaberge,230,20,Ice,-10,0,,Critical Draw +3,3,2,1,10,6,20,16,10,8,0,10,6,20,16,10,18,0
+Long Sword,Dosha Gravecleaver I,180,0,N/A,-15,0,,Power Prolonger +2,1,0,0,6,14,24,6,0,0,0,6,14,24,16,0,0,0
+Long Sword,Dosha Gravecleaver II,220,0,N/A,-15,0,,Power Prolonger +3,2,1,0,10,20,20,10,0,0,0,10,20,20,20,0,0,0
+Long Sword,Gravecleaver Urkemush,250,0,N/A,-15,0,,Power Prolonger +3,3,2,1,10,14,18,18,10,0,0,10,14,18,18,14,6,0
+Long Sword,G. Veldian Ensis I,170,14,Dragon,-10,0,,Focus +2,1,1,0,20,6,18,6,0,0,0,20,6,18,16,0,0,0
+Long Sword,G. Veldian Ensis II,210,17,Dragon,-10,0,,Focus +2,2,2,0,20,12,18,10,0,0,0,20,12,18,12,8,0,0
+Long Sword,G. Righteous Lancelot,240,20,Dragon,-10,0,,Focus +2,3,3,1,20,14,10,16,10,0,0,20,14,10,16,12,8,0
+Long Sword,Veldian Ensis I,200,32,Dragon,0,0,,Focus +3,3,2,0,10,10,10,16,18,6,0,10,10,10,16,18,16,0
+Long Sword,Artian Saber I,170,23,N/A,+5,0,,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Long Sword,Artian Saber II,180,23,N/A,+5,0,,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Long Sword,Dimensius,190,27,N/A,+5,0,,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Long Sword,Esperanza Edge,210,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,12,12,8,16,0,10,12,12,12,8,26,0
+Long Sword,Fatecleaver Kimkemush,240,0,N/A,-5,20,,Punishing Draw +3,3,2,1,10,20,22,10,8,0,0,10,20,22,10,8,10,0
+Long Sword,Righteous Lancelot,220,35,Dragon,0,0,,Focus +3,3,2,1,10,10,10,14,16,10,0,10,10,10,14,16,20,0
+Hammer,Hope Hammer I,90,0,N/A,0,0,,,0,0,0,10,12,10,8,0,0,0,10,12,10,18,0,0,0
+Hammer,Hope Hammer II,100,0,N/A,0,0,,Speed Sharpening +1,0,0,0,8,10,12,10,0,0,0,8,10,12,20,0,0,0
+Hammer,Hope Hammer III,130,0,N/A,0,0,,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,14,14,0,0,0,10,12,14,24,0,0,0
+Hammer,Hope Hammer IV,160,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,16,14,8,0,0,10,12,16,14,18,0,0
+Hammer,Hope Hammer V,190,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,14,16,10,8,0,10,12,14,16,10,18,0
+Hammer,Bone Bludgeon I,110,0,N/A,0,0,,Focus +1,0,0,0,10,18,12,0,0,0,0,10,18,20,2,0,0,0
+Hammer,Bone Bludgeon II,130,0,N/A,0,0,,"Focus +2,Attack Boost +1",0,0,0,10,12,18,0,0,0,0,10,12,22,6,0,0,0
+Hammer,Bone Bludgeon III,170,0,N/A,0,0,,"Focus +2,Attack Boost +1",1,0,0,10,16,20,4,0,0,0,10,16,20,14,0,0,0
+Hammer,Bone Bludgeon IV,200,0,N/A,0,0,,"Focus +3,Attack Boost +1",2,1,0,10,16,16,18,0,0,0,10,16,16,28,0,0,0
+Hammer,Heavy Bone Bludgeon,230,0,N/A,0,0,,"Focus +3,Attack Boost +1",3,2,1,10,14,14,14,18,0,0,10,14,14,14,28,0,0
+Hammer,Iron Hammer I,120,0,N/A,0,0,,Critical Draw +1,0,0,0,8,8,18,6,0,0,0,8,8,18,16,0,0,0
+Hammer,Iron Hammer II,160,0,N/A,0,0,,Critical Draw +2,1,0,0,8,12,18,12,0,0,0,8,12,18,22,0,0,0
+Hammer,Iron Hammer III,190,0,N/A,0,0,,Critical Draw +2,2,1,0,8,14,18,12,8,0,0,8,14,18,12,18,0,0
+Hammer,Iron Devil,220,0,N/A,0,0,,Critical Draw +3,3,2,1,8,12,18,14,10,8,0,8,12,18,14,10,18,0
+Hammer,Chata Clobberer I,110,0,N/A,0,15,,Charge Up +1,0,0,0,10,6,22,2,0,0,0,10,6,22,12,0,0,0
+Hammer,Chata Clobberer II,150,0,N/A,0,15,,"Charge Up +1,Stamina Thief +1",0,0,0,16,6,24,4,0,0,0,16,6,24,14,0,0,0
+Hammer,Chata Clobberer III,180,0,N/A,0,15,,"Charge Up +1,Stamina Thief +1",2,1,0,14,6,22,16,2,0,0,14,6,22,16,12,0,0
+Hammer,Chata Clobberer IV,210,0,N/A,0,15,,"Charge Up +1,Stamina Thief +2",3,2,0,12,6,24,20,8,0,0,12,6,24,20,18,0,0
+Hammer,Balahara Hammer I,110,16,Water,+10,0,,Slugger +1,0,0,0,10,6,18,6,0,0,0,10,6,18,16,0,0,0
+Hammer,Balahara Hammer II,150,20,Water,+10,0,,Slugger +2,1,0,0,12,6,20,12,0,0,0,12,6,20,22,0,0,0
+Hammer,Balahara Hammer III,160,23,Water,+10,0,,Slugger +2,2,1,0,10,6,22,18,4,0,0,10,6,22,18,14,0,0
+Hammer,Balahara Hammer IV,190,27,Water,+10,0,,Slugger +3,3,2,0,8,6,22,18,14,2,0,8,6,22,18,14,12,0
+Hammer,Sandsea Siamitiya,210,30,Water,+10,0,,Slugger +3,3,2,1,8,6,20,18,14,4,0,8,6,20,18,14,14,0
+Hammer,Rompo Wrecker I,140,17,Poison,0,0,,Focus +2,0,0,0,12,12,20,6,0,0,0,12,12,20,16,0,0,0
+Hammer,Rompo Wrecker II,170,24,Poison,0,0,,Focus +2,2,1,0,10,10,20,18,2,0,0,10,10,20,18,12,0,0
+Hammer,Rompo Wrecker III,200,27,Poison,0,0,,Focus +3,3,2,0,12,10,20,6,20,2,0,12,10,20,6,20,12,0
+Hammer,Rompo Robustox,220,30,Poison,0,0,,Focus +3,3,2,1,10,10,20,6,20,4,0,10,10,20,6,20,14,0
+Hammer,Cluster Hammer I,120,15,Sleep,+10,0,,"Charge Master +1,Focus +1",0,0,0,14,12,6,18,0,0,0,14,12,6,28,0,0,0
+Hammer,Cluster Hammer II,150,21,Sleep,+15,0,,"Charge Master +1,Focus +1",2,1,0,14,12,6,20,8,0,0,14,12,6,20,18,0,0
+Hammer,Cluster Hammer III,180,27,Sleep,+15,0,,"Charge Master +2,Focus +1",3,2,0,14,12,6,18,12,8,0,14,12,6,18,12,18,0
+Hammer,Nerscrapper,200,30,Sleep,+15,0,,"Charge Master +2,Focus +1",3,2,1,14,12,6,12,8,18,0,14,12,6,12,8,28,0
+Hammer,Nu Pulpo I,170,20,Fire,-15,0,,"Protective Polish +2,Speed Sharpening +1",1,0,0,20,4,18,8,0,0,0,20,4,18,18,0,0,0
+Hammer,Nu Pulpo II,210,27,Fire,-15,0,,"Protective Polish +2,Speed Sharpening +2",3,2,0,20,4,22,14,10,0,0,20,4,22,14,20,0,0
+Hammer,Abaddonian Pulpo,230,30,Fire,-15,0,,"Protective Polish +3,Speed Sharpening +2",3,2,1,20,4,22,10,10,4,0,20,4,22,10,10,14,0
+Hammer,Albirath Bludgeon I,160,21,Fire,+15,0,,"Master's Touch +1,Critical Element +1",1,0,0,10,20,14,6,0,0,0,10,20,14,16,0,0,0
+Hammer,Albirath Bludgeon II,180,26,Fire,+15,0,,"Master's Touch +1,Critical Element +1",2,1,0,10,24,10,10,6,0,0,10,24,10,10,10,6,0
+Hammer,Gibil Hammer,210,30,Fire,+15,0,,"Master's Touch +1,Critical Element +1",3,2,1,10,30,10,8,8,4,0,10,30,10,8,8,14,0
+Hammer,Jin Dhauda I,190,47,Ice,0,0,,Focus +3,3,2,0,8,8,10,20,22,2,0,8,8,10,20,22,12,0
+Hammer,Precipice Logamtu,210,50,Ice,0,0,,Focus +3,3,2,1,8,8,8,16,24,6,0,8,8,8,16,24,16,0
+Hammer,Nihil Hammer I,160,16,Water,0,0,,Focus +2,1,0,0,4,22,12,12,0,0,0,4,22,12,22,0,0,0
+Hammer,Nihil Hammer II,190,21,Water,0,0,,Focus +3,2,1,0,4,22,14,12,8,0,0,4,22,14,12,18,0,0
+Hammer,Zaccio's Execution,220,25,Water,0,0,,Focus +3,3,2,1,4,22,10,10,12,12,0,4,22,10,10,12,22,0
+Hammer,G. Veldian Malleus I,170,16,Dragon,-10,0,,Focus +2,1,1,0,20,8,18,4,0,0,0,20,8,18,14,0,0,0
+Hammer,G. Veldian Malleus II,210,21,Dragon,-10,0,,Focus +2,2,2,0,20,14,18,8,0,0,0,20,14,18,10,8,0,0
+Hammer,G. Exultant Bedivere,240,25,Dragon,-10,0,,Focus +2,3,3,1,20,16,10,16,8,0,0,20,16,10,16,10,8,0
+Hammer,Kut-Ku Pick I,180,41,Fire,0,0,,Charge Master +2,2,1,0,20,20,12,8,0,0,0,20,20,12,12,6,0,0
+Hammer,Kut-Ku Pick II,210,47,Fire,0,0,,Charge Master +3,3,2,0,20,24,8,14,4,0,0,20,24,8,14,8,6,0
+Hammer,Kut-Ku Thwap,220,50,Fire,0,0,,Charge Master +3,3,2,1,22,24,6,12,6,0,0,22,24,6,12,8,8,0
+Hammer,Venom Monster I,180,31,Poison,0,0,,"Critical Draw +1,Charge Up +1",2,1,0,18,10,22,10,0,0,0,18,10,22,20,0,0,0
+Hammer,Venom Monster II,200,34,Poison,0,0,,"Critical Draw +2,Charge Up +1",2,1,0,18,10,16,12,4,0,0,18,10,16,12,14,0,0
+Hammer,Death Venom Hammer,230,40,Poison,0,0,,"Critical Draw +3,Charge Up +1",3,3,1,18,10,22,12,8,0,0,18,10,22,12,18,0,0
+Hammer,Crashing Fulgur I,180,39,Lightning,+15,0,,Critical Element +3,2,1,0,8,20,24,8,0,0,0,8,20,24,10,8,0,0
+Hammer,Fulgurhammer Guardiana,210,45,Lightning,+15,0,,Critical Element +3,3,2,1,8,18,24,12,8,0,0,8,18,24,12,8,10,0
+Hammer,Blan Gada I,200,21,Ice,-10,0,,Slugger +3,2,1,0,10,6,22,16,6,0,0,10,6,22,16,16,0,0
+Hammer,Singha Gada,230,25,Ice,-10,0,,Slugger +3,3,2,1,10,6,22,16,10,6,0,10,6,22,16,10,16,0
+Hammer,Shell Hammer I,210,34,Blast,-20,30,,Charge Master +3,2,1,0,22,14,16,8,0,0,0,22,14,16,14,4,0,0
+Hammer,Graviton Hammer,250,40,Blast,-20,30,,Charge Master +3,3,2,1,20,14,14,14,8,0,0,20,14,14,14,18,0,0
+Hammer,Red Bludgeon I,180,34,Fire,+10,0,,Critical Boost +3,2,1,0,20,14,10,8,8,0,0,20,14,10,8,18,0,0
+Hammer,Huracan Hammer,200,40,Fire,+10,0,,Critical Boost +3,3,2,1,20,14,10,8,12,6,0,20,14,10,8,12,16,0
+Hammer,Wuchtblick I,180,27,Dragon,+20,0,,Critical Element +3,3,2,0,10,14,16,14,10,6,0,10,14,16,14,10,16,0
+Hammer,Grimmblick,210,30,Dragon,+20,0,,Critical Element +3,3,2,1,10,10,16,12,10,12,0,10,10,16,12,10,22,0
+Hammer,Veldian Malleus I,200,32,Dragon,0,0,,Focus +3,3,2,0,10,10,10,16,20,4,0,10,10,10,16,20,14,0
+Hammer,Jail Hammer I,100,15,Paralysis,0,0,,Stamina Thief +1,0,0,0,12,12,10,6,0,0,0,12,12,10,16,0,0,0
+Hammer,Jail Hammer II,140,17,Paralysis,0,0,,Stamina Thief +2,0,0,0,14,12,12,12,0,0,0,14,12,12,22,0,0,0
+Hammer,Jail Hammer III,170,20,Paralysis,0,0,,Stamina Thief +2,2,1,0,14,14,14,12,6,0,0,14,14,14,12,16,0,0
+Hammer,Jail Hammer IV,200,22,Paralysis,0,0,,Stamina Thief +3,3,2,1,14,14,12,12,12,6,0,14,14,12,12,12,16,0
+Hammer,Binder Mace,220,25,Paralysis,0,0,,Stamina Thief +3,3,3,1,12,12,12,12,12,10,0,12,12,12,12,12,20,0
+Hammer,Artian Hammer I,170,27,N/A,+5,0,,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Hammer,Artian Hammer II,180,27,N/A,+5,0,,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Hammer,Moteurvankel,190,32,N/A,+5,0,,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Hammer,Esperanza Hammer,210,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,14,12,8,14,0,10,12,14,12,8,24,0
+Hammer,Shrouded Aghaturi,230,0,N/A,0,15,,"Charge Up +1,Stamina Thief +3",3,2,1,12,6,20,18,14,0,0,12,6,20,18,16,8,0
+Hammer,Exultant Bedivere,220,35,Dragon,0,0,,Focus +3,3,2,1,10,10,10,14,18,8,0,10,10,10,14,18,18,0
+Hunting Horn,Hope Horn I,90,0,N/A,0,0,,,0,0,0,10,12,10,8,0,0,0,10,12,10,18,0,0,0
+Hunting Horn,Hope Horn II,100,0,N/A,0,0,,Speed Sharpening +1,0,0,0,8,10,12,10,0,0,0,8,10,12,20,0,0,0
+Hunting Horn,Hope Horn III,130,0,N/A,0,0,,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,14,14,0,0,0,10,12,14,24,0,0,0
+Hunting Horn,Hope Horn IV,160,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,16,14,8,0,0,10,12,16,14,18,0,0
+Hunting Horn,Hope Horn V,190,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,14,16,10,8,0,10,12,14,16,10,18,0
+Hunting Horn,Bone Horn I,110,0,N/A,0,0,,Stamina Thief +1,0,0,0,10,18,12,0,0,0,0,10,18,20,2,0,0,0
+Hunting Horn,Bone Horn II,130,0,N/A,0,0,,"Stamina Thief +1,Attack Boost +1",0,0,0,10,12,18,0,0,0,0,10,12,22,6,0,0,0
+Hunting Horn,Bone Horn III,170,0,N/A,0,0,,"Stamina Thief +2,Attack Boost +1",1,0,0,10,16,20,4,0,0,0,10,16,20,14,0,0,0
+Hunting Horn,Bone Horn IV,190,0,N/A,0,0,,"Stamina Thief +3,Attack Boost +1",2,1,0,10,16,16,18,0,0,0,10,16,16,28,0,0,0
+Hunting Horn,Hardened Bone Horn,220,0,N/A,0,0,,"Stamina Thief +3,Attack Boost +1",3,2,1,10,14,14,14,18,0,0,10,14,14,14,28,0,0
+Hunting Horn,Metal Bagpipe I,120,0,N/A,0,0,,"Critical Draw +1,Horn Maestro +1",0,0,0,8,8,18,6,0,0,0,8,8,18,16,0,0,0
+Hunting Horn,Metal Bagpipe II,160,0,N/A,0,0,,"Critical Draw +2,Horn Maestro +1",1,0,0,8,12,18,12,0,0,0,8,12,18,22,0,0,0
+Hunting Horn,Metal Bagpipe III,180,0,N/A,0,0,,"Critical Draw +3,Horn Maestro +1",2,1,0,8,14,18,12,8,0,0,8,14,18,12,18,0,0
+Hunting Horn,Great Bagpipe,210,0,N/A,0,0,,"Critical Draw +3,Horn Maestro +1",3,2,1,8,12,18,14,10,8,0,8,12,18,14,10,18,0
+Hunting Horn,War Bongo I,110,0,N/A,+5,0,,Horn Maestro +1,0,0,0,10,16,10,4,0,0,0,10,16,10,14,0,0,0
+Hunting Horn,War Bongo II,160,0,N/A,+5,0,,"Horn Maestro +1,Speed Sharpening +1",2,1,1,14,20,12,12,2,0,0,14,20,12,12,12,0,0
+Hunting Horn,War Conga,210,0,N/A,+5,0,,"Horn Maestro +2,Speed Sharpening +1",3,3,1,12,18,12,12,10,6,0,12,18,12,12,10,16,0
+Hunting Horn,Balahara Horn I,110,16,Water,+10,0,,Slugger +1,0,0,0,10,6,18,6,0,0,0,10,6,18,16,0,0,0
+Hunting Horn,Balahara Horn II,150,20,Water,+10,0,,Slugger +2,1,0,0,12,6,20,12,0,0,0,12,6,20,22,0,0,0
+Hunting Horn,Balahara Horn III,160,23,Water,+10,0,,Slugger +2,2,1,0,10,6,22,18,4,0,0,10,6,22,18,14,0,0
+Hunting Horn,Balahara Horn IV,190,27,Water,+10,0,,Slugger +3,3,2,0,8,6,22,18,14,2,0,8,6,22,18,14,12,0
+Hunting Horn,Sandsea Ghantisil,210,30,Water,+10,0,,Slugger +3,3,2,1,8,6,20,18,14,4,0,8,6,20,18,14,14,0
+Hunting Horn,Dosha Farsounder I,140,0,N/A,-5,20,,Slugger +1,0,0,0,8,18,14,0,0,0,0,8,18,18,6,0,0,0
+Hunting Horn,Dosha Farsounder II,180,0,N/A,-5,20,,"Slugger +1,Horn Maestro +1",1,0,0,10,18,18,4,0,0,0,10,18,18,14,0,0,0
+Hunting Horn,Dosha Farsounder III,210,0,N/A,-5,20,,"Slugger +2,Horn Maestro +1",2,1,0,12,18,18,10,2,0,0,12,18,18,10,12,0,0
+Hunting Horn,Rey Perun I,140,18,Lightning,0,0,,"Stamina Thief +2,Horn Maestro +1",0,0,0,2,2,32,14,0,0,0,2,2,32,24,0,0,0
+Hunting Horn,Rey Perun II,170,23,Lightning,0,0,,"Stamina Thief +2,Horn Maestro +1",2,1,0,2,2,28,20,8,0,0,2,2,28,20,18,0,0
+Hunting Horn,Rey Perun III,200,27,Lightning,0,0,,"Stamina Thief +3,Horn Maestro +1",3,2,0,2,2,26,16,16,8,0,2,2,26,16,16,18,0
+Hunting Horn,Perun Clairhorn,220,30,Lightning,0,0,,"Stamina Thief +3,Horn Maestro +1",3,2,1,2,2,24,14,14,14,0,2,2,24,14,14,24,0
+Hunting Horn,Ajara Reverberator I,130,14,Blast,+10,0,,Slugger +2,0,0,0,10,16,14,10,0,0,0,10,16,14,20,0,0,0
+Hunting Horn,Ajara Reverberator II,180,19,Blast,+10,0,,Slugger +3,2,1,0,10,16,18,8,8,0,0,10,16,18,8,18,0,0
+Hunting Horn,Ajara-Jivaka,210,25,Blast,+10,0,,Slugger +3,3,2,1,10,16,10,18,8,8,0,10,16,10,18,8,18,0
+Hunting Horn,Dosha Grudgesounder I,180,0,N/A,-15,0,,"Stamina Thief +2,Horn Maestro +1",1,0,0,8,14,24,4,0,0,0,8,14,24,14,0,0,0
+Hunting Horn,Dosha Grudgesounder II,220,0,N/A,-15,0,,"Stamina Thief +3,Horn Maestro +1",2,1,0,12,18,22,8,0,0,0,12,18,22,18,0,0,0
+Hunting Horn,Grudgesounder Urga,250,0,N/A,-15,0,,"Stamina Thief +3,Horn Maestro +1",3,2,1,12,16,20,14,8,0,0,12,16,20,14,10,8,0
+Hunting Horn,Albirath Feroce I,160,21,Fire,+15,0,,"Master's Touch +1,Critical Element +1",1,0,0,10,20,14,6,0,0,0,10,20,14,16,0,0,0
+Hunting Horn,Albirath Feroce II,170,26,Fire,+15,0,,"Master's Touch +1,Critical Element +1",2,1,0,10,24,10,10,6,0,0,10,24,10,10,10,6,0
+Hunting Horn,G. Rathalos Feroce,200,30,Fire,+15,0,,"Master's Touch +1,Critical Element +1",3,2,1,10,30,10,8,8,4,0,10,30,10,8,8,14,0
+Hunting Horn,Jin Dhaang I,190,47,Ice,0,0,,Slugger +3,3,2,0,8,8,10,20,22,2,0,8,8,10,20,22,12,0
+Hunting Horn,Precipice Kovira,210,50,Ice,0,0,,Slugger +3,3,2,1,8,8,8,16,24,6,0,8,8,8,16,24,16,0
+Hunting Horn,Nihil Chord I,160,16,Water,0,0,,"Stamina Thief +2,Horn Maestro +1",1,0,0,4,22,12,12,0,0,0,4,22,12,22,0,0,0
+Hunting Horn,Nihil Chord II,190,21,Water,0,0,,"Stamina Thief +3,Horn Maestro +1",2,1,0,4,22,14,12,8,0,0,4,22,14,12,18,0,0
+Hunting Horn,Kae-Jin's Lament,220,25,Water,0,0,,"Stamina Thief +3,Horn Maestro +1",3,2,1,4,22,10,10,12,12,0,4,22,10,10,12,22,0
+Hunting Horn,G. Veldian Sibilus I,170,16,Dragon,-10,0,,Horn Maestro +2,1,1,0,20,8,18,4,0,0,0,20,8,18,14,0,0,0
+Hunting Horn,G. Veldian Sibilus II,200,21,Dragon,-10,0,,Horn Maestro +2,2,2,0,20,14,18,8,0,0,0,20,14,18,10,8,0,0
+Hunting Horn,G. Resounding Galahad,230,25,Dragon,-10,0,,Horn Maestro +2,3,3,1,20,16,10,16,8,0,0,20,16,10,16,10,8,0
+Hunting Horn,Kut-Ku's Song I,190,41,Fire,0,0,,"Stamina Thief +2,Horn Maestro +1",2,1,0,20,20,12,8,0,0,0,20,20,12,12,6,0,0
+Hunting Horn,Kut-Ku's Song II,220,47,Fire,0,0,,"Stamina Thief +3,Horn Maestro +1",3,2,0,20,24,8,14,4,0,0,20,24,8,14,8,6,0
+Hunting Horn,Kut-Ku Cantabile,230,50,Fire,0,0,,"Stamina Thief +3,Horn Maestro +1",3,2,1,22,24,6,12,6,0,0,22,24,6,12,6,10,0
+Hunting Horn,Poisoned Capri I,180,31,Poison,0,0,,"Critical Draw +2,Horn Maestro +1",2,1,0,18,10,22,10,0,0,0,18,10,22,20,0,0,0
+Hunting Horn,Poisoned Capri II,200,34,Poison,0,0,,"Critical Draw +3,Horn Maestro +1",2,1,0,18,10,16,12,4,0,0,18,10,16,12,14,0,0
+Hunting Horn,Crazed Melody,230,40,Poison,0,0,,"Critical Draw +3,Horn Maestro +1",3,2,1,18,10,22,12,8,0,0,18,10,22,12,18,0,0
+Hunting Horn,Valkyrie Chordmaker I,150,19,Poison,+15,0,,"Critical Status +2,Poison Duration Up +1",2,1,0,10,14,8,22,6,0,0,10,14,8,22,16,0,0
+Hunting Horn,Valkyrie Chordmaker II,180,22,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,0,8,16,8,24,8,6,0,8,16,8,24,8,16,0
+Hunting Horn,Queen Chordmaker,200,25,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,1,8,16,6,24,6,10,0,8,16,6,24,6,20,0
+Hunting Horn,Deafening Fulgur I,180,34,Lightning,+15,0,,Critical Element +3,2,1,0,8,20,24,8,0,0,0,8,20,24,10,8,0,0
+Hunting Horn,Fulgurhowl Guardiana,210,40,Lightning,+15,0,,Critical Element +3,3,2,1,8,18,24,12,8,0,0,8,18,24,12,8,10,0
+Hunting Horn,Flame Feroce I,180,34,Fire,+10,0,,Critical Boost +3,2,1,0,20,14,10,8,8,0,0,20,14,10,8,18,0,0
+Hunting Horn,Rathalos Feroce,200,40,Fire,+10,0,,Critical Boost +3,3,2,1,20,14,10,8,12,6,0,20,14,10,8,12,16,0
+Hunting Horn,Kummerklang I,170,27,Dragon,+20,0,,Critical Element +3,3,2,0,10,14,16,14,10,6,0,10,14,16,14,10,16,0
+Hunting Horn,Gramklang,200,30,Dragon,+20,0,,Critical Element +3,3,2,1,10,10,16,12,10,12,0,10,10,16,12,10,22,0
+Hunting Horn,Veldian Sibilus I,190,37,Dragon,0,0,,"Slugger +2,Horn Maestro +2",3,2,0,10,10,10,16,20,4,0,10,10,10,16,20,14,0
+Hunting Horn,Sonic Horn I,90,15,Paralysis,0,0,,Protective Polish +1,0,0,0,10,12,18,0,0,0,0,10,12,20,8,0,0,0
+Hunting Horn,Sonic Horn II,120,21,Paralysis,0,0,,"Protective Polish +2,Speed Sharpening +1",0,0,0,10,18,18,4,0,0,0,10,18,18,14,0,0,0
+Hunting Horn,Sonic Horn III,150,31,Paralysis,0,0,,"Protective Polish +2,Speed Sharpening +1",2,1,0,10,16,16,18,0,0,0,10,16,16,28,0,0,0
+Hunting Horn,Sonic Horn IV,180,37,Paralysis,0,0,,"Protective Polish +3,Speed Sharpening +1",3,2,0,10,14,18,18,10,0,0,10,14,18,18,16,4,0
+Hunting Horn,Glass Royale,200,40,Paralysis,0,0,,"Protective Polish +3,Speed Sharpening +2",3,2,1,10,10,16,16,18,0,0,10,10,16,16,18,10,0
+Hunting Horn,Artian Sounder I,170,27,N/A,+5,0,,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Hunting Horn,Artian Sounder II,180,27,N/A,+5,0,,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Hunting Horn,Omiltika,190,32,N/A,+5,0,,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Hunting Horn,Esperanza Horn,210,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,14,12,8,14,0,10,12,14,12,8,24,0
+Hunting Horn,Farsounder Honga,240,0,N/A,-5,20,,"Slugger +2,Horn Maestro +1",3,2,1,10,20,24,10,6,0,0,10,20,24,10,6,10,0
+Hunting Horn,Resounding Galahad,210,40,Dragon,0,0,,"Slugger +2,Horn Maestro +2",3,2,1,10,10,10,14,18,8,0,10,10,10,14,18,18,0
+Lance,Hope Lance I,90,0,N/A,0,0,,,0,0,0,10,12,8,10,0,0,0,10,12,8,20,0,0,0
+Lance,Hope Lance II,100,0,N/A,0,0,,Speed Sharpening +1,0,0,0,8,10,10,12,0,0,0,8,10,10,22,0,0,0
+Lance,Hope Lance III,130,0,N/A,0,0,,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,12,16,0,0,0,10,12,12,26,0,0,0
+Lance,Hope Lance IV,160,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,14,14,10,0,0,10,12,14,14,20,0,0
+Lance,Hope Lance V,190,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,12,16,10,10,0,10,12,12,16,10,20,0
+Lance,Bone Lance I,110,0,N/A,0,0,,Guard +1,0,0,0,10,16,14,0,0,0,0,10,16,22,2,0,0,0
+Lance,Bone Lance II,130,0,N/A,0,0,,"Guard +1,Attack Boost +1",0,0,0,10,10,20,0,0,0,0,10,10,24,6,0,0,0
+Lance,Bone Lance III,170,0,N/A,0,0,,"Guard +2,Attack Boost +1",1,0,0,10,14,20,6,0,0,0,10,14,20,16,0,0,0
+Lance,Bone Lance IV,200,0,N/A,0,0,,"Guard +3,Attack Boost +1",2,1,0,10,14,16,20,0,0,0,10,14,16,30,0,0,0
+Lance,Hard Bone Lance,230,0,N/A,0,0,,"Guard +3,Attack Boost +1",3,2,1,10,12,14,14,20,0,0,10,12,14,14,30,0,0
+Lance,Chrome Drill I,120,0,N/A,0,0,,Guard Up +1,0,0,0,6,8,18,8,0,0,0,6,8,18,18,0,0,0
+Lance,Chrome Drill II,160,0,N/A,0,0,,Guard Up +2,1,0,0,6,12,18,14,0,0,0,6,12,18,24,0,0,0
+Lance,Chrome Drill III,190,0,N/A,0,0,,Guard Up +2,2,1,0,6,14,18,12,10,0,0,6,14,18,12,20,0,0
+Lance,Chrome Lance,220,0,N/A,0,0,,Guard Up +3,3,2,1,6,12,18,14,10,10,0,6,12,18,14,10,20,0
+Lance,Quematrice Lanza I,100,10,Fire,+5,0,,Guard +1,0,0,0,10,14,10,6,0,0,0,10,14,10,16,0,0,0
+Lance,Quematrice Lanza II,140,12,Fire,+5,0,,Guard +2,0,0,0,10,16,12,12,0,0,0,10,16,12,22,0,0,0
+Lance,Quematrice Lanza III,170,15,Fire,+5,0,,Guard +2,2,1,0,14,16,16,10,4,0,0,14,16,16,10,14,0,0
+Lance,Quematrice Lanza IV,210,17,Fire,+5,0,,Guard +3,3,2,0,14,16,16,16,8,0,0,14,16,16,16,18,0,0
+Lance,Firetrail Kaminet,240,20,Fire,+5,0,,Guard +3,3,2,1,12,14,16,16,12,0,0,12,14,16,16,22,0,0
+Lance,Barina Sarissa I,100,10,Paralysis,+10,0,,Critical Draw +1,0,0,0,10,10,8,12,0,0,0,10,10,8,22,0,0,0
+Lance,Barina Sarissa II,120,13,Paralysis,+10,0,,"Critical Draw +1,Critical Status +1",0,0,0,14,10,6,20,0,0,0,14,10,6,30,0,0,0
+Lance,Barina Sarissa III,150,18,Paralysis,+15,0,,"Critical Draw +1,Critical Status +1",2,1,0,14,10,6,20,10,0,0,14,10,6,20,20,0,0
+Lance,Barina Sarissa IV,180,21,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,0,14,10,6,18,12,10,0,14,10,6,18,12,20,0
+Lance,Lala Aviculari,200,25,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,1,14,10,6,12,8,20,0,14,10,6,12,8,30,0
+Lance,Balahara Lance I,110,14,Water,+10,0,,Offensive Guard +1,0,0,0,8,6,18,8,0,0,0,8,6,18,18,0,0,0
+Lance,Balahara Lance II,150,16,Water,+10,0,,Offensive Guard +2,1,0,0,10,6,20,14,0,0,0,10,6,20,24,0,0,0
+Lance,Balahara Lance III,160,20,Water,+10,0,,Offensive Guard +2,2,1,0,8,6,22,18,6,0,0,8,6,22,18,16,0,0
+Lance,Balahara Lance IV,190,22,Water,+10,0,,Offensive Guard +3,3,2,0,8,6,22,18,14,2,0,8,6,22,18,14,12,0
+Lance,Sandsea Prallaya,210,25,Water,+10,0,,Offensive Guard +3,3,2,1,8,6,20,16,14,6,0,8,6,20,16,14,16,0
+Lance,Dosha Fierceborer I,140,0,N/A,-5,20,,Punishing Draw +1,0,0,0,6,18,16,0,0,0,0,6,18,20,6,0,0,0
+Lance,Dosha Fierceborer II,180,0,N/A,-5,20,,Punishing Draw +2,1,1,0,8,18,18,6,0,0,0,8,18,18,16,0,0,0
+Lance,Dosha Fierceborer III,210,0,N/A,-5,20,,Punishing Draw +3,2,2,0,10,16,18,12,4,0,0,10,16,18,12,14,0,0
+Lance,Rompo Piercer I,140,15,Poison,0,0,,Guard Up +2,0,0,0,10,12,20,8,0,0,0,10,12,20,18,0,0,0
+Lance,Rompo Piercer II,170,19,Poison,0,0,,Guard Up +2,2,1,0,10,10,20,18,2,0,0,10,10,20,18,12,0,0
+Lance,Rompo Piercer III,200,22,Poison,0,0,,Guard Up +3,3,2,0,12,10,20,6,20,2,0,12,10,20,6,20,12,0
+Lance,Rompo Tetrotox,220,25,Poison,0,0,,Guard Up +3,3,2,1,8,10,20,6,20,6,0,8,10,20,6,20,16,0
+Lance,Rey Indra I,140,15,Lightning,0,0,,"Guard +1,Offensive Guard +1",0,0,0,2,2,30,16,0,0,0,2,2,30,26,0,0,0
+Lance,Rey Indra II,170,19,Lightning,0,0,,"Guard +1,Offensive Guard +1",2,1,0,2,2,26,20,10,0,0,2,2,26,20,20,0,0
+Lance,Rey Indra III,200,22,Lightning,0,0,,"Guard +2,Offensive Guard +1",3,2,0,2,2,24,16,16,10,0,2,2,24,16,16,20,0
+Lance,Indra Clairlance,220,25,Lightning,0,0,,"Guard +2,Offensive Guard +1",3,2,1,2,2,22,14,14,16,0,2,2,22,14,14,26,0
+Lance,Windpierce Lance I,140,15,Ice,0,0,,"Guard +2,Airborne +1",0,0,0,10,12,16,12,0,0,0,10,12,16,22,0,0,0
+Lance,Windpierce Lance II,170,19,Ice,0,0,,"Guard +2,Airborne +1",2,1,0,10,10,14,20,6,0,0,10,10,14,20,16,0,0
+Lance,Windpierce Lance III,200,22,Ice,0,0,,"Guard +3,Airborne +1",3,2,0,10,10,10,6,28,6,0,10,10,10,6,28,16,0
+Lance,Windpierce Tsukibami,220,25,Ice,0,0,,"Guard +3,Airborne +1",3,2,1,10,10,10,6,24,10,0,10,10,10,6,24,20,0
+Lance,Nu Osminog I,170,15,Fire,-15,0,,Offensive Guard +2,1,0,0,20,4,16,10,0,0,0,20,4,16,20,0,0,0
+Lance,Nu Osminog II,210,22,Fire,-15,0,,Offensive Guard +3,3,2,0,20,4,20,14,12,0,0,20,4,20,14,22,0,0
+Lance,Abaddonian Osminog,230,25,Fire,-15,0,,Offensive Guard +3,3,2,1,20,4,20,10,10,6,0,20,4,20,10,10,16,0
+Lance,Dosha Gloomborer I,180,0,N/A,-15,0,,Offensive Guard +2,1,0,0,6,14,24,6,0,0,0,6,14,24,16,0,0,0
+Lance,Dosha Gloomborer II,220,0,N/A,-15,0,,Offensive Guard +3,2,1,0,10,20,20,10,0,0,0,10,20,20,20,0,0,0
+Lance,Gloomborer Urshanith,250,0,N/A,-15,0,,Offensive Guard +3,3,2,1,10,14,18,18,10,0,0,10,14,18,18,14,6,0
+Lance,Albirath Tail I,160,16,Fire,+15,0,,"Master's Touch +1,Critical Element +1",1,0,0,10,20,12,8,0,0,0,10,20,12,18,0,0,0
+Lance,Albirath Tail II,180,21,Fire,+15,0,,"Master's Touch +1,Critical Element +1",2,1,0,10,24,10,8,8,0,0,10,24,10,8,12,6,0
+Lance,Shining Pillar,220,25,Fire,+15,0,,"Master's Touch +1,Critical Element +1",3,2,1,10,30,10,8,8,4,0,10,30,10,8,8,14,0
+Lance,Chthonian Firewheel I,140,26,Dragon,+10,0,,Offensive Guard +2,1,0,0,10,10,16,14,0,0,0,10,10,16,24,0,0,0
+Lance,Chthonian Firewheel II,170,31,Dragon,+10,0,,Offensive Guard +3,2,1,0,10,10,14,16,10,0,0,10,10,14,16,20,0,0
+Lance,Bequeathed Regret,210,35,Dragon,+10,0,,Offensive Guard +3,3,2,1,10,10,16,16,20,8,0,10,10,16,16,20,8,0
+Lance,G. Veldian Lancea I,170,14,Dragon,-10,0,,Guard +2,1,1,0,20,6,18,6,0,0,0,20,6,18,16,0,0,0
+Lance,G. Veldian Lancea II,210,17,Dragon,-10,0,,Guard +2,2,2,0,20,12,18,10,0,0,0,20,12,18,12,8,0,0
+Lance,G. Purifying Beaumains,240,20,Dragon,-10,0,,Guard +2,3,3,1,20,14,10,16,10,0,0,20,14,10,16,12,8,0
+Lance,Gravios Spear I,210,29,Blast,-15,30,,Guard Up +3,2,1,0,20,14,16,10,0,0,0,20,14,16,16,4,0,0
+Lance,Gravios Lance,250,35,Blast,-15,30,,Guard Up +3,3,2,1,18,14,14,14,10,0,0,18,14,14,14,20,0,0
+Lance,Red Tail I,190,29,Fire,+10,0,,Critical Boost +3,2,1,0,20,14,10,6,10,0,0,20,14,10,6,20,0,0
+Lance,Spear of Prominence,210,35,Fire,+10,0,,Critical Boost +3,3,2,1,20,14,10,8,10,8,0,20,14,10,8,10,18,0
+Lance,Eiferschild I,180,22,Dragon,+20,0,,Critical Element +3,3,2,0,10,14,16,14,8,8,0,10,14,16,14,8,18,0
+Lance,Fieberschild,210,25,Dragon,+20,0,,Critical Element +3,3,2,1,10,10,16,12,8,14,0,10,10,16,12,8,24,0
+Lance,Veldian Lancea I,200,32,Dragon,0,0,,Guard +3,3,2,0,10,10,10,16,18,6,0,10,10,10,16,18,16,0
+Lance,Artian Lance I,170,23,N/A,+5,0,,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Lance,Artian Lance II,180,23,N/A,+5,0,,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Lance,Skyscraper,190,27,N/A,+5,0,,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Lance,Esperanza Lance,210,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,12,12,8,16,0,10,12,12,12,8,26,0
+Lance,Fierceborer Dubhanith,240,0,N/A,-5,20,,Punishing Draw +3,3,3,1,10,20,22,10,8,0,0,10,20,22,10,8,10,0
+Lance,Purifying Beaumains,220,35,Dragon,0,0,,Guard +3,3,2,1,10,10,10,14,16,10,0,10,10,10,14,16,20,0
+Lance,Paladin Lance I,190,0,N/A,0,0,,"Critical Draw +3,Guard +1",2,1,0,6,14,14,12,14,0,0,6,14,14,12,24,0,0
+Lance,Babel Spear,220,0,N/A,0,0,,"Critical Draw +3,Guard +1",3,2,1,4,12,12,10,26,6,0,4,12,12,10,26,16,0
+Gun Lance,Hope Gunlance I,90,0,N/A,0,0,Normal LV2,,0,0,0,10,10,8,12,0,0,0,10,10,8,22,0,0,0
+Gun Lance,Hope Gunlance II,100,0,N/A,0,0,Normal LV2,Speed Sharpening +1,0,0,0,8,10,8,14,0,0,0,8,10,8,24,0,0,0
+Gun Lance,Hope Gunlance III,130,0,N/A,0,0,Normal LV2,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,10,18,0,0,0,10,12,10,28,0,0,0
+Gun Lance,Hope Gunlance IV,160,0,N/A,0,0,Normal LV2,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,12,14,12,0,0,10,12,12,14,22,0,0
+Gun Lance,Hope Gunlance V,190,0,N/A,0,0,Normal LV2,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,10,16,10,12,0,10,12,10,16,10,22,0
+Gun Lance,Bone Gunlance I,110,0,N/A,0,0,Wide LV2,Guard +1,0,0,0,10,14,16,0,0,0,0,10,14,24,2,0,0,0
+Gun Lance,Bone Gunlance II,130,0,N/A,0,0,Wide LV2,"Guard +1,Attack Boost +1",0,0,0,10,8,22,0,0,0,0,10,8,26,6,0,0,0
+Gun Lance,Bone Gunlance III,170,0,N/A,0,0,Wide LV2,"Guard +2,Attack Boost +1",1,0,0,10,12,20,8,0,0,0,10,12,20,18,0,0,0
+Gun Lance,Bone Gunlance IV,200,0,N/A,0,0,Wide LV2,"Guard +3,Attack Boost +1",2,1,0,10,12,16,22,0,0,0,10,12,16,32,0,0,0
+Gun Lance,Great Bone Gunlance,230,0,N/A,0,0,Wide LV2,"Guard +3,Attack Boost +1",3,2,1,10,12,12,14,22,0,0,10,12,12,14,32,0,0
+Gun Lance,Triple Bayonet I,120,0,N/A,0,0,Long LV2,Guard Up +1,0,0,0,4,8,18,10,0,0,0,4,8,18,20,0,0,0
+Gun Lance,Triple Bayonet II,160,0,N/A,0,0,Long LV2,Guard Up +2,1,0,0,4,12,18,16,0,0,0,4,12,18,26,0,0,0
+Gun Lance,Triple Bayonet III,190,0,N/A,0,0,Long LV2,Guard Up +2,2,1,0,4,14,18,12,12,0,0,4,14,18,12,22,0,0
+Gun Lance,Triumvirate Edge,220,0,N/A,0,0,Long LV2,Guard Up +3,3,2,1,4,12,18,14,10,12,0,4,12,18,14,10,22,0
+Gun Lance,Quematrice Culebrina I,100,14,Fire,+5,0,Normal LV3,Guard +1,0,0,0,10,14,8,8,0,0,0,10,14,8,18,0,0,0
+Gun Lance,Quematrice Culebrina II,140,16,Fire,+5,0,Normal LV3,Guard +2,0,0,0,10,16,10,14,0,0,0,10,16,10,24,0,0,0
+Gun Lance,Quematrice Culebrina III,170,20,Fire,+5,0,Normal LV3,Guard +2,2,1,0,14,16,14,10,6,0,0,14,16,14,10,16,0,0
+Gun Lance,Quematrice Culebrina IV,200,22,Fire,+5,0,Normal LV3,Guard +3,3,2,0,14,16,14,16,10,0,0,14,16,14,16,20,0,0
+Gun Lance,Firetrail Quemador,220,25,Fire,+5,0,Normal LV3,Guard +3,3,2,1,12,14,14,16,14,0,0,12,14,14,16,24,0,0
+Gun Lance,Balahara Exploder I,110,16,Water,+10,0,Wide LV2,Offensive Guard +1,0,0,0,6,6,18,10,0,0,0,6,6,18,20,0,0,0
+Gun Lance,Balahara Exploder II,150,20,Water,+10,0,Wide LV2,Offensive Guard +2,1,0,0,8,6,20,16,0,0,0,8,6,20,26,0,0,0
+Gun Lance,Balahara Exploder III,160,23,Water,+10,0,Wide LV2,Offensive Guard +2,2,1,0,6,6,22,18,8,0,0,6,6,22,18,18,0,0
+Gun Lance,Balahara Exploder IV,190,27,Water,+10,0,Wide LV2,Offensive Guard +3,3,2,0,6,6,22,18,14,4,0,6,6,22,18,14,14,0
+Gun Lance,Sandsea Visponan,210,30,Water,+10,0,Wide LV2,Offensive Guard +3,3,2,1,6,6,20,16,14,8,0,6,6,20,16,14,18,0
+Gun Lance,Uth Falarmata I,170,25,Water,-15,0,Normal LV1,Guard +2,0,0,0,10,14,18,8,0,0,0,10,14,18,18,0,0,0
+Gun Lance,Uth Falarmata II,200,31,Water,-15,0,Normal LV1,Guard +2,2,1,0,12,14,22,12,0,0,0,12,14,22,22,0,0,0
+Gun Lance,Uth Falarmata III,230,37,Water,-15,0,Normal LV1,Guard +3,3,2,0,12,14,24,14,6,0,0,12,14,24,14,16,0,0
+Gun Lance,Falarmata-of-the-Waves,250,40,Water,-15,0,Normal LV1,Guard +3,3,2,1,12,12,20,14,12,0,0,12,12,20,14,14,8,0
+Gun Lance,Shell Gunberd I,120,15,Sleep,+10,0,Long LV2,"Critical Draw +1,Critical Status +1",0,0,0,14,8,6,22,0,0,0,14,8,6,32,0,0,0
+Gun Lance,Shell Gunberd II,150,21,Sleep,+15,0,Long LV2,"Critical Draw +1,Critical Status +1",2,1,0,14,8,6,20,12,0,0,14,8,6,20,22,0,0
+Gun Lance,Shell Gunberd III,180,27,Sleep,+15,0,Long LV2,"Critical Draw +2,Critical Status +1",3,2,0,14,8,6,18,12,12,0,14,8,6,18,12,22,0
+Gun Lance,Solid Gunberd,200,30,Sleep,+15,0,Long LV2,"Critical Draw +2,Critical Status +1",3,2,1,14,8,6,12,8,22,0,14,8,6,12,8,32,0
+Gun Lance,Ajara Gunpike I,130,19,Blast,+10,0,Wide LV2,"Load Shells +1,Offensive Guard +1",0,0,0,10,12,14,14,0,0,0,10,12,14,24,0,0,0
+Gun Lance,Ajara Gunpike II,180,22,Blast,+10,0,Wide LV2,"Load Shells +2,Offensive Guard +1",2,1,0,10,12,18,8,12,0,0,10,12,18,8,22,0,0
+Gun Lance,Ajara-Kalika,210,25,Blast,+10,0,Wide LV2,"Load Shells +2,Offensive Guard +1",3,2,1,10,12,10,18,8,12,0,10,12,10,18,8,22,0
+Gun Lance,Albirath Rook I,160,21,Fire,+15,0,Wide LV3,"Master's Touch +1,Critical Element +1",1,0,0,10,18,12,10,0,0,0,10,18,12,20,0,0,0
+Gun Lance,Albirath Rook II,180,26,Fire,+15,0,Wide LV3,"Master's Touch +1,Critical Element +1",2,1,0,10,20,10,10,10,0,0,10,20,10,10,14,6,0
+Gun Lance,Shining Rook,210,30,Fire,+15,0,Wide LV3,"Master's Touch +1,Critical Element +1",3,2,1,10,26,10,10,8,6,0,10,26,10,10,8,16,0
+Gun Lance,Jin Dhatop I,190,47,Ice,0,0,Wide LV3,Guard +3,3,2,0,8,8,6,20,22,6,0,8,8,6,20,22,16,0
+Gun Lance,Precipice Lohamata,210,50,Ice,0,0,Wide LV3,Guard +3,3,2,1,8,8,4,16,24,10,0,8,8,4,16,24,20,0
+Gun Lance,G. Veldian Hasta I,170,16,Dragon,-10,0,Wide LV3,Guard +2,1,1,0,20,6,16,8,0,0,0,20,6,16,18,0,0,0
+Gun Lance,G. Veldian Hasta II,210,21,Dragon,-10,0,Wide LV3,Guard +2,2,2,0,20,12,16,12,0,0,0,20,12,16,14,8,0,0
+Gun Lance,G. Lawful Bors,240,25,Dragon,-10,0,Wide LV3,Guard +2,3,3,1,20,14,10,14,12,0,0,20,14,10,14,14,8,0
+Gun Lance,Hard Hitter I,180,31,Poison,0,0,Long LV3,"Punishing Draw +2,Critical Draw +1",2,1,0,18,10,18,14,0,0,0,18,10,18,24,0,0,0
+Gun Lance,Hard Hitter II,200,34,Poison,0,0,Long LV3,"Punishing Draw +2,Critical Draw +2",2,1,0,18,10,12,12,8,0,0,18,10,12,12,18,0,0
+Gun Lance,Big Slugger,230,40,Poison,0,0,Long LV3,"Punishing Draw +3,Critical Draw +2",3,2,1,18,10,18,12,12,0,0,18,10,18,12,22,0,0
+Gun Lance,Princess Panoply I,160,19,Poison,+15,0,Normal LV2,"Critical Status +2,Poison Duration Up +1",2,1,0,10,14,8,18,10,0,0,10,14,8,18,20,0,0
+Gun Lance,Princess Panoply II,190,22,Poison,+15,0,Normal LV2,"Critical Status +3,Poison Duration Up +1",3,2,0,8,16,8,22,6,10,0,8,16,8,22,6,20,0
+Gun Lance,Ortlinde,210,25,Poison,+15,0,Normal LV2,"Critical Status +3,Poison Duration Up +1",3,2,1,8,16,6,20,6,14,0,8,16,6,20,6,24,0
+Gun Lance,Warring Fulgur I,180,34,Lightning,+15,0,Wide LV3,Critical Element +3,2,1,0,8,20,20,12,0,0,0,8,20,20,14,8,0,0
+Gun Lance,Fulgurcannon Guardiana,210,40,Lightning,+15,0,Wide LV3,Critical Element +3,3,2,1,8,18,24,8,12,0,0,8,18,24,8,12,10,0
+Gun Lance,White Gunlance I,220,34,Blast,-15,30,Long LV3,Guard Up +3,2,1,0,18,14,16,12,0,0,0,18,14,16,18,4,0,0
+Gun Lance,White Cannon,240,40,Blast,-15,30,Long LV3,Guard Up +3,3,2,1,16,14,14,14,12,0,0,16,14,14,14,22,0,0
+Gun Lance,Red Rook I,180,34,Fire,+10,0,Long LV2,Critical Boost +3,2,1,0,20,14,8,6,12,0,0,20,14,8,6,22,0,0
+Gun Lance,Crimson Rook,200,40,Fire,+10,0,Long LV2,Critical Boost +3,3,2,1,20,14,10,8,8,10,0,20,14,10,8,8,20,0
+Gun Lance,Tyrannenarm I,180,27,Dragon,+20,0,Normal LV2,Critical Element +3,3,2,0,10,16,16,12,6,10,0,10,16,16,12,6,20,0
+Gun Lance,Verräterarm,200,30,Dragon,+20,0,Normal LV2,Critical Element +3,3,2,1,10,10,18,10,6,16,0,10,10,18,10,6,26,0
+Gun Lance,Veldian Hasta I,200,37,Dragon,0,0,Long LV2,Guard +3,3,2,0,10,10,10,16,16,8,0,10,10,10,16,16,18,0
+Gun Lance,Paretic Gunlance I,100,15,Paralysis,0,0,Normal LV1,Offensive Guard +1,0,0,0,8,10,22,0,0,0,0,8,10,24,8,0,0,0
+Gun Lance,Paretic Gunlance II,130,21,Paralysis,0,0,Normal LV1,Offensive Guard +2,0,0,0,10,16,16,8,0,0,0,10,16,16,18,0,0,0
+Gun Lance,Paretic Gunlance III,160,31,Paralysis,0,0,Normal LV1,Offensive Guard +2,2,1,0,10,14,14,22,0,0,0,10,14,14,32,0,0,0
+Gun Lance,Paretic Gunlance IV,190,37,Paralysis,0,0,Normal LV1,Offensive Guard +3,3,2,0,10,14,14,18,14,0,0,10,14,14,18,20,4,0
+Gun Lance,Debilitating Torpor,210,40,Paralysis,0,0,Normal LV1,Offensive Guard +3,3,2,1,10,10,12,16,22,0,0,10,10,12,16,22,10,0
+Gun Lance,Artian Cannon I,170,27,N/A,+5,0,Normal LV2,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Gun Lance,Artian Cannon II,180,27,N/A,+5,0,Normal LV2,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Gun Lance,Argenesis,190,32,N/A,+5,0,Normal LV2,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Gun Lance,Esperanza Gunlance,210,0,N/A,0,0,Normal LV2,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,10,12,8,18,0,10,12,10,12,8,28,0
+Gun Lance,Lawful Bors,220,40,Dragon,0,0,Long LV2,Guard +3,3,2,1,10,10,10,14,14,12,0,10,10,10,14,14,22,0
+Switch Axe,Hope Axe I,90,0,N/A,0,0,Power Phial,,0,0,0,10,10,8,12,0,0,0,10,10,8,22,0,0,0
+Switch Axe,Hope Axe II,100,0,N/A,0,0,Power Phial,Speed Sharpening +1,0,0,0,8,10,8,14,0,0,0,8,10,8,24,0,0,0
+Switch Axe,Hope Axe III,130,0,N/A,0,0,Power Phial,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,10,18,0,0,0,10,12,10,28,0,0,0
+Switch Axe,Hope Axe IV,160,0,N/A,0,0,Power Phial,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,12,14,12,0,0,10,12,12,14,22,0,0
+Switch Axe,Hope Axe V,190,0,N/A,0,0,Power Phial,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,10,16,10,12,0,10,12,10,16,10,22,0
+Switch Axe,Bone Axe I,110,0,N/A,0,0,Exhaust Phial,Focus +1,0,0,0,10,14,16,0,0,0,0,10,14,24,2,0,0,0
+Switch Axe,Bone Axe II,130,0,N/A,0,0,Exhaust Phial,"Focus +1,Attack Boost +1",0,0,0,10,8,22,0,0,0,0,10,8,26,6,0,0,0
+Switch Axe,Bone Axe III,170,0,N/A,0,0,Exhaust Phial,"Focus +2,Attack Boost +1",1,0,0,10,12,20,8,0,0,0,10,12,20,18,0,0,0
+Switch Axe,Bone Axe IV,200,0,N/A,0,0,Exhaust Phial,"Focus +3,Attack Boost +1",2,1,0,10,12,16,22,0,0,0,10,12,16,32,0,0,0
+Switch Axe,Bone Smasher,230,0,N/A,0,0,Exhaust Phial,"Focus +3,Attack Boost +1",3,2,1,10,12,12,14,22,0,0,10,12,12,14,32,0,0
+Switch Axe,Iron Accelerator I,120,0,N/A,0,0,Poison Phial,Rapid Morph +1,0,0,0,4,8,18,10,0,0,0,4,8,18,20,0,0,0
+Switch Axe,Iron Accelerator II,160,0,N/A,0,0,Poison Phial,Rapid Morph +2,1,0,0,4,12,18,16,0,0,0,4,12,18,26,0,0,0
+Switch Axe,Iron Accelerator III,190,0,N/A,0,0,Poison Phial,Rapid Morph +3,2,1,0,4,14,18,12,12,0,0,4,14,18,12,22,0,0
+Switch Axe,Chrome Accelerator,220,0,N/A,0,0,Poison Phial,Rapid Morph +3,3,2,1,4,12,18,14,10,12,0,4,12,18,14,10,22,0
+Switch Axe,Barina Hache I,100,10,Paralysis,+10,0,Power Phial,Critical Draw +1,0,0,0,10,8,8,14,0,0,0,10,8,8,24,0,0,0
+Switch Axe,Barina Hache II,120,12,Paralysis,+10,0,Power Phial,"Critical Draw +1,Critical Status +1",0,0,0,14,8,6,22,0,0,0,14,8,6,32,0,0,0
+Switch Axe,Barina Hache III,150,15,Paralysis,+15,0,Power Phial,"Critical Draw +1,Critical Status +1",2,1,0,14,8,6,20,12,0,0,14,8,6,20,22,0,0
+Switch Axe,Barina Hache IV,180,17,Paralysis,+15,0,Power Phial,"Critical Draw +2,Critical Status +1",3,2,0,14,8,6,18,12,12,0,14,8,6,18,12,22,0
+Switch Axe,Lala Selenocosmi,200,20,Paralysis,+15,0,Power Phial,"Critical Draw +2,Critical Status +1",3,2,1,14,8,6,12,8,22,0,14,8,6,12,8,32,0
+Switch Axe,Golba Vandal I,120,0,N/A,+5,0,Paralysis Phial,"Punishing Draw +1,Critical Draw +1",0,0,0,10,12,10,8,0,0,0,10,12,10,18,0,0,0
+Switch Axe,Golba Vandal II,170,0,N/A,+5,0,Paralysis Phial,"Punishing Draw +2,Critical Draw +1",2,1,0,14,16,12,12,6,0,0,14,16,12,12,16,0,0
+Switch Axe,Gundava Vandal,220,0,N/A,+5,0,Paralysis Phial,"Punishing Draw +2,Critical Draw +2",3,2,1,12,14,12,12,10,10,0,12,14,12,12,10,20,0
+Switch Axe,Dosha Fleshhacker I,140,0,N/A,-5,20,Power Phial,Power Prolonger +1,0,0,0,4,18,18,0,0,0,0,4,18,22,6,0,0,0
+Switch Axe,Dosha Fleshhacker II,180,0,N/A,-5,20,Power Phial,Power Prolonger +2,1,0,0,8,16,18,8,0,0,0,8,16,18,18,0,0,0
+Switch Axe,Dosha Fleshhacker III,210,0,N/A,-5,20,Power Phial,Power Prolonger +3,2,1,0,10,16,18,10,6,0,0,10,16,18,10,16,0,0
+Switch Axe,Uth Olacha I,160,15,Water,-15,0,Element Phial,Power Prolonger +2,0,0,0,10,14,18,8,0,0,0,10,14,18,18,0,0,0
+Switch Axe,Uth Olacha II,190,19,Water,-15,0,Element Phial,Power Prolonger +2,2,1,0,12,14,22,12,0,0,0,12,14,22,22,0,0,0
+Switch Axe,Uth Olacha III,220,22,Water,-15,0,Element Phial,Power Prolonger +3,3,2,0,12,14,24,14,6,0,0,12,14,24,14,16,0,0
+Switch Axe,Olacha-of-the-Waves,240,25,Water,-15,0,Element Phial,Power Prolonger +3,3,2,1,12,12,20,14,12,0,0,12,12,20,14,14,8,0
+Switch Axe,Windsunder Axe I,140,12,Ice,0,0,Element Phial,"Focus +2,Airborne +1",0,0,0,10,12,14,14,0,0,0,10,12,14,24,0,0,0
+Switch Axe,Windsunder Axe II,170,15,Ice,0,0,Element Phial,"Focus +2,Airborne +1",2,1,0,10,10,14,18,8,0,0,10,10,14,18,18,0,0
+Switch Axe,Windsunder Axe III,200,17,Ice,0,0,Element Phial,"Focus +3,Airborne +1",3,2,0,10,10,10,6,26,8,0,10,10,10,6,26,18,0
+Switch Axe,Windsunder Sakibami,220,20,Ice,0,0,Element Phial,"Focus +3,Airborne +1",3,2,1,10,10,10,6,22,12,0,10,10,10,6,22,22,0
+Switch Axe,Nu Zhangyu I,170,12,Fire,-15,0,Power Phial,Rapid Morph +2,1,0,0,20,4,14,12,0,0,0,20,4,14,22,0,0,0
+Switch Axe,Nu Zhangyu II,200,17,Fire,-15,0,Power Phial,Rapid Morph +3,3,2,0,20,4,18,14,14,0,0,20,4,18,14,24,0,0
+Switch Axe,Abaddonian Zhangyu,220,20,Fire,-15,0,Power Phial,Rapid Morph +3,3,2,1,20,4,18,10,10,8,0,20,4,18,10,10,18,0
+Switch Axe,Dosha Gorehacker I,180,0,N/A,-15,0,Dragon Phial,Focus +2,1,0,0,4,14,24,8,0,0,0,4,14,24,18,0,0,0
+Switch Axe,Dosha Gorehacker II,220,0,N/A,-15,0,Dragon Phial,Focus +2,2,2,0,8,18,22,12,0,0,0,8,18,22,22,0,0,0
+Switch Axe,Gorehacker Urgahaac,250,0,N/A,-15,0,Dragon Phial,Focus +2,3,3,1,8,12,20,18,12,0,0,8,12,20,18,14,8,0
+Switch Axe,Albirath Flamesplitter I,160,14,Fire,+15,0,Element Phial,"Master's Touch +1,Critical Element +1",1,0,0,10,18,12,10,0,0,0,10,18,12,20,0,0,0
+Switch Axe,Albirath Flamesplitter II,180,17,Fire,+15,0,Element Phial,"Master's Touch +1,Critical Element +1",2,1,0,10,20,10,10,10,0,0,10,20,10,10,14,6,0
+Switch Axe,Albirath Blaze Splitter,210,20,Fire,+15,0,Element Phial,"Master's Touch +1,Critical Element +1",3,2,1,10,26,10,10,8,6,0,10,26,10,10,8,16,0
+Switch Axe,Nihil Switch Axe I,160,12,Water,0,0,Power Phial,Power Prolonger +2,1,0,0,4,22,8,16,0,0,0,4,22,8,26,0,0,0
+Switch Axe,Nihil Switch Axe II,190,15,Water,0,0,Power Phial,Power Prolonger +3,2,1,0,4,22,10,12,12,0,0,4,22,10,12,22,0,0
+Switch Axe,Brutus's Abolishment,210,18,Water,0,0,Power Phial,Power Prolonger +3,3,2,1,4,22,10,10,8,16,0,4,22,10,10,8,26,0
+Switch Axe,G. Veldian Securis I,170,12,Dragon,-10,0,Power Phial,Focus +2,1,1,0,20,6,16,8,0,0,0,20,6,16,18,0,0,0
+Switch Axe,G. Veldian Securis II,210,15,Dragon,-10,0,Power Phial,Focus +2,2,2,0,20,12,16,12,0,0,0,20,12,16,14,8,0,0
+Switch Axe,G. Indomitable Perceval,230,18,Dragon,-10,0,Power Phial,Focus +2,3,3,1,20,14,10,14,12,0,0,20,14,10,14,14,8,0
+Switch Axe,Beak Axe I,180,26,Fire,0,0,Element Phial,Power Prolonger +2,2,1,0,18,20,10,12,0,0,0,18,20,10,16,6,0,0
+Switch Axe,Beak Axe II,210,32,Fire,0,0,Element Phial,Power Prolonger +3,3,2,0,20,22,6,14,8,0,0,20,22,6,14,12,6,0
+Switch Axe,Sawbill Axe,220,35,Fire,0,0,Element Phial,Power Prolonger +3,3,2,1,20,24,4,12,10,0,0,20,24,4,12,10,10,0
+Switch Axe,Dragonmaiden Axe I,160,12,Poison,+15,0,Element Phial,"Critical Status +2,Poison Duration Up +1",2,1,0,10,14,8,18,10,0,0,10,14,8,18,20,0,0
+Switch Axe,Dragonmaiden Axe II,190,15,Poison,+15,0,Element Phial,"Critical Status +3,Poison Duration Up +1",3,2,0,8,16,8,22,6,10,0,8,16,8,22,6,20,0
+Switch Axe,Gríðr's Landmaker,210,18,Poison,+15,0,Element Phial,"Critical Status +3,Poison Duration Up +1",3,2,1,8,16,6,20,6,14,0,8,16,6,20,6,24,0
+Switch Axe,Morphing Fulgur I,180,21,Lightning,+15,0,Element Phial,Critical Element +3,2,1,0,8,20,20,12,0,0,0,8,20,20,14,8,0,0
+Switch Axe,Fulgurswitch Guardiana,210,25,Lightning,+15,0,Element Phial,Critical Element +3,3,2,1,8,18,24,8,12,0,0,8,18,24,8,12,10,0
+Switch Axe,Rath Flamesplitter I,180,21,Fire,+10,0,Power Phial,Critical Boost +3,2,1,0,20,14,8,6,12,0,0,20,14,8,6,22,0,0
+Switch Axe,Rath Blaze Splitter,200,25,Fire,+10,0,Power Phial,Critical Boost +3,3,2,1,20,14,10,8,8,10,0,20,14,10,8,8,20,0
+Switch Axe,Eisenleib I,180,16,Dragon,+20,0,Power Phial,Critical Element +3,3,2,0,10,16,16,12,6,10,0,10,16,16,12,6,20,0
+Switch Axe,Eisengeist,200,20,Dragon,+20,0,Power Phial,Critical Element +3,3,2,1,10,10,18,10,6,16,0,10,10,18,10,6,26,0
+Switch Axe,Veldian Securis I,200,22,Dragon,0,0,Element Phial,Focus +3,3,2,0,10,10,10,16,16,8,0,10,10,10,16,16,18,0
+Switch Axe,Artian Saw I,170,22,N/A,+5,0,Dragon Phial,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Switch Axe,Artian Saw II,180,22,N/A,+5,0,Dragon Phial,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Switch Axe,Mundus Altus,190,26,N/A,+5,0,Dragon Phial,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Switch Axe,Esperanza Axe,210,0,N/A,0,0,Power Phial,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,10,12,8,18,0,10,12,10,12,8,28,0
+Switch Axe,Fleshhacker Yaogahaac,230,0,N/A,-5,20,Power Phial,Power Prolonger +3,3,2,1,10,20,20,10,10,0,0,10,20,20,10,10,10,0
+Switch Axe,Indomitable Perceval,220,25,Dragon,0,0,Element Phial,Focus +3,3,2,1,10,10,10,14,14,12,0,10,10,10,14,14,22,0
+Charge Blade,Hope Strongarm I,90,0,N/A,0,0,Impact Phial,,0,0,0,10,12,8,10,0,0,0,10,12,8,20,0,0,0
+Charge Blade,Hope Strongarm II,100,0,N/A,0,0,Impact Phial,Speed Sharpening +1,0,0,0,8,10,10,12,0,0,0,8,10,10,22,0,0,0
+Charge Blade,Hope Strongarm III,130,0,N/A,0,0,Impact Phial,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,12,16,0,0,0,10,12,12,26,0,0,0
+Charge Blade,Hope Strongarm IV,160,0,N/A,0,0,Impact Phial,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,14,14,10,0,0,10,12,14,14,20,0,0
+Charge Blade,Hope Strongarm V,190,0,N/A,0,0,Impact Phial,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,12,16,10,10,0,10,12,12,16,10,20,0
+Charge Blade,Bone Strongarm I,110,0,N/A,0,0,Impact Phial,Load Shells +1,0,0,0,10,16,14,0,0,0,0,10,16,22,2,0,0,0
+Charge Blade,Bone Strongarm II,130,0,N/A,0,0,Impact Phial,"Load Shells +1,Attack Boost +1",0,0,0,10,10,20,0,0,0,0,10,10,24,6,0,0,0
+Charge Blade,Bone Strongarm III,170,0,N/A,0,0,Impact Phial,"Load Shells +2,Attack Boost +1",1,0,0,10,14,20,6,0,0,0,10,14,20,16,0,0,0
+Charge Blade,Bone Strongarm IV,200,0,N/A,0,0,Impact Phial,"Load Shells +2,Attack Boost +1",2,1,0,10,14,16,20,0,0,0,10,14,16,30,0,0,0
+Charge Blade,Hard Bone Strongarm,230,0,N/A,0,0,Impact Phial,"Load Shells +2,Attack Boost +2",3,2,1,10,12,14,14,20,0,0,10,12,14,14,30,0,0
+Charge Blade,Hyperguard I,120,0,N/A,0,0,Impact Phial,Rapid Morph +1,0,0,0,6,8,18,8,0,0,0,6,8,18,18,0,0,0
+Charge Blade,Hyperguard II,160,0,N/A,0,0,Impact Phial,Rapid Morph +2,1,0,0,6,12,18,14,0,0,0,6,12,18,24,0,0,0
+Charge Blade,Hyperguard III,190,0,N/A,0,0,Impact Phial,Rapid Morph +3,2,1,0,6,14,18,12,10,0,0,6,14,18,12,20,0,0
+Charge Blade,Regas Hyper,220,0,N/A,0,0,Impact Phial,Rapid Morph +3,3,2,1,6,12,18,14,10,10,0,6,12,18,14,10,20,0
+Charge Blade,Chata Strongarm I,110,0,N/A,0,15,Impact Phial,Guard +1,0,0,0,10,4,22,4,0,0,0,10,4,22,14,0,0,0
+Charge Blade,Chata Strongarm II,150,0,N/A,0,15,Impact Phial,"Guard +1,Artillery +1",0,0,0,16,4,24,6,0,0,0,16,4,24,16,0,0,0
+Charge Blade,Chata Strongarm III,180,0,N/A,0,15,Impact Phial,"Guard +2,Artillery +1",2,1,0,14,6,22,16,2,0,0,14,6,22,16,12,0,0
+Charge Blade,Chata Strongarm IV,200,0,N/A,0,15,Impact Phial,"Guard +2,Artillery +1",3,2,0,12,4,24,20,10,0,0,12,4,24,20,20,0,0
+Charge Blade,Barina Bouclier I,100,10,Paralysis,+10,0,Impact Phial,Critical Draw +1,0,0,0,10,10,8,12,0,0,0,10,10,8,22,0,0,0
+Charge Blade,Barina Bouclier II,120,13,Paralysis,+10,0,Impact Phial,"Critical Draw +1,Critical Status +1",0,0,0,14,10,6,20,0,0,0,14,10,6,30,0,0,0
+Charge Blade,Barina Bouclier III,150,18,Paralysis,+15,0,Impact Phial,"Critical Draw +1,Critical Status +1",2,1,0,14,10,6,20,10,0,0,14,10,6,20,20,0,0
+Charge Blade,Barina Bouclier IV,180,21,Paralysis,+15,0,Impact Phial,"Critical Draw +2,Critical Status +1",3,2,0,14,10,6,18,12,10,0,14,10,6,18,12,20,0
+Charge Blade,Lala Eumenophor,200,25,Paralysis,+15,0,Impact Phial,"Critical Draw +2,Critical Status +1",3,2,1,14,10,6,12,8,20,0,14,10,6,12,8,30,0
+Charge Blade,Uth Valeroje I,160,20,Water,-15,0,Element Phial,Power Prolonger +2,0,0,0,10,14,20,6,0,0,0,10,14,20,16,0,0,0
+Charge Blade,Uth Valeroje II,190,26,Water,-15,0,Element Phial,Power Prolonger +2,2,1,0,12,14,24,10,0,0,0,12,14,24,20,0,0,0
+Charge Blade,Uth Valeroje III,220,32,Water,-15,0,Element Phial,Power Prolonger +3,3,2,0,12,14,24,16,4,0,0,12,14,24,16,14,0,0
+Charge Blade,Valeroje-of-the-Waves,240,35,Water,-15,0,Element Phial,Power Prolonger +3,3,2,1,12,12,20,16,10,0,0,12,12,20,16,12,8,0
+Charge Blade,Rompo Shielder I,140,15,Poison,0,0,Impact Phial,Guard Up +2,0,0,0,10,12,20,8,0,0,0,10,12,20,18,0,0,0
+Charge Blade,Rompo Shielder II,170,19,Poison,0,0,Impact Phial,Guard Up +2,2,1,0,10,10,20,18,2,0,0,10,10,20,18,12,0,0
+Charge Blade,Rompo Shielder III,200,22,Poison,0,0,Impact Phial,Guard Up +3,3,2,0,12,10,20,6,20,2,0,12,10,20,6,20,12,0
+Charge Blade,Rompo Dendrotox,220,25,Poison,0,0,Impact Phial,Guard Up +3,3,2,1,8,10,20,6,20,6,0,8,10,20,6,20,16,0
+Charge Blade,Rey Astrapi I,140,15,Lightning,0,0,Element Phial,"Focus +1,Load Shells +1",0,0,0,2,2,30,16,0,0,0,2,2,30,26,0,0,0
+Charge Blade,Rey Astrapi II,170,19,Lightning,0,0,Element Phial,"Focus +1,Load Shells +1",2,1,0,2,2,26,20,10,0,0,2,2,26,20,20,0,0
+Charge Blade,Rey Astrapi III,200,22,Lightning,0,0,Element Phial,"Focus +2,Load Shells +1",3,2,0,2,2,24,16,16,10,0,2,2,24,16,16,20,0
+Charge Blade,Astrapi Clairaxe,220,25,Lightning,0,0,Element Phial,"Focus +2,Load Shells +1",3,2,1,2,2,22,14,14,16,0,2,2,22,14,14,26,0
+Charge Blade,Arachnoscale I,120,13,Sleep,+10,0,Impact Phial,"Offensive Guard +1,Guard +1",0,0,0,14,10,6,20,0,0,0,14,10,6,30,0,0,0
+Charge Blade,Arachnoscale II,150,18,Sleep,+15,0,Impact Phial,"Offensive Guard +1,Guard +1",2,1,0,14,10,6,20,10,0,0,14,10,6,20,20,0,0
+Charge Blade,Arachnoscale III,180,22,Sleep,+15,0,Impact Phial,"Offensive Guard +2,Guard +1",3,2,0,14,10,6,18,12,10,0,14,10,6,18,12,20,0
+Charge Blade,Arachnoscythe,200,25,Sleep,+15,0,Impact Phial,"Offensive Guard +2,Guard +1",3,2,1,14,10,6,12,8,20,0,14,10,6,12,8,30,0
+Charge Blade,Windthrash Charger I,140,15,Ice,0,0,Element Phial,"Focus +2,Airborne +1",0,0,0,10,12,16,12,0,0,0,10,12,16,22,0,0,0
+Charge Blade,Windthrash Charger II,170,19,Ice,0,0,Element Phial,"Focus +2,Airborne +1",2,1,0,10,10,14,20,6,0,0,10,10,14,20,16,0,0
+Charge Blade,Windthrash Charger III,200,22,Ice,0,0,Element Phial,"Focus +3,Airborne +1",3,2,0,10,10,10,6,28,6,0,10,10,10,6,28,16,0
+Charge Blade,Windthrash Tamebami,220,25,Ice,0,0,Element Phial,"Focus +3,Airborne +1",3,2,1,10,10,10,6,24,10,0,10,10,10,6,24,20,0
+Charge Blade,Nu Pweza I,170,15,Fire,-15,0,Element Phial,Rapid Morph +2,1,0,0,20,4,16,10,0,0,0,20,4,16,20,0,0,0
+Charge Blade,Nu Pweza II,210,22,Fire,-15,0,Element Phial,Rapid Morph +3,3,2,0,20,4,20,14,12,0,0,20,4,20,14,22,0,0
+Charge Blade,Abaddonian Pweza,230,25,Fire,-15,0,Element Phial,Rapid Morph +3,3,2,1,20,4,20,10,10,6,0,20,4,20,10,10,16,0
+Charge Blade,Albirath Blade I,160,16,Fire,+15,0,Impact Phial,"Master's Touch +1,Critical Element +1",1,0,0,10,20,12,8,0,0,0,10,20,12,18,0,0,0
+Charge Blade,Albirath Blade II,180,21,Fire,+15,0,Impact Phial,"Master's Touch +1,Critical Element +1",2,1,0,10,24,10,8,8,0,0,10,24,10,8,12,6,0
+Charge Blade,Guardian Albathos,220,25,Fire,+15,0,Impact Phial,"Master's Touch +1,Critical Element +1",3,2,1,10,30,10,8,8,4,0,10,30,10,8,8,14,0
+Charge Blade,Chthonian Flame I,140,26,Dragon,+10,0,Element Phial,Offensive Guard +2,1,0,0,10,10,16,14,0,0,0,10,10,16,24,0,0,0
+Charge Blade,Chthonian Flame II,170,31,Dragon,+10,0,Element Phial,Offensive Guard +3,2,1,0,10,10,14,16,10,0,0,10,10,14,16,20,0,0
+Charge Blade,Bequeathed Enmity,210,35,Dragon,+10,0,Element Phial,Offensive Guard +3,3,2,1,10,10,16,16,20,8,0,10,10,16,16,20,8,0
+Charge Blade,G. Veldian Labrys I,170,14,Dragon,-10,0,Impact Phial,Guard +2,1,1,0,20,6,18,6,0,0,0,20,6,18,16,0,0,0
+Charge Blade,G. Veldian Labrys II,210,17,Dragon,-10,0,Impact Phial,Guard +2,2,2,0,20,12,18,10,0,0,0,20,12,18,12,8,0,0
+Charge Blade,G. Abiding Gawain,240,20,Dragon,-10,0,Impact Phial,Guard +2,3,3,1,20,14,10,16,10,0,0,20,14,10,16,12,8,0
+Charge Blade,Poison Blade I,180,26,Poison,0,0,Impact Phial,"Punishing Draw +2,Critical Draw +1",2,1,0,18,10,20,12,0,0,0,18,10,20,22,0,0,0
+Charge Blade,Poison Blade II,200,29,Poison,0,0,Impact Phial,"Punishing Draw +2,Critical Draw +2",2,1,0,18,10,14,12,6,0,0,18,10,14,12,16,0,0
+Charge Blade,Venom's Kiss,230,35,Poison,0,0,Impact Phial,"Punishing Draw +3,Critical Draw +2",3,2,1,18,10,20,12,10,0,0,18,10,20,12,20,0,0
+Charge Blade,Dear Lutemis I,160,14,Poison,+15,0,Impact Phial,"Critical Status +2,Poison Duration Up +1",2,1,0,10,14,8,20,8,0,0,10,14,8,20,18,0,0
+Charge Blade,Dear Lutemis II,190,17,Poison,+15,0,Impact Phial,"Critical Status +3,Poison Duration Up +1",3,2,0,8,16,8,24,6,8,0,8,16,8,24,6,18,0
+Charge Blade,Dear Lutemia,210,20,Poison,+15,0,Impact Phial,"Critical Status +3,Poison Duration Up +1",3,2,1,8,16,6,22,6,12,0,8,16,6,22,6,22,0
+Charge Blade,Axelion Blade I,190,29,Fire,+10,0,Element Phial,Critical Boost +3,2,1,0,20,14,10,6,10,0,0,20,14,10,6,20,0,0
+Charge Blade,Bardichion Blade,210,35,Fire,+10,0,Element Phial,Critical Boost +3,3,2,1,20,14,10,8,10,8,0,20,14,10,8,10,18,0
+Charge Blade,Elendskraft I,180,22,Dragon,+20,0,Impact Phial,Critical Element +3,3,2,0,10,14,16,14,8,8,0,10,14,16,14,8,18,0
+Charge Blade,Leidenskraft,210,25,Dragon,+20,0,Impact Phial,Critical Element +3,3,2,1,10,10,16,12,8,14,0,10,10,16,12,8,24,0
+Charge Blade,Veldian Labrys I,200,32,Dragon,0,0,Impact Phial,Guard +3,3,2,0,10,10,10,16,18,6,0,10,10,10,16,18,16,0
+Charge Blade,Artian Defender I,170,23,N/A,+5,0,Impact Phial,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Charge Blade,Artian Defender II,180,23,N/A,+5,0,Impact Phial,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Charge Blade,Chrono Gear,190,27,N/A,+5,0,Impact Phial,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Charge Blade,Esperanza Strongarm,210,0,N/A,0,0,Impact Phial,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,12,12,8,16,0,10,12,12,12,8,26,0
+Charge Blade,Shrouded Kutharja,220,0,N/A,0,15,Impact Phial,"Guard +3,Artillery +1",3,2,1,12,4,20,18,16,0,0,12,4,20,18,18,8,0
+Charge Blade,Abiding Gawain,220,35,Dragon,0,0,Impact Phial,Guard +3,3,2,1,10,10,10,14,16,10,0,10,10,10,14,16,20,0
+Insect Glaive,Hope Glaive I,90,0,N/A,0,0,,,0,0,0,10,10,8,12,0,0,0,10,10,8,22,0,0,0
+Insect Glaive,Hope Glaive II,100,0,N/A,0,0,,Speed Sharpening +1,0,0,0,8,10,8,14,0,0,0,8,10,8,24,0,0,0
+Insect Glaive,Hope Glaive III,130,0,N/A,0,0,,"Speed Sharpening +1,Critical Eye +1",0,0,0,10,12,10,18,0,0,0,10,12,10,28,0,0,0
+Insect Glaive,Hope Glaive IV,160,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",2,1,0,10,12,12,14,12,0,0,10,12,12,14,22,0,0
+Insect Glaive,Hope Glaive V,190,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +1",3,2,0,10,12,10,16,10,12,0,10,12,10,16,10,22,0
+Insect Glaive,Bone Staff I,110,0,N/A,0,0,,Focus +1,0,0,0,10,14,16,0,0,0,0,10,14,24,2,0,0,0
+Insect Glaive,Bone Staff II,130,0,N/A,0,0,,"Focus +1,Attack Boost +1",0,0,0,10,8,22,0,0,0,0,10,8,26,6,0,0,0
+Insect Glaive,Bone Staff III,170,0,N/A,0,0,,"Focus +2,Attack Boost +1",1,0,0,10,12,20,8,0,0,0,10,12,20,18,0,0,0
+Insect Glaive,Bone Staff IV,200,0,N/A,0,0,,"Focus +3,Attack Boost +1",2,1,0,10,12,16,22,0,0,0,10,12,16,32,0,0,0
+Insect Glaive,Aerial Glaive,230,0,N/A,0,0,,"Focus +3,Attack Boost +1",3,2,1,10,12,12,14,22,0,0,10,12,12,14,32,0,0
+Insect Glaive,Iron Gale I,120,0,N/A,0,0,,Critical Draw +1,0,0,0,4,8,18,10,0,0,0,4,8,18,20,0,0,0
+Insect Glaive,Iron Gale II,160,0,N/A,0,0,,Critical Draw +2,1,1,0,4,12,18,16,0,0,0,4,12,18,26,0,0,0
+Insect Glaive,Iron Gale III,190,0,N/A,0,0,,Critical Draw +2,2,2,0,4,14,18,12,12,0,0,4,14,18,12,22,0,0
+Insect Glaive,Chrome Gale,220,0,N/A,0,0,,Critical Draw +3,3,3,1,4,12,18,14,10,12,0,4,12,18,14,10,22,0
+Insect Glaive,Chata Glaive I,110,0,N/A,0,15,,Power Prolonger +1,0,0,0,10,2,22,6,0,0,0,10,2,22,16,0,0,0
+Insect Glaive,Chata Glaive II,150,0,N/A,0,15,,Power Prolonger +2,0,0,0,16,2,24,8,0,0,0,16,2,24,18,0,0,0
+Insect Glaive,Chata Glaive III,180,0,N/A,0,15,,Power Prolonger +2,2,1,0,14,4,22,16,4,0,0,14,4,22,16,14,0,0
+Insect Glaive,Chata Glaive IV,210,0,N/A,0,15,,Power Prolonger +3,3,2,0,12,2,24,20,12,0,0,12,2,24,20,22,0,0
+Insect Glaive,Barina Perche I,100,10,Paralysis,+10,0,,Critical Draw +1,0,0,0,10,8,8,14,0,0,0,10,8,8,24,0,0,0
+Insect Glaive,Barina Perche II,120,12,Paralysis,+10,0,,"Critical Draw +1,Critical Status +1",0,0,0,14,8,6,22,0,0,0,14,8,6,32,0,0,0
+Insect Glaive,Barina Perche III,150,15,Paralysis,+15,0,,"Critical Draw +1,Critical Status +1",2,1,0,14,8,6,20,12,0,0,14,8,6,20,22,0,0
+Insect Glaive,Barina Perche IV,180,17,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,0,14,8,6,18,12,12,0,14,8,6,18,12,22,0
+Insect Glaive,Lala Stromatopelm,200,20,Paralysis,+15,0,,"Critical Draw +2,Critical Status +1",3,2,1,14,8,6,12,8,22,0,14,8,6,12,8,32,0
+Insect Glaive,Balahara Glaive I,110,10,Water,+10,0,,Power Prolonger +1,0,0,0,6,6,18,10,0,0,0,6,6,18,20,0,0,0
+Insect Glaive,Balahara Glaive II,150,12,Water,+10,0,,Power Prolonger +2,1,0,0,8,6,20,16,0,0,0,8,6,20,26,0,0,0
+Insect Glaive,Balahara Glaive III,160,15,Water,+10,0,,Power Prolonger +2,2,1,0,6,6,22,18,8,0,0,6,6,22,18,18,0,0
+Insect Glaive,Balahara Glaive IV,190,17,Water,+10,0,,Power Prolonger +3,3,2,0,6,6,22,18,14,4,0,6,6,22,18,14,14,0
+Insect Glaive,Sandsea Uchaltiya,210,20,Water,+10,0,,Power Prolonger +3,3,2,1,6,6,20,16,14,8,0,6,6,20,16,14,18,0
+Insect Glaive,Rey Halilintar I,140,12,Lightning,0,0,,"Focus +1,Charge Master +1",0,0,0,2,2,28,18,0,0,0,2,2,28,28,0,0,0
+Insect Glaive,Rey Halilintar II,170,15,Lightning,0,0,,"Focus +1,Charge Master +1",2,1,0,2,2,24,20,12,0,0,2,2,24,20,22,0,0
+Insect Glaive,Rey Halilintar III,200,17,Lightning,0,0,,"Focus +2,Charge Master +1",3,2,0,2,2,22,16,16,12,0,2,2,22,16,16,22,0
+Insect Glaive,Halilintar Clairglaive,220,20,Lightning,0,0,,"Focus +2,Charge Master +1",3,2,1,2,2,20,14,14,18,0,2,2,20,14,14,28,0
+Insect Glaive,Stealth Glaive I,120,12,Sleep,+10,0,,"Charge Master +1,Focus +1",0,0,0,14,8,6,22,0,0,0,14,8,6,32,0,0,0
+Insect Glaive,Stealth Glaive II,150,15,Sleep,+15,0,,"Charge Master +1,Focus +1",2,1,0,14,8,6,20,12,0,0,14,8,6,20,22,0,0
+Insect Glaive,Stealth Glaive III,180,17,Sleep,+15,0,,"Charge Master +2,Focus +1",3,2,0,14,8,6,18,12,12,0,14,8,6,18,12,22,0
+Insect Glaive,Stealth Glaive Redux,200,20,Sleep,+15,0,,"Charge Master +2,Focus +1",3,2,1,14,8,6,12,8,22,0,14,8,6,12,8,32,0
+Insect Glaive,Ajara Trident I,130,12,Blast,+10,0,,Power Prolonger +2,0,0,0,10,12,14,14,0,0,0,10,12,14,24,0,0,0
+Insect Glaive,Ajara Trident II,180,15,Blast,+10,0,,Power Prolonger +3,2,1,0,10,12,18,8,12,0,0,10,12,18,8,22,0,0
+Insect Glaive,Ajara-Bhadra,210,18,Blast,+10,0,,Power Prolonger +3,3,2,1,10,12,10,18,8,12,0,10,12,10,18,8,22,0
+Insect Glaive,Guardian Rathmaul I,160,12,Fire,+15,0,,"Master's Touch +1,Critical Element +1",1,0,0,10,18,12,10,0,0,0,10,18,12,20,0,0,0
+Insect Glaive,Guardian Rathmaul II,180,17,Fire,+15,0,,"Master's Touch +1,Critical Element +1",2,1,0,10,20,10,10,10,0,0,10,20,10,10,14,6,0
+Insect Glaive,Alabaster Rathmaul,210,20,Fire,+15,0,,"Master's Touch +1,Critical Element +1",3,2,1,10,26,10,10,8,6,0,10,26,10,10,8,16,0
+Insect Glaive,Jin Dhachhad,190,32,Ice,0,0,,Power Prolonger +3,3,2,0,8,8,6,20,22,6,0,8,8,6,20,22,16,0
+Insect Glaive,Precipice Geumgel,210,35,Ice,0,0,,Power Prolonger +3,3,2,1,8,8,4,16,24,10,0,8,8,4,16,24,20,0
+Insect Glaive,Chthonian Vajra I,140,16,Dragon,+10,0,,Focus +2,1,0,0,10,10,14,16,0,0,0,10,10,14,26,0,0,0
+Insect Glaive,Chthonian Vajra II,170,21,Dragon,+10,0,,Focus +3,2,1,0,10,10,14,14,12,0,0,10,10,14,14,22,0,0
+Insect Glaive,Bequeathed Testament,210,25,Dragon,+10,0,,Focus +3,3,2,1,10,10,16,16,18,10,0,10,10,16,16,18,10,0
+Insect Glaive,G. Veldian Trudis I,170,12,Dragon,-10,0,,Power Prolonger +2,1,1,0,20,6,16,8,0,0,0,20,6,16,18,0,0,0
+Insect Glaive,G. Veldian Trudis II,210,15,Dragon,-10,0,,Power Prolonger +2,2,2,0,20,12,16,12,0,0,0,20,12,16,14,8,0,0
+Insect Glaive,G. Enduring Tor,240,18,Dragon,-10,0,,Power Prolonger +2,3,3,1,20,14,10,14,12,0,0,20,14,10,14,14,8,0
+Insect Glaive,Kut-Ku Pike I,180,26,Fire,0,0,,Power Prolonger +2,2,1,0,18,20,10,12,0,0,0,18,20,10,16,6,0,0
+Insect Glaive,Kut-Ku Pike II,210,32,Fire,0,0,,Power Prolonger +3,3,2,0,20,22,6,14,8,0,0,20,22,6,14,12,6,0
+Insect Glaive,Toucan Pike,220,35,Fire,0,0,,Power Prolonger +3,3,2,1,20,24,4,12,10,0,0,20,24,4,12,12,8,0
+Insect Glaive,Princess Regalia I,160,12,Poison,+15,0,,"Critical Status +2,Poison Duration Up +1",2,1,0,10,14,8,18,10,0,0,10,14,8,18,20,0,0
+Insect Glaive,Princess Regalia II,190,15,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,0,8,16,8,22,6,10,0,8,16,8,22,6,20,0
+Insect Glaive,Queen Regalia,210,18,Poison,+15,0,,"Critical Status +3,Poison Duration Up +1",3,2,1,8,16,6,20,6,14,0,8,16,6,20,6,24,0
+Insect Glaive,Rising Fulgur I,180,21,Lightning,+15,0,,Critical Element +3,2,1,0,8,20,20,12,0,0,0,8,20,20,14,8,0,0
+Insect Glaive,Fulgurglaive Guardiana,210,25,Lightning,+15,0,,Critical Element +3,3,2,1,8,18,24,8,12,0,0,8,18,24,8,12,10,0
+Insect Glaive,Blizzard Glaive I,200,14,Ice,-10,0,,Focus +3,2,1,0,10,6,18,16,10,0,0,10,6,18,16,20,0,0
+Insect Glaive,Immaculate Blizzard,230,18,Ice,-10,0,,Focus +3,3,2,1,10,6,18,16,10,10,0,10,6,18,16,10,20,0
+Insect Glaive,Graviafaren I,220,19,Blast,-15,30,,Punishing Draw +3,2,2,0,18,14,16,12,0,0,0,18,14,16,18,4,0,0
+Insect Glaive,Gravordius,250,25,Blast,-15,30,,Punishing Draw +3,3,3,1,16,14,14,14,12,0,0,16,14,14,14,22,0,0
+Insect Glaive,Rathmaul I,180,21,Fire,+10,0,,Critical Boost +3,2,1,0,20,14,8,6,12,0,0,20,14,8,6,22,0,0
+Insect Glaive,Firedance Rathmaul,200,25,Fire,+10,0,,Critical Boost +3,3,2,1,20,14,10,8,8,10,0,20,14,10,8,8,20,0
+Insect Glaive,Leumundslist,180,16,Dragon,+20,0,,Critical Element +3,3,2,0,10,16,16,12,6,10,0,10,16,16,12,6,20,0
+Insect Glaive,Leumundsgift,200,20,Dragon,+20,0,,Critical Element +3,3,2,1,10,10,18,10,6,16,0,10,10,18,10,6,26,0
+Insect Glaive,Veldian Trudis I,200,22,Dragon,0,0,,Power Prolonger +3,3,2,0,10,10,10,16,16,8,0,10,10,10,16,16,18,0
+Insect Glaive,Artian Glaive I,170,22,N/A,+5,0,,,2,2,2,16,8,12,16,8,0,0,16,8,12,16,12,6,0
+Insect Glaive,Artian Glaive II,180,22,N/A,+5,0,,,2,2,2,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Insect Glaive,Diprielcha,190,26,N/A,+5,0,,,3,3,3,16,8,12,16,14,4,0,16,8,12,16,14,14,0
+Insect Glaive,Esperanza Glaive,210,0,N/A,0,0,,"Speed Sharpening +2,Critical Eye +2",3,2,1,10,12,10,12,8,18,0,10,12,10,12,8,28,0
+Insect Glaive,Shrouded Laphoka,230,0,N/A,0,15,,Power Prolonger +3,3,2,1,12,2,20,18,18,0,0,12,2,20,18,18,10,0
+Insect Glaive,Enduring Tor,220,25,Dragon,0,0,,Power Prolonger +3,3,2,1,10,10,10,14,14,12,0,10,10,10,14,14,22,0
+Bow,Hope Bow I,90,0,N/A,0,0,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hope Bow II,100,0,N/A,0,0,,Ballistics +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hope Bow III,130,0,N/A,0,0,,"Ballistics +1,Critical Eye +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hope Bow IV,160,0,N/A,0,0,,"Ballistics +2,Critical Eye +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hope Bow V,190,0,N/A,0,0,,"Ballistics +3,Critical Eye +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Nihil Bow I,160,11,Water,0,0,,Focus +2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Nihil Bow II,190,13,Water,0,0,,Focus +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Bookwilthe's Punisher,230,15,Water,0,0,,Focus +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Rey Perkonis I,140,9,Lightning,0,0,,"Focus +1,Special Ammo Boost +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Rey Perkonis II,170,11,Lightning,0,0,,"Focus +1,Special Ammo Boost +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Rey Perkonis III,200,13,Lightning,0,0,,"Focus +2,Special Ammo Boost +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Perkonis Clairbow,220,15,Lightning,0,0,,"Focus +2,Special Ammo Boost +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Windbrace Bow I,140,9,Ice,0,0,,"Focus +2,Airborne +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Windbrace Bow II,170,11,Ice,0,0,,"Focus +2,Airborne +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Windbrace Bow III,200,13,Ice,0,0,,"Focus +3,Airborne +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Windbrace Ibami,220,15,Ice,0,0,,"Focus +3,Airborne +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Quematrice Arco I,100,7,Fire,+5,0,,Focus +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Quematrice Arco II,140,9,Fire,+5,0,,Focus +2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Quematrice Arco III,170,11,Fire,+5,0,,Focus +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Quematrice Arco IV,210,13,Fire,+5,0,,Focus +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Firetrail Leviora,220,15,Fire,+5,0,,Focus +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dragon Perforator I,120,0,N/A,0,0,,Tetrad Shot +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dragon Perforator II,160,0,N/A,0,0,,Tetrad Shot +2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dragon Perforator III,190,0,N/A,0,0,,Tetrad Shot +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,True Dragon Perforator,220,0,N/A,0,0,,Tetrad Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Albirath Bow I,160,11,Fire,+15,0,,"Critical Element +1,Ballistics +1",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Albirath Bow II,180,13,Fire,+15,0,,"Critical Element +2,Ballistics +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Solar Spicule,210,15,Fire,+15,0,,"Critical Element +2,Ballistics +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Prominence Bow I,180,16,Fire,+10,0,,Critical Boost +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dark Filament,200,20,Fire,+10,0,,Critical Boost +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Queen Blaster I,160,11,Fire,+15,0,,"Tetrad Shot +2,Poison Duration Up +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Queen Blaster II,190,13,Fire,+15,0,,"Tetrad Shot +3,Poison Duration Up +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Queen's Melody,210,15,Fire,+15,0,,"Tetrad Shot +3,Poison Duration Up +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Scylla Fist I,120,0,N/A,+20,0,,"Charge Master +1,Focus +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Scylla Fist II,150,0,N/A,+20,0,,"Charge Master +1,Focus +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Scylla Fist III,180,0,N/A,+20,0,,"Charge Master +2,Focus +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Nershock,210,0,N/A,+20,0,,"Charge Master +2,Focus +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dosha Fearbringer I,140,0,N/A,-5,20,,Stamina Thief +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dosha Fearbringer II,180,0,N/A,-5,20,,Stamina Thief +2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dosha Fearbringer III,210,0,N/A,-5,20,,Stamina Thief +3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dosha Griefbringer I,180,0,N/A,-15,0,,"Ballistics +1,Special Ammo Boost +1",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Dosha Griefbringer II,220,0,N/A,-15,0,,"Ballistics +2,Special Ammo Boost +1",2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Griefbringer Urstox,250,0,N/A,-15,0,,"Ballistics +2,Special Ammo Boost +1",3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hunter's Bow I,110,0,N/A,0,0,,Focus +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hunter's Bow II,130,0,N/A,0,0,,"Focus +1,Attack Boost +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hunter's Bow III,170,0,N/A,0,0,,"Focus +2,Attack Boost +1",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hunter's Bow IV,200,0,N/A,0,0,,"Focus +3,Attack Boost +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Hunter's Stoutbow,230,0,N/A,0,0,,"Focus +3,Attack Boost +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Blinding Fulgur I,180,16,Lightning,+15,0,,Critical Element +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Fulgurbow Guardiana,200,20,Lightning,+15,0,,Critical Element +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Uth Khviluk I,160,10,Water,-20,0,,Tetrad Shot +2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Uth Khviluk II,190,14,Water,-20,0,,Tetrad Shot +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Uth Khviluk III,220,17,Water,-20,0,,Tetrad Shot +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Khviluk-of-the-Waves,240,20,Water,-20,0,,Tetrad Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Entbehrung I,180,12,Dragon,+20,0,,Critical Element +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Verzweiflung,210,15,Dragon,+20,0,,Critical Element +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Wild Power Bow I,120,0,N/A,+5,0,,Special Ammo Boost +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Wild Power Bow II,170,0,N/A,+5,0,,"Special Ammo Boost +1,Charge Master +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Wildwood Kalifa,220,0,N/A,+5,0,,"Special Ammo Boost +2,Charge Master +1",3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Blan Sharanga I,200,11,Ice,-10,0,,Tetrad Shot +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Singha Sharanga,230,15,Ice,-10,0,,Tetrad Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Kut-Ku Stave I,170,23,Fire,0,0,,Charge Master +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Kut-Ku Stave II,190,27,Fire,0,0,,Charge Master +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Strange Kut-Ku Stave,200,30,Fire,0,0,,Charge Master +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,G. Veldian Arcum I,170,9,Dragon,-10,0,,Focus +2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,G. Veldian Arcum II,210,12,Dragon,-10,0,,Focus +2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,G. Renowned Tristram,240,15,Dragon,-10,0,,Focus +2,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Veldian Arcum I,200,16,Dragon,0,0,,Focus +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Artian Sight I,170,18,N/A,+5,0,,,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Artian Sight II,180,18,N/A,+5,0,,,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Angelbein,190,21,N/A,+5,0,,,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Esperanza Bow,220,0,N/A,0,0,,"Ballistics +3,Critical Eye +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Fearbringer Callistox,240,0,N/A,-5,20,,Stamina Thief +3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bow,Renowned Tristram,220,20,Dragon,0,0,,Focus +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Hope Cannon I,90,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Hope Cannon II,100,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,Ballistics +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Hope Cannon III,130,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,"Ballistics +1,Critical Eye +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Hope Cannon IV,160,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,"Ballistics +2,Critical Eye +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Hope Cannon V,190,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,"Ballistics +3,Critical Eye +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Chata Sheller I,110,0,N/A,0,15,Wyvernpiercer IgnitionWyvernblast Ignition,Opening Shot +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Chata Sheller II,150,0,N/A,0,15,Wyvernpiercer IgnitionWyvernblast Ignition,Opening Shot +2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Chata Sheller III,180,0,N/A,0,15,Wyvernpiercer IgnitionWyvernblast Ignition,Opening Shot +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Chata Sheller IV,210,0,N/A,0,15,Wyvernpiercer IgnitionWyvernblast Ignition,Opening Shot +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Power Stinger,120,0,N/A,+5,0,Wyvernheart IgnitionWyverncounter Ignition,Special Ammo Boost +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Power Stinger II,170,0,N/A,+5,0,Wyvernheart IgnitionWyverncounter Ignition,"Special Ammo Boost +1,Opening Shot +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Wild Stinger,220,0,N/A,+5,0,Wyvernheart IgnitionWyverncounter Ignition,"Special Ammo Boost +2,Opening Shot +1",3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Uth Dalgap I,160,0,N/A,-15,0,Wyvernheart IgnitionWyverncounter Ignition,Tetrad Shot +2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Uth Dalgap II,190,0,N/A,-15,0,Wyvernheart IgnitionWyverncounter Ignition,Tetrad Shot +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Uth Dalgap III,220,0,N/A,-15,0,Wyvernheart IgnitionWyverncounter Ignition,Tetrad Shot +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Dalgap-of-the-Waves,240,0,N/A,-15,0,Wyvernheart IgnitionWyverncounter Ignition,Tetrad Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Rompo Sniper I,140,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Guard Up +2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Rompo Sniper II,170,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Guard Up +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Rompo Sniper III,200,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Guard Up +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Rompo Latrotox,220,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Guard Up +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Ner Bustergun I,120,0,N/A,+10,0,Wyvernheart IgnitionWyverncounter Ignition,"Offensive Guard +1,Guard +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Ner Bustergun II,150,0,N/A,+15,0,Wyvernheart IgnitionWyverncounter Ignition,"Offensive Guard +1,Guard +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Ner Bustergun III,180,0,N/A,+15,0,Wyvernheart IgnitionWyverncounter Ignition,"Offensive Guard +2,Guard +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Buster Blaster,200,0,N/A,+15,0,Wyvernheart IgnitionWyverncounter Ignition,"Offensive Guard +2,Guard +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Nu Muneo I,170,0,N/A,-15,0,Wyvernpiercer IgnitionWyvernblast Ignition,Opening Shot +2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Nu Muneo II,210,0,N/A,-15,0,Wyvernpiercer IgnitionWyvernblast Ignition,Opening Shot +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Abaddonian Muneo,230,0,N/A,-15,0,Wyvernpiercer IgnitionWyvernblast Ignition,Opening Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Jin Dhaphal I,190,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Guard +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Precipice Malmiam,210,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Guard +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Iron Assault I,120,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Iron Assault II,160,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Iron Assault III,190,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Steel Assault,220,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Bone Shooter I,110,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,Guard +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Bone Shooter II,130,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,"Guard +1,Attack Boost +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Bone Shooter III,170,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,"Guard +2,Attack Boost +1",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Bone Shooter IV,200,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,"Guard +3,Attack Boost +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Heavy Shooter,230,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,"Guard +3,Attack Boost +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Yian Kut-Ku Cannon I,180,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Slugger +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Yian Kut-Ku Cannon II,210,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Slugger +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Super Kut-Ku Cannon,220,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Slugger +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Tankmage I,180,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,Guard +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Tankmage II,200,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,Guard +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Tanksorcerer,230,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,Guard +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Queen's Longfire I,160,0,N/A,+15,0,Wyvernheart IgnitionWyverncounter Ignition,"Tetrad Shot +2,Poison Duration Up +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Queen's Longfire II,190,0,N/A,+15,0,Wyvernheart IgnitionWyverncounter Ignition,"Tetrad Shot +3,Poison Duration Up +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Queen's Farflier,210,0,N/A,+15,0,Wyvernheart IgnitionWyverncounter Ignition,"Tetrad Shot +3,Poison Duration Up +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Grounding Fulgur I,180,0,N/A,+15,0,Wyvernheart IgnitionWyverncounter Ignition,Critical Element +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Fulgurblast Guardiana,210,0,N/A,+15,0,Wyvernheart IgnitionWyverncounter Ignition,Critical Element +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Gravios Howl I,210,0,N/A,-15,30,Wyvernpiercer IgnitionWyvernblast Ignition,Guard Up +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Gravios Gigahowl,240,0,N/A,-15,30,Wyvernpiercer IgnitionWyvernblast Ignition,Guard Up +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Tödlicher Abzug I,180,0,N/A,+20,0,Wyvernheart IgnitionWyverncounter Ignition,Critical Element +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Ableben Abzug,200,0,N/A,+20,0,Wyvernheart IgnitionWyverncounter Ignition,Critical Element +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,G. Veldian Tormentum I,170,0,N/A,-10,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,G. Veldian Tormentum II,210,0,N/A,-10,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,G. Aeternal Palamedes,240,0,N/A,-10,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +2,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Veldian Tormentum I,200,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Artian Sheller I,170,0,N/A,+5,0,Wyvernpiercer IgnitionWyvernblast Ignition,,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Artian Sheller II,180,0,N/A,+5,0,Wyvernpiercer IgnitionWyvernblast Ignition,,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Greifen,190,0,N/A,+5,0,Wyvernpiercer IgnitionWyvernblast Ignition,,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Esperanza Cannon,210,0,N/A,0,0,Wyvernheart IgnitionWyverncounter Ignition,"Ballistics +3,Critical Eye +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Shrouded Muktana,230,0,N/A,0,15,Wyvernpiercer IgnitionWyvernblast Ignition,Opening Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Heavy Bowgun,Aeternal Palamedes,220,0,N/A,0,0,Wyvernpiercer IgnitionWyvernblast Ignition,Tetrad Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hope Rifle I,90,0,N/A,0,0,Wyvernblast,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hope Rifle II,100,0,N/A,0,0,Wyvernblast,Ballistics +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hope Rifle III,130,0,N/A,0,0,Wyvernblast,"Ballistics +1,Critical Eye +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hope Rifle IV,160,0,N/A,0,0,Wyvernblast,"Ballistics +2,Critical Eye +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hope Rifle V,190,0,N/A,0,0,Wyvernblast,"Ballistics +3,Critical Eye +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Kut-Ku Anger I,180,0,N/A,0,0,Adhesive Ammo,Ballistics +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Kut-Ku Anger II,210,0,N/A,0,0,Adhesive Ammo,Ballistics +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Kut-Ku Counterattack,220,0,N/A,0,0,Adhesive Ammo,Ballistics +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Fäulnisschleuder I,180,0,N/A,+20,0,Wyvernblast,Critical Element +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Wahnschleuder,200,0,N/A,+20,0,Wyvernblast,Critical Element +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Rey Szelatya I,140,0,N/A,0,0,Adhesive Ammo,"Opening Shot +1,Slugger +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Rey Szelatya II,170,0,N/A,0,0,Adhesive Ammo,"Opening Shot +1,Slugger +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Rey Szelatya III,200,0,N/A,0,0,Adhesive Ammo,"Opening Shot +2,Slugger +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Szelatya Clairgun,220,0,N/A,0,0,Adhesive Ammo,"Opening Shot +2,Slugger +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Dosha Faithbreaker I,140,0,N/A,-5,20,Wyvernblast,Opening Shot +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Dosha Faithbreaker II,180,0,N/A,-5,20,Wyvernblast,Opening Shot +2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Dosha Faithbreaker III,210,0,N/A,-5,20,Wyvernblast,Opening Shot +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Dosha Gigasbreaker I,190,0,N/A,-15,0,Adhesive Ammo,Slugger +2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Dosha Gigasbreaker II,220,0,N/A,-15,0,Adhesive Ammo,Slugger +3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Gigasbreaker Urbolkule,250,0,N/A,-15,0,Adhesive Ammo,Slugger +3,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Chain Blitz I,120,0,N/A,0,0,Wyvernblast,Tetrad Shot +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Chain Blitz II,160,0,N/A,0,0,Wyvernblast,Tetrad Shot +2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Chain Blitz III,190,0,N/A,0,0,Wyvernblast,Tetrad Shot +2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,High Chain Blitz,220,0,N/A,0,0,Wyvernblast,Tetrad Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Titan Launcher I,210,0,N/A,-15,30,Adhesive Ammo,Special Ammo Boost +2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Titan Panzer,240,0,N/A,-15,30,Adhesive Ammo,Special Ammo Boost +2,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,G. Rathling Gun I,160,0,N/A,+15,0,Wyvernblast,"Critical Element +1,Ballistics +1",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,G. Rathling Gun II,180,0,N/A,+15,0,Wyvernblast,"Critical Element +2,Ballistics +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,White Rathling Phoenix,210,0,N/A,+15,0,Wyvernblast,"Critical Element +2,Ballistics +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Rathling Gun I,180,0,N/A,+10,0,Adhesive Ammo,Critical Boost +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Rathling Phoenix,200,0,N/A,+10,0,Adhesive Ammo,Critical Boost +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Assault Conga I,120,0,N/A,+5,0,Adhesive Ammo,Special Ammo Boost +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Assault Conga II,170,0,N/A,+5,0,Adhesive Ammo,"Special Ammo Boost +1,Opening Shot +1",2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Combat Conga,220,0,N/A,+5,0,Adhesive Ammo,"Special Ammo Boost +2,Opening Shot +1",3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Tail String I,200,0,N/A,-10,0,Wyvernblast,Opening Shot +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Tail Catapult,230,0,N/A,-10,0,Wyvernblast,Opening Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Valkyrie Fire I,160,0,N/A,+15,0,Wyvernblast,"Tetrad Shot +2,Poison Duration Up +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Valkyrie Fire II,190,0,N/A,+15,0,Wyvernblast,"Tetrad Shot +3,Poison Duration Up +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Valkyrie Flame,210,0,N/A,+15,0,Wyvernblast,"Tetrad Shot +3,Poison Duration Up +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hunter's Rifle I,110,0,N/A,0,0,Adhesive Ammo,Opening Shot +1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hunter's Rifle II,130,0,N/A,0,0,Adhesive Ammo,"Opening Shot +1,Attack Boost +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hunter's Rifle III,170,0,N/A,0,0,Adhesive Ammo,"Opening Shot +2,Attack Boost +1",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Hunter's Rifle IV,200,0,N/A,0,0,Adhesive Ammo,"Opening Shot +3,Attack Boost +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Power Rifle,230,0,N/A,0,0,Adhesive Ammo,"Opening Shot +3,Attack Boost +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Felling Fulgur I,180,0,N/A,+15,0,Adhesive Ammo,Critical Element +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Fulgursnipe Guardiana,210,0,N/A,+15,0,Adhesive Ammo,Critical Element +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Chthonian Gunfire I,140,0,N/A,+10,0,Adhesive Ammo,Tetrad Shot +2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Chthonian Gunfire II,170,0,N/A,+10,0,Adhesive Ammo,Tetrad Shot +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Bequeathed Animus,210,0,N/A,+10,0,Adhesive Ammo,Tetrad Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Ajara Shellgun I,130,0,N/A,+10,0,Adhesive Ammo,Artillery +2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Ajara Shellgun II,180,0,N/A,+10,0,Adhesive Ammo,Artillery +3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Ajara-Angaja,210,0,N/A,+10,0,Adhesive Ammo,Artillery +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Nu Chobotnice I,170,0,N/A,-15,0,Wyvernblast,Opening Shot +2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Nu Chobotnice II,210,0,N/A,-15,0,Wyvernblast,Opening Shot +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Abaddonian Chobotnice,230,0,N/A,-15,0,Wyvernblast,Opening Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Windshear Light I,140,0,N/A,0,0,Wyvernblast,"Tetrad Shot +2,Airborne +1",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Windshear Light II,170,0,N/A,0,0,Wyvernblast,"Tetrad Shot +2,Airborne +1",2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Windshear Light III,200,0,N/A,0,0,Wyvernblast,"Tetrad Shot +3,Airborne +1",3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Windshear Uchibami,220,0,N/A,0,0,Wyvernblast,"Tetrad Shot +3,Airborne +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,G. Veldian Impetum I,160,0,N/A,-10,0,Wyvernblast,Opening Shot +2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,G. Veldian Impetum II,200,0,N/A,-10,0,Wyvernblast,Opening Shot +2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,G. Expiating Caius,230,0,N/A,-10,0,Wyvernblast,Opening Shot +2,3,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Veldian Impetum I,180,0,N/A,0,0,Adhesive Ammo,Opening Shot +3,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Artian Blaster I,170,0,N/A,+5,0,Adhesive Ammo,,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Artian Blaster II,180,0,N/A,+5,0,Adhesive Ammo,,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Animilater,190,0,N/A,+5,0,Adhesive Ammo,,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Esperanza Rifle,210,0,N/A,0,0,Wyvernblast,"Ballistics +3,Critical Eye +1",3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Faithbreaker Leibolkule,240,0,N/A,-5,20,Wyvernblast,Opening Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Light Bowgun,Expiating Caius,200,0,N/A,0,0,Adhesive Ammo,Opening Shot +3,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -4,18 +4,24 @@ Database Features
     *Add table for skill-caps, e.g. Attack Boost maxes out at level 7
 
 Search Features
-    *Dropdown for slots-based filtering (Show only Helms and Arms, etc)
-    *Sort-By (Alphabetic, Rarity, In-game Order)
-    *Pinning/Blacklisting
     *Saving/sharing
-    *Collapse All/Expand All
+    *Dropdown for slots-based filtering (Show only Helms and Arms, etc) - DONE
+    *Sort-By (Alphabetic, Rarity, In-game Order)
+    *Pinning/Blacklisting - DONE
+    *Collapse All/Expand All - DONE
 
 Aesthetic Features
     *In-Game icons/colors
-    *Animation for collapsing
-    *Search bar static at top of screen
+    *Animation for collapsing - DONE
+    *Search bar static at top of screen - DONE
 
 General Features
     *Account-based CRUD functionality
     *Equipment view, little window that allows you to equip searched armors and see summary of skills
     *Decoration Searching/Importing
+
+QoL Features/Bugs
+    *Highlight/Glow an entire set if one of that set's pieces is pinned/equipped?
+    *If a piece is pinned/equipped, that piece will show up regardless of filters, but other pieces in the same set will show up as N/A in Set View if filtered out
+    *Equip Entire Set/Pin Entire Set/Hide Entire Set
+    *Should pinning/equipping snap a set/piece to the top? Kind of annoying in set-view

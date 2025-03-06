@@ -220,7 +220,7 @@ h1 {
                     </div>
                 <!-- Slot Filter -->
                     <div class="filter-container">
-                        <label><input type="checkbox" id="helm_filter" onclick="filterArmors(viewMode)"> Helm</label>
+                        <label><input type="checkbox" id="head_filter" onclick="filterArmors(viewMode)"> Head</label>
                         <label><input type="checkbox" id="chest_filter" onclick="filterArmors(viewMode)"> Chest</label>
                         <label><input type="checkbox" id="arms_filter" onclick="filterArmors(viewMode)"> Arms</label>
                         <label><input type="checkbox" id="legs_filter" onclick="filterArmors(viewMode)"> Legs</label>
@@ -248,15 +248,13 @@ h1 {
     <div id="armorSetsContainer"></div>
 
     <script>
-
-        // Example Armor Data (Replace with actual injected JSON data)
         const armorData = JSON.parse('{{ armor_data | tojson }}');
-
+        console.log(armorData)
         let collapsedStates = {};
         let pinnedPieces = new Set();
         let hiddenPieces = new Set();
         let equippedPieces = {
-            "Helm": null,
+            "Head": null,
             "Chest": null,
             "Arms": null,
             "Waist": null,
@@ -375,12 +373,25 @@ h1 {
                 return skill; // Return skill as is if no match
             }
 
+            let skills = [];
+            if (piece && piece.skills) {
+                skills = piece.skills.split(',').map(skillStr => {
+                    const [skillName, count] = skillStr.split('+').map(str => str.trim());
+                    return { name: skillName, count: parseInt(count) };
+                });
+            }
+
+            // Generate the HTML for skills dynamically
+            const skillHtml = skills.map(skill => {
+                return `<strong>${highlightSkill(skill.name)}:</strong> +${skill.count}<br>`;
+            }).join('');
+
+
             if (view == "set") {
                 return `
                     <div class=${"set-view-armor-piece"+pieceClass}>
                         <strong>Slot:</strong> ${piece ? piece.slot : 'N/A'} <br>
-                        <strong>Skill 1:</strong> ${piece && piece.skill1 ? highlightSkill(piece.skill1) + " +" + piece.skill1_count : 'N/A'}<br>
-                        <strong>Skill 2:</strong> ${piece && piece.skill2 ? highlightSkill(piece.skill2) + " +" + piece.skill2_count : 'N/A'}<br>
+                        ${skillHtml || '<strong>Skills:</strong> N/A'}<br>
                     ${equipButton} ${pinButton} ${hideButton}
                     </div>
                 `;
@@ -389,8 +400,7 @@ h1 {
                     <div class=${"set-view-armor-piece"+pieceClass}>
                         <strong>Set:</strong> ${piece ? piece.set_name : 'N/A'} <br>
                         <strong>Slot:</strong> ${piece ? piece.slot : 'N/A'} <br>
-                        <strong>Skill 1:</strong> ${piece && piece.skill1 ? highlightSkill(piece.skill1) + " +" + piece.skill1_count : 'N/A'}<br>
-                        <strong>Skill 2:</strong> ${piece && piece.skill2 ? highlightSkill(piece.skill2) + " +" + piece.skill2_count : 'N/A'}<br>
+                        ${skillHtml || '<strong>Skills:</strong> N/A'}<br>
                     ${equipButton} ${pinButton} ${hideButton}
                     </div>
                 `;
@@ -418,13 +428,23 @@ h1 {
                 }
                 return skill; // Return skill as is if no match
             }
+            let skills = [];
+            if (piece && piece.skills) {
+                skills = piece.skills.split(',').map(skillStr => {
+                    const [skillName, count] = skillStr.split('+').map(str => str.trim());
+                    return { name: skillName, count: parseInt(count) };
+                });
+            }
 
+            // Generate the HTML for skills dynamically
+            const skillHtml = skills.map(skill => {
+                return `<strong>${highlightSkill(skill.name)}:</strong> +${skill.count}<br>`;
+            }).join('');
             return `
                     <div class=${"equipment-view-armor-piece"+pieceClass}>
                         <strong>Set:</strong> ${piece ? piece.set_name : 'N/A'} <br>
                         <strong>Slot:</strong> ${piece ? piece.slot : 'N/A'} <br>
-                        <strong>Skill 1:</strong> ${piece && piece.skill1 ? highlightSkill(piece.skill1) + " +" + piece.skill1_count : 'N/A'}<br>
-                        <strong>Skill 2:</strong> ${piece && piece.skill2 ? highlightSkill(piece.skill2) + " +" + piece.skill2_count : 'N/A'}<br>
+                        ${skillHtml || '<strong>Skills:</strong> N/A'}<br>
                     ${equipButton}
                     </div>
                 `;
@@ -470,7 +490,7 @@ h1 {
                 const groupedSets = groupArmorBySet(filteredArmorData);
                 for (const setName in groupedSets) {
                     let pieces = {
-                        "Helm": null,
+                        "Head": null,
                         "Chest": null,
                         "Arms": null,
                         "Waist": null,
@@ -533,7 +553,7 @@ h1 {
             }
         }
 
-        function displayEquipped(){
+        function displayEquipped() {
             const equipment = document.getElementById("equipmentContainer");
             const skillSummary = document.getElementById("skillSummaryContainer");
             equipment.innerHTML = ''; // Clear the container
@@ -541,31 +561,36 @@ h1 {
 
             let skills = {};
 
-            Object.entries(equippedPieces).forEach(([slot,pieceId]) =>{
+            // Loop through each equipped piece
+            Object.entries(equippedPieces).forEach(([slot, pieceId]) => {
                 let piece = armorData.find(item => item.id === pieceId);
                 equipment.innerHTML += createEquipmentPieceHTML(piece);
-                if (piece ){
-                    if (piece.skill1 in skills){
-                    skills[piece.skill1]+=piece.skill1_count;
-                    }
-                    else if (piece.skill1.trim() !== ""){
-                        skills[piece.skill1]=piece.skill1_count;
-                    }
-                    if (piece.skill2 in skills){
-                        skills[piece.skill2]+=piece.skill2_count;
-                    }
-                    else if (piece.skill2.trim() !== ""){
-                        skills[piece.skill2]=piece.skill2_count;
-                    }
+
+                if (piece && piece.skills) {
+                    // Split skills string into individual skills
+                    let pieceSkills = piece.skills.split(',').map(skillStr => {
+                        const [skillName, count] = skillStr.split('+').map(str => str.trim());
+                        return { name: skillName, count: parseInt(count) };
+                    });
+
+                    // Accumulate skills
+                    pieceSkills.forEach(skill => {
+                        if (skills[skill.name]) {
+                            skills[skill.name] += skill.count; // Add to existing skill count
+                        } else {
+                            skills[skill.name] = skill.count; // Initialize skill count
+                        }
+                    });
                 }
+            });
 
-            })
-            Object.entries(skills).forEach(([skill,skill_count]) =>{
-                console.log(skill)
-                skillSummary.innerHTML+= `${skill} + ${skill_count} <br>`;
-            })
-
+            // Display the accumulated skills in the skill summary
+            Object.entries(skills).forEach(([skill, skill_count]) => {
+                console.log(skill);
+                skillSummary.innerHTML += `${skill} + ${skill_count} <br>`;
+            });
         }
+
 
         // Filter armor data based on the search input
         function filterArmors(viewMode) {
@@ -574,7 +599,7 @@ h1 {
 
             // Get the selected slots
             const selectedSlots = [];
-            if (document.getElementById("helm_filter").checked) selectedSlots.push("Helm");
+            if (document.getElementById("head_filter").checked) selectedSlots.push("Head");
             if (document.getElementById("chest_filter").checked) selectedSlots.push("Chest");
             if (document.getElementById("arms_filter").checked) selectedSlots.push("Arms");
             if (document.getElementById("legs_filter").checked) selectedSlots.push("Legs");
@@ -592,12 +617,24 @@ h1 {
             // Step 3: Apply search filters to the non-pinned armor data
             nonPinnedOrEquippedArmorData = nonPinnedOrEquippedArmorData.filter(piece => {
                 const matchesSlot = selectedSlots.length === 0 || selectedSlots.includes(piece.slot); // Check if the slot matches
-                const matchesSearch = (
-                    (piece.set_name || "").toLowerCase().includes(set_search_input) &&
-                    ((piece.skill1 && piece.skill1.toLowerCase().includes(skill_search_input)) ||
-                    (piece.skill2 && piece.skill2.toLowerCase().includes(skill_search_input)))
-                );
-                return matchesSlot && matchesSearch;
+
+                // Split skills string into individual skills
+                let skills = [];
+                if (piece && piece.skills) {
+                    skills = piece.skills.split(',').map(skillStr => {
+                        const [skillName, count] = skillStr.split('+').map(str => str.trim());
+                        return { name: skillName, count: parseInt(count) };
+                    });
+                }
+
+                // Check if any skill matches the search input
+                const matchesSkills = skills.some(skill => skill.name.toLowerCase().includes(skill_search_input));
+
+                // Check if the set name matches the search input
+                const matchesSetName = (piece.set_name || "").toLowerCase().includes(set_search_input);
+
+                // Return true if all conditions are met
+                return matchesSlot && matchesSetName && matchesSkills;
             });
 
             // Step 4: Group armor pieces by set for the 'set' view mode (if necessary)
